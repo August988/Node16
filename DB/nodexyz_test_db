@@ -1,0 +1,435 @@
+-- MySQL dump 10.13  Distrib 5.7.44, for Linux (x86_64)
+--
+-- Host: localhost    Database: nodexyz_test_db
+-- ------------------------------------------------------
+-- Server version	5.7.44-cll-lve
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `badHashes`
+--
+
+DROP TABLE IF EXISTS `badHashes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `badHashes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `hash` varchar(1024) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `badHashes`
+--
+
+LOCK TABLES `badHashes` WRITE;
+/*!40000 ALTER TABLE `badHashes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `badHashes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `badges`
+--
+
+DROP TABLE IF EXISTS `badges`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `badges` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) NOT NULL DEFAULT '0',
+  `badgeId` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `badges`
+--
+
+LOCK TABLES `badges` WRITE;
+/*!40000 ALTER TABLE `badges` DISABLE KEYS */;
+/*!40000 ALTER TABLE `badges` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `banlogs`
+--
+
+DROP TABLE IF EXISTS `banlogs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `banlogs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `banned_by_uid` int(11) NOT NULL DEFAULT '0',
+  `banned_by_uname` varchar(50) DEFAULT NULL,
+  `banned_uid` int(11) NOT NULL DEFAULT '0',
+  `banned_uname` varchar(50) DEFAULT NULL,
+  `reason` varchar(512) DEFAULT NULL,
+  `bantype` int(11) NOT NULL DEFAULT '0',
+  `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `banlogs`
+--
+
+LOCK TABLES `banlogs` WRITE;
+/*!40000 ALTER TABLE `banlogs` DISABLE KEYS */;
+/*!40000 ALTER TABLE `banlogs` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `blogposts`
+--
+
+DROP TABLE IF EXISTS `blogposts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `blogposts` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `poster_uid` int(11) DEFAULT '0',
+  `date` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `title` varchar(64) DEFAULT NULL,
+  `content` varchar(30000) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `blogposts`
+--
+
+LOCK TABLES `blogposts` WRITE;
+/*!40000 ALTER TABLE `blogposts` DISABLE KEYS */;
+/*!40000 ALTER TABLE `blogposts` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `catagories`
+--
+
+DROP TABLE IF EXISTS `catagories`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `catagories` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `visible` int(11) unsigned NOT NULL DEFAULT '0',
+  `developer` int(11) unsigned NOT NULL DEFAULT '0',
+  `name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `catagories`
+--
+
+LOCK TABLES `catagories` WRITE;
+/*!40000 ALTER TABLE `catagories` DISABLE KEYS */;
+/*!40000 ALTER TABLE `catagories` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `catalog`
+--
+
+DROP TABLE IF EXISTS `catalog`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `catalog` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `price` int(11) NOT NULL DEFAULT '0',
+  `currencyType` int(11) NOT NULL DEFAULT '0',
+  `creator_uid` int(11) NOT NULL DEFAULT '0',
+  `buyable` int(11) NOT NULL DEFAULT '1',
+  `assetid` int(11) DEFAULT NULL,
+  `deleted` int(11) DEFAULT '0',
+  `approved` int(11) DEFAULT '0',
+  `declined` int(11) DEFAULT '0',
+  `rbxasset` int(11) DEFAULT '0',
+  `name` varchar(50) DEFAULT NULL,
+  `fileHash` varchar(512) DEFAULT NULL,
+  `type` varchar(50) DEFAULT NULL,
+  `description` varchar(128) DEFAULT NULL,
+  `datafile` varchar(50) DEFAULT NULL,
+  `createDate` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `imgTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `catalog`
+--
+
+LOCK TABLES `catalog` WRITE;
+/*!40000 ALTER TABLE `catalog` DISABLE KEYS */;
+/*!40000 ALTER TABLE `catalog` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `characterColors`
+--
+
+DROP TABLE IF EXISTS `characterColors`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `characterColors` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) DEFAULT '0',
+  `color` int(11) DEFAULT '0',
+  `type` varchar(50) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `characterColors`
+--
+
+LOCK TABLES `characterColors` WRITE;
+/*!40000 ALTER TABLE `characterColors` DISABLE KEYS */;
+/*!40000 ALTER TABLE `characterColors` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `chat_members`
+--
+
+DROP TABLE IF EXISTS `chat_members`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `chat_members` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `chat_id` int(11) NOT NULL DEFAULT '0',
+  `userId` int(11) NOT NULL DEFAULT '0',
+  `rank` int(11) NOT NULL DEFAULT '0',
+  `lastActive` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `lastType` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `chat_members`
+--
+
+LOCK TABLES `chat_members` WRITE;
+/*!40000 ALTER TABLE `chat_members` DISABLE KEYS */;
+/*!40000 ALTER TABLE `chat_members` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `chat_messages`
+--
+
+DROP TABLE IF EXISTS `chat_messages`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `chat_messages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `chat_id` int(11) DEFAULT '0',
+  `userId` int(11) DEFAULT '0',
+  `message` varchar(65000) DEFAULT NULL,
+  `date` int(11) DEFAULT '0',
+  `bot` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `chat_messages`
+--
+
+LOCK TABLES `chat_messages` WRITE;
+/*!40000 ALTER TABLE `chat_messages` DISABLE KEYS */;
+/*!40000 ALTER TABLE `chat_messages` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `chat_sessions`
+--
+
+DROP TABLE IF EXISTS `chat_sessions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `chat_sessions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `chatName` varchar(50) NOT NULL DEFAULT '128',
+  `chatImage` varchar(50) NOT NULL DEFAULT '128',
+  `chatKey` varchar(50) NOT NULL DEFAULT '128',
+  `chatJoinKey` varchar(50) NOT NULL DEFAULT '128',
+  `creationDate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `lastActive` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `chat_sessions`
+--
+
+LOCK TABLES `chat_sessions` WRITE;
+/*!40000 ALTER TABLE `chat_sessions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `chat_sessions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `errorReports`
+--
+
+DROP TABLE IF EXISTS `errorReports`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `errorReports` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `string` varchar(1024) DEFAULT NULL,
+  `ip` varchar(128) DEFAULT NULL,
+  `time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `errorReports`
+--
+
+LOCK TABLES `errorReports` WRITE;
+/*!40000 ALTER TABLE `errorReports` DISABLE KEYS */;
+/*!40000 ALTER TABLE `errorReports` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `forums`
+--
+
+DROP TABLE IF EXISTS `forums`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `forums` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `catid` int(11) DEFAULT NULL,
+  `developer` int(11) DEFAULT '0',
+  `name` varchar(50) DEFAULT NULL,
+  `description` varchar(128) DEFAULT NULL,
+  `locked` int(11) DEFAULT '0',
+  `posts` int(11) DEFAULT '0',
+  `replies` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `forums`
+--
+
+LOCK TABLES `forums` WRITE;
+/*!40000 ALTER TABLE `forums` DISABLE KEYS */;
+/*!40000 ALTER TABLE `forums` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `friendRequests`
+--
+
+DROP TABLE IF EXISTS `friendRequests`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `friendRequests` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `senduid` int(11) DEFAULT '0',
+  `recvuid` int(11) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `friendRequests`
+--
+
+LOCK TABLES `friendRequests` WRITE;
+/*!40000 ALTER TABLE `friendRequests` DISABLE KEYS */;
+/*!40000 ALTER TABLE `friendRequests` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `friends`
+--
+
+DROP TABLE IF EXISTS `friends`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `friends` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `userId1` int(11) DEFAULT '0',
+  `userId2` int(11) DEFAULT '0',
+  `friendSince` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `friends`
+--
+
+LOCK TABLES `friends` WRITE;
+/*!40000 ALTER TABLE `friends` DISABLE KEYS */;
+/*!40000 ALTER TABLE `friends` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `gameJoins`
+--
+
+DROP TABLE IF EXISTS `gameJoins`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `gameJoins` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `uid` int(11) DEFAULT '0',
+  `gameId` int(11) DEFAULT NULL,
+  `time` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `gameJoins`
+--
+
+LOCK TABLES `gameJoins` WRITE;
+/*!40000 ALTER TABLE `gameJoins` DISABLE KEYS */;
+/*!40000 ALTER TABLE `gameJoins` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping events for database 'nodexyz_test_db'
+--
+
+--
+-- Dumping routines for database 'nodexyz_test_db'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-12-20 21:26:10
