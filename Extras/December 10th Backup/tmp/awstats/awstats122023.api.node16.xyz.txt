@@ -1,0 +1,373 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.api.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2683                
+POS_VISITOR 8474                
+POS_DAY 10422               
+POS_DOMAIN 3394                
+POS_LOGIN 3703                
+POS_ROBOT 3858                
+POS_WORMS 4312                
+POS_EMAILSENDER 4443                
+POS_EMAILRECEIVER 4586                
+POS_SESSION 10676               
+POS_SIDER 10870               
+POS_FILETYPES 4721                
+POS_DOWNLOADS 4835                
+POS_OS 5604                
+POS_BROWSER 5755                
+POS_SCREENSIZE 6169                
+POS_UNKNOWNREFERER 6243                
+POS_UNKNOWNREFERERBROWSER 6510                
+POS_ORIGIN 6648                
+POS_SEREFERRALS 6784                
+POS_PAGEREFS 6947                
+POS_SEARCHWORDS 7129                
+POS_KEYWORDS 7281                
+POS_MISC 2347                
+POS_ERRORS 7340                
+POS_CLUSTER 3559                
+POS_SIDER_404 7445                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231210064440 1138 211311 12870514526192
+FirstTime 0
+LastTime 20231210061514
+LastUpdate 20231210014658 1138 0 1138 0 0
+TotalVisits 62                  
+TotalUnique 43                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 44                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 67 70 52334 294 297 187605
+1 230 230 238264 251 257 92683
+2 8 9 3642 99 100 79780
+3 14 14 7657 93 95 81759
+4 0 0 0 80 80 83260
+5 0 0 0 80 80 83260
+6 1 1 2037 75 75 75300
+7 1 1 1069 61 61 52277
+8 1 1 1069 61 61 52489
+9 2 2 1714 60 61 51420
+10 0 0 0 62 62 51420
+11 0 0 0 62 62 51420
+12 2 2 1426 62 63 51420
+13 4 4 3920 71 80 53346
+14 0 0 0 61 61 52701
+15 0 0 0 60 60 51420
+16 6 6 6414 62 62 52489
+17 0 0 0 63 64 52489
+18 35 35 10907 98 102 54588
+19 13 13 4778 75 76 54940
+20 5 7 2795 156 158 153288
+21 6 7 3153 200 203 192068
+22 8 11 6322 228 232 198276
+23 33 33 76044 270 270 200343
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 7
+us 200 200 230267
+ca 120 120 67621
+ip 99 99 108549
+gb 6 16 9790
+ru 4 4 2990
+cn 4 4 4276
+de 3 3 52
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+bot[\s_+:,\.\;\/\\-] 2192 2084176 20231210064440 0
+Discordbot/ 10 14862 20231210015504 0
+no_user_agent 3 2959 20231209210808 0
+Dalvik/ 2 2138 20231204133402 0
+Go\-http\-client/ 2 1714 20231208132852 0
+curl 2 2138 20231201144525 0
+Links[\x20]\( 1 683 20231206225107 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 1069 20231205080904 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 432 413185 0 0
+txt 10 640 0 0
+php 4 9720 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/.well-known/pki-validation/31CBC7FAD68632CE786D791DC00B3C85.txt 1 0 64
+/.well-known/pki-validation/92FE206366289D27EAFBEA5164DF7D48.txt 1 0 64
+/.well-known/pki-validation/FFA64352CA3D1C4246ACE281FD35B42B.txt 1 0 64
+/.well-known/pki-validation/27E00B391851B6EC91748304CAAC26D8.txt 1 0 64
+/.well-known/pki-validation/7762775E8E7914EFBC3B8D201AB0BFAD.txt 1 0 64
+/.well-known/pki-validation/84CAD31E839B270FF3F4CC67772C709B.txt 1 0 64
+/.well-known/pki-validation/718FF192780E50F77B489EEF1A417ECA.txt 1 0 64
+/.well-known/pki-validation/B398257AA7D187682077AA83A15FF628.txt 1 0 64
+/.well-known/pki-validation/409C2FCAFBBFE4F7DBBFCF4DB11B15DB.txt 1 0 64
+/.well-known/pki-validation/F623C8996792E0899B86679D778036E3.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linux 11 11
+win10 67 67
+ios_iphone 7 7
+macosx11 3 3
+unix 1 1
+Unknown 356 346
+win7 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome120.0.0.0 31 31
+Unknown 159 149
+firefox120.0 4 4
+mozilla 4 4
+chrome85.0.2679 1 1
+safari 1 1
+chrome47.0.2526.106 3 3
+cloudflare 193 193
+chrome119.0.6045.199 1 1
+chrome83.0.4103.61 1 1
+chrome55.0.2883.87 8 8
+chrome117.0.5938.132 3 3
+chrome118.0.0.0 2 2
+chrome92.0.4515.107 1 1
+safari17.1.2 6 6
+chrome119.0.0.0 26 26
+chrome79.0.3945.79 1 1
+chrome87.0.2357 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Roblox/WinInet 20231210061514
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231204210136
+Cloudflare-SSLDetector 20231210012458
+COMODO_DCV 20231207225303
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Roblox/WinInet 20231210061514
+COMODO_DCV 20231207225303
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 423 433
+From1 0 0
+From2 1 1
+From3 2 2
+From4 10 10
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://sv83.ifastnet.com:2082 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 1 302
+302 24 0
+404 457 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 23
+/auth/renew 4 -
+/wordpress/wp-admin/setup-config.php 1 -
+/Setting/QuietGet/ClientAppSettings/ 142 -
+/asset/ 5 -
+/auth/negotiate 8 -
+/IDE/GetToolboxItems.ashx 3 -
+/Setting/QuietGet/ClientSharedSettings/ 2 -
+/ 39 -
+/asset/1818 1 -
+/auth/invalidate 8 -
+/GetAllowedSecurityVersions/ 14 -
+/userblock/getblockedusers 1 -
+/GetAllowedMD5Hashes/ 14 -
+//static.cloudflareinsights.com/beacon.min.js 2 -
+/v1.0/MultiIncrement/ 134 -
+/universes/get-info 23 -
+/robots.txt 9 -
+/cgi-bin/ 9 -
+/latency-measurements/get-servers-to-ping 4 -
+/v1.1/avatar-fetch/ 21 -
+/users/get-studio-experiment-enrollments 2 http://api.node16.xyz/users/get-studio-experiment-enrollments
+/sitemap.xml 5 -
+/Setting/QuietGet/WindowsBootstrapperSettings/ 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 44
+142.113.186.73 96 96 42634 20231210022131
+172.70.8.88 67 67 73906 20231210012459
+24.126.10.158 64 64 89192 20231210061514 20231210061514 /Setting/QuietGet/WindowsBootstrapperSettings/
+2606:4700:1101:2:4129:9343:eab2:ec41 60 60 70540 20231210012458
+47.231.180.114 20 20 16984 20231210015510
+172.70.19.154 18 18 16136 20231204000303
+172.70.15.86 18 18 12294 20231207010120
+2606:4700:1101:2:7df1:bbac:31ce:2bd2 18 18 16153 20231204000303
+2606:4700:1101:2:a80b:fd5:4619:a25a 12 12 8196 20231207010119
+73.147.72.174 6 6 14580 20231210012933
+157.245.176.68 6 6 5953 20231210000219
+2601:c4:c580:1a50:e8a5:c151:69a8:c8aa 5 5 9740 20231210015514
+188.243.183.255 4 4 2990 20231209224954
+173.238.183.191 3 3 7290 20231210015105
+51.81.200.175 3 3 6897 20231210015621
+46.165.250.81 3 3 52 20231210014912
+58.211.23.183 2 2 2138 20231205084050
+104.248.232.252 2 2 1114 20231203001426
+205.169.39.97 2 2 2138 20231203164039
+157.245.81.250 2 2 1570 20231207203543
+167.71.82.174 2 2 1097 20231205201640
+2409:8c20:b281:14::102 2 2 2138 20231204132909
+199.45.154.49 1 1 1069 20231204210136
+15.237.132.37 1 1 1069 20231201162440
+34.118.12.148 1 1 1069 20231203163841
+65.154.226.171 1 1 1069 20231203164000
+34.151.106.230 1 1 1069 20231203164224
+51.81.153.216 1 1 857 20231207215848
+36.99.136.139 1 1 1069 20231205000726
+108.181.13.194 1 1 713 20231207135653
+199.45.155.18 1 1 1069 20231204185440
+2600:1700:1c60:6d40:41eb:4440:4994:3de 1 1 713 20231207120205
+24.126.9.181 1 1 239 20231207033910
+185.27.133.18 0 10 640 
+165.232.56.81 1 1 1069 20231203191540
+2001:550:1d05:1::10 1 1 1069 20231202070620
+165.227.95.188 1 1 713 20231209180056
+24.126.8.71 1 1 857 20231209093544
+51.81.200.149 1 1 713 20231207123108
+199.45.155.16 1 1 1069 20231204195436
+51.81.153.188 1 1 683 20231206214736
+36.150.60.24 1 1 1069 20231204133500
+199.45.155.17 1 1 1069 20231204185204
+67.219.192.37 1 1 857 20231209093544
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20231201 1 1 1069 1
+20231202 1 1 1069 1
+20231203 8 11 7720 6
+20231204 44 44 40841 9
+20231205 5 7 4432 4
+20231206 1 3 811 1
+20231207 55 58 36045 13
+20231209 86 86 92637 14
+20231210 235 235 238921 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+0s-30s 47
+5mn-15mn 2
+2mn-5mn 2
+30mn-1h 3
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 152 168786 36 28
+/Setting/QuietGet/ClientSharedSettings/ 89 20646 3 4
+/Setting/QuietGet/WindowsBootstrapperSettings/ 65 153215 13 11
+/v1.0/MultiIncrement/ 30 1650 1 2
+/Setting/QuietGet/ 29 31053 0 0
+/Setting/ 28 23538 0 0
+/asset/unsuccessfulasset.html 25 13786 8 13
+/GetAllowedMD5Hashes/ 7 315 0 1
+/GetAllowedSecurityVersions/ 7 196 0 1
+/Setting/QuietGet/WindowsBootstrapperSettings/index.php 4 9720 1 1
+END_SIDER

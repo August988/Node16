@@ -1,0 +1,550 @@
+Return-Path: <bounces-a6l1k-hi=betterstack.com@shared-p100-i5.d.sp1-brevo.net>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id eOq2J1gSe2WiDgcAAQ44CQ
+	(envelope-from <bounces-a6l1k-hi=betterstack.com@shared-p100-i5.d.sp1-brevo.net>)
+	for <info@node16.xyz>; Thu, 14 Dec 2023 09:34:00 -0500
+Return-path: <bounces-a6l1k-hi=betterstack.com@shared-p100-i5.d.sp1-brevo.net>
+Envelope-to: info@node16.xyz
+Delivery-date: Thu, 14 Dec 2023 14:34:00 +0000
+Received: from shared-p100-i5.d.sp1-brevo.net ([77.32.149.5]:28680)
+	by sv83.ifastnet.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <bounces-a6l1k-hi=betterstack.com@shared-p100-i5.d.sp1-brevo.net>)
+	id 1rDmml-001x49-0h
+	for info@node16.xyz;
+	Thu, 14 Dec 2023 14:34:00 +0000
+DKIM-Signature: a=rsa-sha256; bh=TMMG1CtkHaR9UszBsns6RC38eeVAFL5FOAcjhRHxa54=;
+ c=relaxed/relaxed; d=betterstack.com;
+ h=to:cc:from:reply-to:subject:date:mime-version:content-type:list-id:list-unsubscribe:x-csa-complaints:list-unsubscribe-post:message-id:sender:x-sib-id:x-mailin-client:x-mailin-campaign:feedback-id;
+ q=dns/txt; s=mail; t=1702563953; v=1;
+ b=tw/0Nlmi0g+M5ajTZe6aNrPBN+P2WMGoBeuqX4OhxL6x2iRJgdzJaEMS2p4HeydktdSJp84W
+ 2nF9Q11lBI1vBuBlfFaJagjccuPSNPeYd/c1CdrEwquV62ul31BVsqT2qTmR+/pwtvXFVLra3Sg
+ jQQY/GRfNNzJX//8GYH/KnHs=
+To: <info@node16.xyz>
+Subject: =?utf-8?q?=F0=9F=A5=9E_New:_Android_critical_alerts_&_new_API?=
+Content-Type: multipart/alternative; boundary="-------?=_86788-2431414582481"
+Date: Thu, 14 Dec 2023 14:25:53 +0000
+Feedback-ID: 77.32.149.5:5889948_24:5889948:Sendinblue
+From: Better Stack UPDATE <hi@betterstack.com>
+List-Id: NTg4OTk0OC0xNTA1ODEtMTc= <NTg4OTk0OC0xNTA1ODEtMTc=.list-id.mailin.fr>
+List-Unsubscribe: <mailto:unsubscribe@shared-p100-i5.d.sp1-brevo.net?subject=unsub-di6h6u7y2c6bj&body=di6h6u7y2c6bj>,<https://a6l1k.r.sp1-brevo.net/mk/un/li/sh/7nVTPdbLJ2bPb1Ey0H2ujSSGYj3Cbf3/3hYlQ0-jIp01>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+MIME-Version: 1.0
+Message-Id: <202314121425.di6h6u7y2c6bj@shared-p100-i5.d.sp1-brevo.net>
+Precedence: bulk
+Reply-To: hello@betterstack.com
+X-Csa-Complaints: csa-complaints@eco.de
+X-Mailer: Sendinblue
+X-Mailin-Campaign: 24
+X-Mailin-Client: 5889948
+X-sib-id: KGtt94vIRv0l1Z4OTUQqvEdiocbdE0MQV0IQm2gmpnBJwtWQIqRdXKfFSVpvNxENVYY56di6abBgft5vu2A2aRM-zG4Trkyri5TtLWolsKmhoyDTPloGiCFHr8JnoagmpW0l4jvKAP-xYaRjsdlpyW3jl-Ccl53rbDrCeEFZ5HlI67z01rSVGjHK_8xwo4orzJ7WFr_Q9N9agJUwGdm4NNAcQQ
+X-Spam-Status: No, score=-0.8
+X-Spam-Score: -7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sv83.ifastnet.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  **Hello ****Juan!**   Using Android? Want to get critical
+    alerts even when in the Do Not Disturb and Silent mode?  
+ Content analysis details:   (-0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: sp1-brevo.net]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+X-Spam-Flag: NO
+
+---------?=_86788-2431414582481
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=UTF-8
+
+**Hello=C2=A0****Juan!**
+
+=C2=A0
+
+Using Android? Want to get critical alerts even when in the Do Not Disturb =
+and Silent mode?=C2=A0
+
+=C2=A0
+
+Well, we have a product update for you!
+
+
+Override Do Not Disturb mode on Android
+---------------------------------------
+
+
+Focusing on deep work or in a meeting, but want to get alerted when somethi=
+ng goes wrong?
+
+=C2=A0
+
+The new version of our Android app now allows you to configure notification=
+s so critical alerts get through.
+
+=C2=A0
+
+[See how to set up push notifications on Android](https://a6l1k.r.sp1-brevo=
+.net/mk/cl/f/sh/7nVU1aA2nfsTSQz9zQRnZwkf8vm55C1/KSnh3yI40bdsdocs/uptime/ios=
+-and-android-mobile-apps/)
+
+
+Control all integrations via API and Terraform
+----------------------------------------------
+
+
+Managing your workflows at scale?
+
+=C2=A0
+
+There is now brand new support to edit integrations =E2=80=93 including inc=
+oming webhooks and emails =E2=80=93 just with API or Terraform.
+
+=C2=A0
+
+See the [API integration docs](https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nV=
+U1aA2nfwFRTzlwYuhefOHTeleZ53/92SzWehhpvHa) and [Terraform docs](https://a6l=
+1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2nfy8R0V4v899h1i5e1GRJ1Z/ZzD4CNeeZNJJ)
+
+
+Fresh community articles
+------------------------
+
+
+[14 Best Practices for Docker Security](https://a6l1k.r.sp1-brevo.net/mk/cl=
+/f/sh/7nVU1aA2ng01QX0NthNbjO1toNlE2y5/4ncp8t50z0_S)
+
+See how you can make sure your Docker containers run safely and prevent any=
+ security incidents.
+
+=C2=A0
+
+[Top 5 Java Logging Libraries](https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nV=
+U1aA2ng1uQ3VgsGc3lkLhykG0mub/fDtzLFQgr4BU)
+
+We compared the 5 most popular libraries for logging. Have a look at how th=
+ey did.
+
+=C2=A0
+
+[How to Deploy a Web App With Caddy](https://a6l1k.r.sp1-brevo.net/mk/cl/f/=
+sh/7nVU1aA2ng3nPa0zqpqVo6fW96knWr7/sgetrnUJ7qQk)
+
+Read how to use Caddy as a web server (written in Go) for your next project=
+.
+
+
+[Video: Pino JS - Logging in JavaScript / Node.js applications](https://a6l=
+1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2ng5gP6WIpP4xqSzKJTFaGnd/G6i492xqDfmk)
+
+New to Logging in Node.js? Start with this logging overview and Better Stac=
+k integration.
+
+
+Have feedback or need help along the way? Just reply to this email, we alwa=
+ys
+
+love to chat! =F0=9F=91=8B=C2=A0
+
+=C2=A0
+
+All the best,
+
+Jenda
+
+=C2=A0
+
+PS: Get updates faster by following us on [Twitter](https://a6l1k.r.sp1-bre=
+vo.net/mk/cl/f/sh/7nVU1aA2ng7ZOd1bnyJPspJ8TpkN0k9/KNuK6T6jbFOi), [YouTube](=
+https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2ng9SO9WumXXrvBcweCF9kgf/Fu=
+e9Zs-RtPJ3) and [LinkedIn](https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/WCPzyXJ=
+TZ6vLwtJfZTZ9b9xxnZpDjtbR/L-CR6AW3QQom)
+
+
+=C2=A9 Better Stack, Inc. All rights reserved.
+9450 SW Gemini Dr, PMB 98229, Beaverton, Oregon 97008, United States
+
+[Unsubscribe](https://a6l1k.r.sp1-brevo.net/mk/un/sh/7nVTPdbLJ2bPb1Ey0H2ujS=
+SGYj3Cbf3/3hYlQ0-jIp01)
+
+
+---------?=_86788-2431414582481
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"> <html xmlns=3D"http://www.w3.org/1999/xh=
+tml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micro=
+soft-com:office:office"><head><meta http-equiv=3D"Content-Type" content=3D"=
+text/html; charset=3Dutf-8"><meta http-equiv=3D"X-UA-Compatible" content=3D=
+"IE=3Dedge"><meta name=3D"format-detection" content=3D"telephone=3Dno"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.0"><=
+title>=F0=9F=A5=9E New: Android critical alerts & new API</title><style typ=
+e=3D"text/css" emogrify=3D"no">#outlook a{padding:0;}.ExternalClass{width:1=
+00%;}.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass =
+font, .ExternalClass td, .ExternalClass div{line-height:100%;}table td{bord=
+er-collapse:collapse;mso-line-height-rule:exactly;}.editable.image{font-siz=
+e:0 !important;line-height:0 !important;}.nl2go_preheader{display:none !imp=
+ortant;mso-hide:all !important;mso-line-height-rule:exactly;visibility:hidd=
+en !important;line-height:0px !important;font-size:0px !important;}body{wid=
+th:100% !important;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;=
+margin:0;padding:0;}img{outline:none;text-decoration:none;-ms-interpolation=
+-mode:bicubic;}a img{border:none;}table{border-collapse:collapse;mso-table-=
+lspace:0pt;mso-table-rspace:0pt;}th{font-weight:normal;text-align:left;}*[c=
+lass=3D"gmail-fix"]{display:none !important;}</style><style type=3D"text/cs=
+s" emogrify=3D"no"> @media (max-width:600px){.gmx-killpill{content:' \03D1'=
+}}</style><style type=3D"text/css" emogrify=3D"no">@media (max-width:600px)=
+{.gmx-killpill{content:' \03D1'}.r0-o{border-style:solid !important;margin:=
+0 auto 0 auto !important;width:320px !important}.r1-c{box-sizing:border-box=
+ !important;text-align:center !important;valign:top !important;width:100% !=
+important}.r2-o{border-style:solid !important;margin:0 auto 0 auto !importa=
+nt;width:100% !important}.r3-i{background-color:#ffffff !important;padding-=
+bottom:11px !important;padding-left:0px !important;padding-right:0px !impor=
+tant;padding-top:20px !important}.r4-c{box-sizing:border-box !important;dis=
+play:block !important;valign:top !important;width:100% !important}.r5-o{bor=
+der-style:solid !important;width:100% !important}.r6-i{padding-left:0px !im=
+portant;padding-right:0px !important}.r7-c{box-sizing:border-box !important=
+;text-align:left !important;valign:top !important;width:100% !important}.r8=
+-o{border-style:solid !important;margin:0 auto 0 0 !important;width:50% !im=
+portant}.r9-i{padding-bottom:0px !important;padding-left:0px !important;pad=
+ding-right:0px !important;padding-top:0px !important}.r10-i{background-colo=
+r:#ffffff !important;padding-bottom:0px !important;padding-left:0px !import=
+ant;padding-right:0px !important;padding-top:20px !important}.r11-c{box-siz=
+ing:border-box !important;padding-top:15px !important;text-align:left !impo=
+rtant;valign:top !important;width:100% !important}.r12-i{background-color:#=
+ffffff !important;padding-bottom:20px !important;padding-left:0px !importan=
+t;padding-right:0px !important;padding-top:10px !important}.r13-c{box-sizin=
+g:border-box !important;padding-bottom:15px !important;padding-left:0px !im=
+portant;padding-right:0px !important;padding-top:15px !important;text-align=
+:center !important;valign:top !important;width:100% !important}.r14-c{box-s=
+izing:border-box !important;padding-bottom:15px !important;padding-top:15px=
+ !important;text-align:left !important;valign:top !important;width:100% !im=
+portant}.r15-c{box-sizing:border-box !important;text-align:center !importan=
+t;width:100% !important}.r16-i{padding-bottom:30px !important;padding-top:3=
+0px !important}.r17-c{box-sizing:border-box !important;padding-bottom:15px =
+!important;padding-top:0px !important;text-align:left !important;valign:top=
+ !important;width:100% !important}.r18-i{background-color:#ffffff !importan=
+t;padding-bottom:20px !important;padding-left:15px !important;padding-right=
+:15px !important;padding-top:20px !important}.r19-i{background-color:transp=
+arent !important}.r20-o{border-style:solid !important;margin:0 auto 0 auto =
+!important;width:50% !important}.r21-o{border-style:solid !important;margin=
+:0 auto 0 0 !important;width:100% !important}.r22-i{padding-bottom:0px !imp=
+ortant;padding-left:0px !important;padding-right:0px !important;padding-top=
+:20px !important;text-align:center !important}.r23-i{padding-bottom:15px !i=
+mportant;padding-top:15px !important;text-align:center !important}body{-web=
+kit-text-size-adjust:none}.nl2go-responsive-hide{display:none}.nl2go-body-t=
+able{min-width:unset !important}.mobshow{height:auto !important;overflow:vi=
+sible !important;max-height:unset !important;visibility:visible !important;=
+border:none !important}.resp-table{display:inline-table !important}.magic-r=
+esp{display:table-cell !important}}</style><!--[if !mso]><!--><style type=
+=3D"text/css" emogrify=3D"no">@import url("https://fonts.googleapis.com/css=
+2?family=3DInter");</style><!--<![endif]--><style type=3D"text/css">p, h1, =
+h2, h3, h4, ol, ul{margin:0;}a, a:link{color:#8585ee;text-decoration:underl=
+ine}.nl2go-default-textstyle{color:#3b3f44;font-family:Arial;font-size:15px=
+;line-height:1.5;word-break:break-word}.default-button{color:#ffffff;font-f=
+amily:Arial;font-size:16px;font-style:normal;font-weight:normal;line-height=
+:1.15;text-decoration:none;word-break:break-word}.default-heading1{color:#1=
+F2D3D;font-family:Arial;font-size:36px;word-break:break-word}.default-headi=
+ng2{color:#1F2D3D;font-family:Arial;font-size:20px;word-break:break-word}.d=
+efault-heading3{color:#1F2D3D;font-family:Arial;font-size:24px;word-break:b=
+reak-word}.default-heading4{color:#1F2D3D;font-family:Arial;font-size:18px;=
+word-break:break-word}a[x-apple-data-detectors]{color:inherit !important;te=
+xt-decoration:inherit !important;font-size:inherit !important;font-family:i=
+nherit !important;font-weight:inherit !important;line-height:inherit !impor=
+tant;}.no-show-for-you{border:none;display:none;float:none;font-size:0;heig=
+ht:0;line-height:0;max-height:0;mso-hide:all;overflow:hidden;table-layout:f=
+ixed;visibility:hidden;width:0;}</style><!--[if mso]><xml> <o:OfficeDocumen=
+tSettings> <o:AllowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDo=
+cumentSettings> </xml><![endif]--><style type=3D"text/css">a:link{color:#85=
+85ee;text-decoration:underline}</style></head><body text=3D"#3b3f44" link=
+=3D"#8585ee" yahoo=3D"fix"> <!--[if mso]> <img width=3D"1" height=3D"1" src=
+=3D"https://a6l1k.r.sp1-brevo.net/mk/op/sh/7nVTPddU8lzHnIL54LMNAYs1nA0H3HJ/=
+ACkYWB9-68Sm" /> <![endif]--> <!--[if !mso]> <!----> <img style=3D"display:=
+none" src=3D"https://a6l1k.r.sp1-brevo.net/mk/op/sh/7nVTPddU8lzHnIL54LMNAYs=
+1nA0H3HJ/ACkYWB9-68Sm"/> <!-- <![endif]--> <table cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0" role=3D"presentation" class=3D"nl2go-body-table" wi=
+dth=3D"100%" style=3D"width:100%"><tr><td> <table cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0" role=3D"presentation" width=3D"600" align=3D"center=
+" class=3D"r0-o" style=3D"table-layout:fixed;width:600px"><tr><td valign=3D=
+"top"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pres=
+entation" width=3D"100%" align=3D"center" class=3D"r2-o" style=3D"table-lay=
+out:fixed;width:100%"><tr><td class=3D"r3-i" style=3D"background-color:#fff=
+fff;padding-bottom:20px;padding-top:20px"> <table width=3D"100%" cellspacin=
+g=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th width=
+=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-weight:normal"> <tabl=
+e cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" wi=
+dth=3D"100%" class=3D"r5-o" style=3D"table-layout:fixed;width:100%"><tr><td=
+ valign=3D"top" class=3D"r6-i" style=3D"padding-left:15px;padding-right:15p=
+x"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+role=3D"presentation"><tr><td class=3D"r7-c" align=3D"left"> <table cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"22=
+8" class=3D"r8-o" style=3D"table-layout:fixed;width:228px"><tr><td class=3D=
+"r9-i" style=3D"font-size:0px;line-height:0px;padding-bottom:15px;padding-t=
+op:15px"> <a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2nfsTS=
+Qz9zQRnZwkf8vm55C1/KSnh3yI40bds" target=3D"_blank" style=3D"color:#8585ee;t=
+ext-decoration:underline" sib_link_id=3D"0" templating=3D"n"> <img src=3D"h=
+ttps://a6l1k.img.sp1-brevo.net/im/sh/PUHZbjBtBWow.png?u=3D2BpAyz2gMiWnck9gO=
+n5nDfVaHUGzuDKFy1" width=3D"228" border=3D"0" style=3D"display:block;width:=
+100%" sib_img_id=3D"4"></a> </td> </tr></table></td> </tr></table></td> </t=
+r></table></th> </tr></table></td> </tr></table><table cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" align=3D"=
+center" class=3D"r2-o" style=3D"table-layout:fixed;width:100%"><tr><td clas=
+s=3D"r10-i" style=3D"background-color:#ffffff;padding-top:20px"> <table wid=
+th=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presen=
+tation"><tr><th width=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-=
+weight:normal"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" rol=
+e=3D"presentation" width=3D"100%" class=3D"r5-o" style=3D"table-layout:fixe=
+d;width:100%"><tr><td valign=3D"top" class=3D"r6-i" style=3D"padding-left:1=
+5px;padding-right:15px"> <table width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" role=3D"presentation"><tr><td class=3D"r11-c nl2go-def=
+ault-textstyle" align=3D"left" style=3D"color:#3b3f44;font-family:Arial;fon=
+t-size:15px;line-height:1.5;word-break:break-word;padding-top:15px;text-ali=
+gn:left;valign:top"> <div><p style=3D"margin:0"><span style=3D"font-size:15=
+px"><strong>Hello=C2=A0</strong></span><strong>Juan!</strong></p><p style=
+=3D"margin:0">=C2=A0</p><p style=3D"margin:0">Using Android? Want to get cr=
+itical alerts even when in the Do Not Disturb and Silent mode?=C2=A0</p><p =
+style=3D"margin:0">=C2=A0</p><p style=3D"margin:0">Well, we have a product =
+update for you!</p></div> </td> </tr></table></td> </tr></table></th> </tr>=
+</table></td> </tr></table><table cellspacing=3D"0" cellpadding=3D"0" borde=
+r=3D"0" role=3D"presentation" width=3D"100%" align=3D"center" class=3D"r2-o=
+" style=3D"table-layout:fixed;width:100%"><tr><td class=3D"r12-i" style=3D"=
+background-color:#ffffff;padding-bottom:20px;padding-top:10px"> <table widt=
+h=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"present=
+ation"><tr><th width=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-w=
+eight:normal"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=
+=3D"presentation" width=3D"100%" class=3D"r5-o" style=3D"table-layout:fixed=
+;width:100%"><tr><td valign=3D"top" class=3D"r6-i" style=3D"padding-left:10=
+px;padding-right:10px"> <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" role=3D"presentation"><tr><td class=3D"r13-c" align=3D"=
+center" style=3D"border-radius:-1px;font-size:0px;line-height:0px;padding-b=
+ottom:15px;padding-top:15px;valign:top"> <img src=3D"https://a6l1k.img.sp1-=
+brevo.net/im/sh/aOKw0jmhIx8t.png?u=3D92pJLo34vnrQuc1OiNAdTKb3L5tQaYIENl7" w=
+idth=3D"580" border=3D"0" style=3D"display:block;width:100%;border-radius:-=
+1px" sib_img_id=3D"39"></td> </tr><tr><td class=3D"r11-c nl2go-default-text=
+style" align=3D"left" style=3D"color:#3b3f44;font-family:Arial;font-size:15=
+px;line-height:1.5;word-break:break-word;padding-top:15px;text-align:left;v=
+align:top"> <div><h2 class=3D"default-heading2" style=3D"margin:0;color:#1f=
+2d3d;font-family:Arial;font-size:20px;word-break:break-word">Override Do No=
+t Disturb mode on Android</h2></div> </td> </tr><tr><td class=3D"r14-c nl2g=
+o-default-textstyle" align=3D"left" style=3D"color:#3b3f44;font-family:Aria=
+l;font-size:15px;word-break:break-word;line-height:1.5;padding-bottom:15px;=
+padding-top:15px;text-align:left;valign:top"> <div><p style=3D"margin:0">Fo=
+cusing on deep work or in a meeting, but want to get alerted when something=
+ goes wrong?</p><p style=3D"margin:0">=C2=A0</p><p style=3D"margin:0">The n=
+ew version of our Android app now allows you to configure notifications so =
+critical alerts get through.</p><p style=3D"margin:0">=C2=A0</p><p style=3D=
+"margin:0"><a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2nfuM=
+RxUSxzgFcJ4TJIGrp8X/-dKByGjIwyRO" target=3D"_blank" style=3D"color:#8585ee;=
+text-decoration:underline" sib_link_id=3D"1" templating=3D"n"><span style=
+=3D"color:#8585EE"><u>See how to set up push notifications on Android</u></=
+span></a></p></div> </td> </tr><tr><td class=3D"r13-c" align=3D"center" sty=
+le=3D"border-radius:-1px;font-size:0px;line-height:0px;padding-bottom:15px;=
+padding-top:15px;valign:top"> <img src=3D"https://a6l1k.img.sp1-brevo.net/i=
+m/sh/Rkh5ebnFwvRp.png?u=3D92pJLo34vnrQu6r8ZW7D7PtyMSirQzpDZIb" width=3D"580=
+" border=3D"0" style=3D"display:block;width:100%;border-radius:-1px" sib_im=
+g_id=3D"35"></td> </tr><tr><td class=3D"r11-c nl2go-default-textstyle" alig=
+n=3D"left" style=3D"color:#3b3f44;font-family:Arial;font-size:15px;line-hei=
+ght:1.5;word-break:break-word;padding-top:15px;text-align:left;valign:top">=
+ <div><h2 class=3D"default-heading2" style=3D"margin:0;color:#1f2d3d;font-f=
+amily:Arial;font-size:20px;word-break:break-word">Control all integrations =
+via API and Terraform</h2></div> </td> </tr><tr><td class=3D"r14-c nl2go-de=
+fault-textstyle" align=3D"left" style=3D"color:#3b3f44;font-family:Arial;fo=
+nt-size:15px;word-break:break-word;line-height:1.5;padding-bottom:15px;padd=
+ing-top:15px;text-align:left;valign:top"> <div><p style=3D"margin:0">Managi=
+ng your workflows at scale?</p><p style=3D"margin:0">=C2=A0</p><p style=3D"=
+margin:0">There is now brand new support to edit integrations =E2=80=93 inc=
+luding incoming webhooks and emails =E2=80=93 just with API or Terraform.</=
+p><p style=3D"margin:0">=C2=A0</p><p style=3D"margin:0">See the <a href=3D"=
+https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2nfwFRTzlwYuhefOHTeleZ53/92=
+SzWehhpvHa" target=3D"_blank" style=3D"color:#8585ee;text-decoration:underl=
+ine" sib_link_id=3D"2" templating=3D"n"><u>API integration docs</u></a> and=
+ <a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2nfy8R0V4v899h1=
+i5e1GRJ1Z/ZzD4CNeeZNJJ" target=3D"_blank" style=3D"color:#8585ee;text-decor=
+ation:underline" sib_link_id=3D"3" templating=3D"n"><u>Terraform docs</u></=
+a></p></div> </td> </tr><tr><td class=3D"r15-c" align=3D"center"> <table ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=
+=3D"580" class=3D"r2-o" style=3D"table-layout:fixed"><tr><td class=3D"r16-i=
+" style=3D"padding-bottom:30px;padding-top:30px;height:2px"> <table width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presenta=
+tion"><tr><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bor=
+der=3D"0" role=3D"presentation" valign=3D"" class=3D"r16-i" height=3D"2" st=
+yle=3D"border-top-style:solid;background-clip:border-box;border-top-color:#=
+eff2f7;border-top-width:2px;font-size:2px;line-height:2px"><tr><td height=
+=3D"0" style=3D"font-size:0px;line-height:0px">=C2=AD</td> </tr></table></t=
+d> </tr></table></td> </tr></table></td> </tr><tr><td class=3D"r11-c nl2go-=
+default-textstyle" align=3D"left" style=3D"color:#3b3f44;font-family:Arial;=
+font-size:15px;line-height:1.5;word-break:break-word;padding-top:15px;text-=
+align:left;valign:top"> <div><h2 class=3D"default-heading2" style=3D"margin=
+:0;color:#1f2d3d;font-family:Arial;font-size:20px;word-break:break-word">Fr=
+esh community articles</h2></div> </td> </tr><tr><td class=3D"r14-c nl2go-d=
+efault-textstyle" align=3D"left" style=3D"color:#3b3f44;font-family:Arial;f=
+ont-size:15px;word-break:break-word;line-height:1.5;padding-bottom:15px;pad=
+ding-top:15px;text-align:left;valign:top"> <div><p style=3D"margin:0"><a hr=
+ef=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2ng01QX0NthNbjO1toNlE=
+2y5/4ncp8t50z0_S" target=3D"_blank" style=3D"color:#8585ee;text-decoration:=
+underline" sib_link_id=3D"4" templating=3D"n">14 Best Practices for Docker =
+Security</a></p><p style=3D"margin:0">See how you can make sure your Docker=
+ containers run safely and prevent any security incidents.</p><p style=3D"m=
+argin:0">=C2=A0</p><p style=3D"margin:0"><a href=3D"https://a6l1k.r.sp1-bre=
+vo.net/mk/cl/f/sh/7nVU1aA2ng1uQ3VgsGc3lkLhykG0mub/fDtzLFQgr4BU" target=3D"_=
+blank" style=3D"color:#8585ee;text-decoration:underline" sib_link_id=3D"5" =
+templating=3D"n">Top 5 Java Logging Libraries</a></p><p style=3D"margin:0">=
+We compared the 5 most popular libraries for logging. Have a look at how th=
+ey did.</p><p style=3D"margin:0">=C2=A0</p><p style=3D"margin:0"><a href=3D=
+"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2ng3nPa0zqpqVo6fW96knWr7/s=
+getrnUJ7qQk" target=3D"_blank" style=3D"color:#8585ee;text-decoration:under=
+line" sib_link_id=3D"6" templating=3D"n"><span style=3D"color:#8585EE"><u>H=
+ow to Deploy a Web App With Caddy</u></span></a></p><p style=3D"margin:0">R=
+ead how to use Caddy as a web server (written in Go) for your next project.=
+</p></div> </td> </tr><tr><td class=3D"r13-c" align=3D"center" style=3D"bor=
+der-radius:-1px;font-size:0px;line-height:0px;padding-bottom:15px;padding-t=
+op:15px;valign:top"> <img src=3D"https://a6l1k.img.sp1-brevo.net/im/sh/Qzz7=
+1X-yYRhl.png?u=3D92pJLo34vnrQuEeCbjNZCtZk6cW0DswTGuj" width=3D"580" border=
+=3D"0" style=3D"display:block;width:100%;border-radius:-1px" sib_img_id=3D"=
+36"></td> </tr><tr><td class=3D"r14-c nl2go-default-textstyle" align=3D"lef=
+t" style=3D"color:#3b3f44;font-family:Arial;font-size:15px;word-break:break=
+-word;line-height:1.5;padding-bottom:15px;padding-top:15px;text-align:left;=
+valign:top"> <div><p style=3D"margin:0"><a href=3D"https://a6l1k.r.sp1-brev=
+o.net/mk/cl/f/sh/7nVU1aA2ng5gP6WIpP4xqSzKJTFaGnd/G6i492xqDfmk" target=3D"_b=
+lank" style=3D"color:#8585ee;text-decoration:underline" sib_link_id=3D"7" t=
+emplating=3D"n">Video: Pino JS - Logging in JavaScript / Node.js applicatio=
+ns</a></p><p style=3D"margin:0">New to Logging in Node.js? Start with this =
+logging overview and Better Stack integration.</p></div> </td> </tr></table=
+></td> </tr></table></th> </tr></table></td> </tr></table><table cellspacin=
+g=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%"=
+ align=3D"center" class=3D"r2-o" style=3D"table-layout:fixed;width:100%"><t=
+r><td class=3D"r12-i" style=3D"background-color:#ffffff;padding-bottom:20px=
+;padding-top:10px"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" role=3D"presentation"><tr><th width=3D"100%" valign=3D"top"=
+ class=3D"r4-c" style=3D"font-weight:normal"> <table cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" class=3D"r5=
+-o" style=3D"table-layout:fixed;width:100%"><tr><td valign=3D"top" class=3D=
+"r6-i" style=3D"padding-left:10px;padding-right:10px"> <table width=3D"100%=
+" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><t=
+r><td class=3D"r15-c" align=3D"center"> <table cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" role=3D"presentation" width=3D"580" class=3D"r2-o" sty=
+le=3D"table-layout:fixed"><tr><td class=3D"r16-i" style=3D"padding-bottom:3=
+0px;padding-top:30px;height:2px"> <table width=3D"100%" cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><td><table width=3D=
+"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentatio=
+n" valign=3D"" class=3D"r16-i" height=3D"2" style=3D"border-top-style:solid=
+;background-clip:border-box;border-top-color:#eff2f7;border-top-width:2px;f=
+ont-size:2px;line-height:2px"><tr><td height=3D"0" style=3D"font-size:0px;l=
+ine-height:0px">=C2=AD</td> </tr></table></td> </tr></table></td> </tr></ta=
+ble></td> </tr></table></td> </tr></table></th> </tr></table></td> </tr></t=
+able><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presen=
+tation" width=3D"100%" align=3D"center" class=3D"r2-o" style=3D"table-layou=
+t:fixed;width:100%"><tr><td class=3D"r12-i" style=3D"background-color:#ffff=
+ff;padding-bottom:20px;padding-top:10px"> <table width=3D"100%" cellspacing=
+=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation"><tr><th width=
+=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-weight:normal"> <tabl=
+e cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" wi=
+dth=3D"100%" class=3D"r5-o" style=3D"table-layout:fixed;width:100%"><tr><td=
+ valign=3D"top" class=3D"r6-i" style=3D"padding-left:10px;padding-right:10p=
+x"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+role=3D"presentation"><tr><td class=3D"r17-c nl2go-default-textstyle" align=
+=3D"left" style=3D"color:#3b3f44;font-family:Arial;font-size:15px;word-brea=
+k:break-word;line-height:1.5;padding-bottom:15px;text-align:left;valign:top=
+"> <div><p style=3D"margin:0"><span style=3D"font-family:Arial, helvetica, =
+sans-serif;font-size:15px">Have feedback or need help along the way? Just r=
+eply to this email, we always</span></p><p style=3D"margin:0"><span style=
+=3D"font-family:Arial, helvetica, sans-serif;font-size:15px">love to chat! =
+=F0=9F=91=8B=C2=A0</span></p><p style=3D"margin:0">=C2=A0</p><p style=3D"ma=
+rgin:0"><span style=3D"font-family:Arial, helvetica, sans-serif;font-size:1=
+5px">All the best,</span></p><p style=3D"margin:0"><span style=3D"font-fami=
+ly:Arial, helvetica, sans-serif;font-size:15px">Jenda</span></p><p style=3D=
+"margin:0">=C2=A0</p><p style=3D"margin:0"><span style=3D"font-family:Arial=
+, helvetica, sans-serif;font-size:12px">PS: Get updates faster by following=
+ us on </span><a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2n=
+g7ZOd1bnyJPspJ8TpkN0k9/KNuK6T6jbFOi" target=3D"_blank" style=3D"color:#8585=
+ee;text-decoration:underline" sib_link_id=3D"8" templating=3D"n"><span styl=
+e=3D"font-family:Arial, helvetica, sans-serif;font-size:12px">Twitter</span=
+></a><span style=3D"font-family:Arial, helvetica, sans-serif;font-size:12px=
+">, </span><a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/7nVU1aA2ng9S=
+O9WumXXrvBcweCF9kgf/Fue9Zs-RtPJ3" target=3D"_blank" style=3D"color:#8585ee;=
+text-decoration:underline" sib_link_id=3D"9" templating=3D"n"><span style=
+=3D"font-family:Arial, helvetica, sans-serif;font-size:12px">YouTube</span>=
+</a><span style=3D"font-family:Arial, helvetica, sans-serif;font-size:12px"=
+> and </span><a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/WCPzyXJTZ6=
+vLwtJfZTZ9b9xxnZpDjtbR/L-CR6AW3QQom" target=3D"_blank" style=3D"color:#8585=
+ee;text-decoration:underline" sib_link_id=3D"10" templating=3D"n"><span sty=
+le=3D"font-family:Arial, helvetica, sans-serif;font-size:12px">LinkedIn</sp=
+an></a></p></div> </td> </tr></table></td> </tr></table></th> </tr></table>=
+</td> </tr></table><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" =
+role=3D"presentation" width=3D"100%" align=3D"center" class=3D"r2-o" style=
+=3D"table-layout:fixed;width:100%"><tr><td class=3D"r18-i" style=3D"backgro=
+und-color:#ffffff;padding-bottom:20px;padding-top:20px"> <table width=3D"10=
+0%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation">=
+<tr><th width=3D"100%" valign=3D"top" class=3D"r4-c" style=3D"font-weight:n=
+ormal"> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pre=
+sentation" width=3D"100%" class=3D"r5-o" style=3D"table-layout:fixed;width:=
+100%"><tr><td valign=3D"top" class=3D"r6-i" style=3D"padding-left:15px;padd=
+ing-right:15px"> <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" role=3D"presentation"><tr><td class=3D"r15-c" align=3D"center"=
+> <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentat=
+ion" width=3D"570" class=3D"r2-o" style=3D"table-layout:fixed;width:570px">=
+<tr><td height=3D"30" class=3D"r19-i" style=3D"font-size:30px;line-height:3=
+0px;background-color:transparent"> =C2=AD </td> </tr></table></td> </tr></t=
+able></td> </tr></table></th> </tr></table></td> </tr></table><table cellsp=
+acing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"1=
+00%" align=3D"center" class=3D"r2-o" style=3D"table-layout:fixed;width:100%=
+"><tr><td class=3D"r18-i" style=3D"background-color:#ffffff;padding-bottom:=
+20px;padding-top:20px"> <table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" role=3D"presentation"><tr><th width=3D"100%" valign=3D"=
+top" class=3D"r4-c" style=3D"font-weight:normal"> <table cellspacing=3D"0" =
+cellpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"100%" class=
+=3D"r5-o" style=3D"table-layout:fixed;width:100%"><tr><td valign=3D"top" cl=
+ass=3D"r6-i" style=3D"padding-left:15px;padding-right:15px"> <table width=
+=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"presenta=
+tion"><tr><td class=3D"r1-c" align=3D"center"> <table cellspacing=3D"0" cel=
+lpadding=3D"0" border=3D"0" role=3D"presentation" width=3D"134" class=3D"r2=
+0-o" style=3D"table-layout:fixed;width:134px"><tr><td style=3D"font-size:0p=
+x;line-height:0px"> <a href=3D"https://a6l1k.r.sp1-brevo.net/mk/cl/f/sh/WCP=
+zyXJTZ7390vWvvZ2pMu7kwMiKzbDZ/xcL_FpBzR3sZ" target=3D"_blank" style=3D"colo=
+r:#8585ee;text-decoration:underline" sib_link_id=3D"11" templating=3D"n"> <=
+img src=3D"https://a6l1k.img.sp1-brevo.net/im/sh/PUHZbjBtBWow.png?u=3D2BpAy=
+z2gMiWnck9gOn5nDfVaHUGzuDKFy1" width=3D"134" border=3D"0" style=3D"display:=
+block;width:100%" sib_img_id=3D"4"></a> </td> </tr></table></td> </tr><tr><=
+td class=3D"r7-c" align=3D"left"> <table cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0" role=3D"presentation" width=3D"100%" class=3D"r21-o" style=
+=3D"table-layout:fixed;width:100%"><tr><td align=3D"center" valign=3D"top" =
+class=3D"r22-i nl2go-default-textstyle" style=3D"color:#3b3f44;font-family:=
+Arial;word-break:break-word;font-size:18px;line-height:1.5;padding-top:20px=
+;text-align:center"> <div><p style=3D"margin:0;font-size:14px">=C2=A9 Bette=
+r Stack, Inc. All rights reserved.<br>9450 SW Gemini Dr, PMB 98229, Beavert=
+on, Oregon 97008, United States</p></div> </td> </tr></table></td> </tr><tr=
+><td class=3D"r7-c" align=3D"left"> <table cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" role=3D"presentation" width=3D"100%" class=3D"r21-o" style=
+=3D"table-layout:fixed;width:100%"><tr><td align=3D"center" valign=3D"top" =
+class=3D"r23-i nl2go-default-textstyle" style=3D"color:#3b3f44;font-family:=
+Arial;word-break:break-word;font-size:18px;line-height:1.5;padding-bottom:1=
+5px;padding-top:15px;text-align:center"> <div><p style=3D"margin:0;font-siz=
+e:14px"> <a href=3D"https://a6l1k.r.sp1-brevo.net/mk/un/sh/7nVTPdbLJ2bPb1Ey=
+0H2ujSSGYj3Cbf3/3hYlQ0-jIp01" style=3D"color:#8585ee;text-decoration:underl=
+ine">Unsubscribe</a></p></div> </td> </tr></table></td> </tr></table></td> =
+</tr></table></th> </tr></table></td> </tr></table></td> </tr></table></td>=
+ </tr></table> </body></html>=20
+
+---------?=_86788-2431414582481--
+

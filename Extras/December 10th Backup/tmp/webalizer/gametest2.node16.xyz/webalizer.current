@@ -1,0 +1,248 @@
+# Webalizer V2.23-08 Incremental Data - 12/05/2023 03:30:10
+2023 12 5 3 30 10
+217 157 27 6 6 13 148393 159 49 0
+1 1 35 1 5
+156 118 130572 11 116 28
+27 14 7038 4 22 9
+23 16 6877 10 12 9
+10 9 3906 2 9 3
+1 0 0 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+14 12 4466 10
+9 6 3590 4
+2 2 976 1
+1 0 0 0
+2 1 432 1
+10 9 2132 8
+14 13 4457 11
+19 18 6676 15
+26 26 10677 26
+36 15 82303 15
+15 6 2160 14
+4 4 2223 3
+8 8 3955 7
+4 3 1296 3
+3 1 432 3
+2 2 866 2
+0 0 0 0
+3 0 0 2
+1 1 434 1
+3 2 1359 1
+35 28 19959 28
+4 0 0 4
+1 0 0 0
+1 0 0 0
+0
+0
+0
+157
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+42
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+0
+0
+0
+0
+0
+# -urls- 
+/static/css/global.css
+0 1 7308604866097735034 305 0 0
+/play.png
+0 15 94115060945568 13905 0 0
+/.well-known/pki-validation/95C5686C81545EEBD2E824B0004916CF.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/23A6223F30B3E046FC5F9ECB88DC4396.txt
+0 1 0 64 0 0
+/
+0 138 0 133991 40 18
+/.well-known/pki-validation/19A8FD8235D6365D0B1FD29F74F3B373.txt
+0 1 0 64 0 0
+# End Of Table - urls
+# -sites- (monthly)
+157.245.202.27
+0 1 0 0 0 0
+-
+214.4.237.35.bc.googleusercontent.com
+0 3 3 1110 3 1701464231
+/
+64.23.140.58
+0 1 1 434 1 1701627041
+/
+198.199.121.92
+0 6 5 2649 1 1701463872
+/
+46.101.198.151
+0 1 1 434 1 1701618436
+/
+cmcust2a-87.54.nulinkdigital.com
+0 4 3 1795 2 1701605043
+/
+2600:1700:1c60:6d40:473:4bc7:cdda:408e
+0 2 2 1359 1 1701430785
+/
+3-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-4-0-1-0-2-0-0-0-8-c-f-f-2-0-6-2.reverse-dns
+0 2 2 1359 1 1701500500
+/
+178.62.227.35.bc.googleusercontent.com
+0 1 1 236 1 1701417967
+/
+c-24-126-10-20.hsd1.wv.comcast.net
+0 2 0 0 1 1701625335
+-
+unn-37-19-199-141.datapacket.com
+0 18 18 5354 2 1701419319
+/
+customer.sydyaus1.pop.starlinkisp.net
+0 14 12 6430 5 1701490345
+/
+c-24-126-10-47.hsd1.wv.comcast.net
+0 74 51 93544 7 1701443423
+/
+51.81.200.142
+0 1 1 912 1 1701396127
+/
+172.70.19.154
+0 4 4 1736 1 1701648178
+/
+c-24-126-8-44.hsd1.wv.comcast.net
+0 19 8 3951 6 1701526321
+/
+45-79-26-146.ip.linodeusercontent.com
+0 1 1 0 1 1701600071
+/
+51.81.153.216
+0 1 0 0 0 0
+-
+c-24-126-9-59.hsd1.wv.comcast.net
+0 34 22 16880 6 1701465806
+-
+2606:4700:1101:2:7df1:bbac:31ce:2bd2
+0 6 5 2170 2 1701648178
+/
+sv83.ifastnet.com
+0 3 3 192 0 0
+-
+d173-238-183-191.home4.cgocable.net
+0 3 2 1361 1 1701565275
+/
+51.81.153.189
+0 1 0 0 0 0
+-
+c-24-126-9-242.hsd1.wv.comcast.net
+0 6 4 2227 1 1701565283
+/
+cache.google.com
+0 4 4 2530 2 1701463463
+/
+ns1016491.ip-15-204-183.us
+0 1 1 434 1 1701606131
+/
+143.198.32.236
+0 4 3 1296 1 1701523281
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+157.245.202.27
+0 1 0 0 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://gametest2.node16.xyz
+0 1
+https://gametest2.node16.xyz/
+0 76
+https://www.google.com/
+0 3
+- (Direct Request)
+0 113
+http://gametest2.node16.xyz/game/placelaunchrrr.php/
+0 20
+http://sv83.ifastnet.com:2082/
+0 4
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+0 165
+Cloudflare-SSLDetector
+0 10
+Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)
+0 4
+Roblox/WinInet
+0 20
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+0 4
+COMODO DCV
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.199 Safari/537.36
+0 2
+Apache/2.4.34 (Ubuntu) OpenSSL/1.1.1 (internal dummy connection)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+0 1
+Mozilla/5.0 (Android 4.4; Mobile; rv:70.0) Gecko/70.0 Firefox/70.0
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/119.0.0.0 Mobile/15E148
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.1 Mobile/15E14
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

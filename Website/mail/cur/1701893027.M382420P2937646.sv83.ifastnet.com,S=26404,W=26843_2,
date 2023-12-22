@@ -1,0 +1,439 @@
+Return-Path: <0100018c40baa02f-cb4b8205-8db6-4693-af87-1c0a8049963d-000000@mail.betterstack.com>
+Delivered-To: nodexyz@sv83.ifastnet.com
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id qA0NFaPTcGUu0ywAAQ44CQ
+	(envelope-from <0100018c40baa02f-cb4b8205-8db6-4693-af87-1c0a8049963d-000000@mail.betterstack.com>)
+	for <nodexyz@sv83.ifastnet.com>; Wed, 06 Dec 2023 15:03:47 -0500
+Return-path: <0100018c40baa02f-cb4b8205-8db6-4693-af87-1c0a8049963d-000000@mail.betterstack.com>
+Envelope-to: info@node16.xyz
+Delivery-date: Wed, 06 Dec 2023 20:03:47 +0000
+Received: from e230-74.smtp-out.amazonses.com ([23.251.230.74]:50079)
+	by sv83.ifastnet.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.96.2)
+	(envelope-from <0100018c40baa02f-cb4b8205-8db6-4693-af87-1c0a8049963d-000000@mail.betterstack.com>)
+	id 1rAy7U-00CL5Q-2V
+	for info@node16.xyz;
+	Wed, 06 Dec 2023 20:03:47 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7y2cx54yddpbclhm2ev6dipgrn6u53vb; d=betterstack.com;
+	t=1701893022; i=@email.betterstack.com;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=NNoyb9Bc+D76Byeci9jPxYlsSDjuRLVXAEc0HTDJX5A=;
+	b=Q42m2pNEF9f6oSIoraA18pY8kRZ2vdofGPTwLawXtJYQb+CCfgwuTMcpzy/H+/aj
+	rge8yiw/pmJv38aqGU6FouwU3nnzJu1uV++w4Om9+lTvgFaIomOCrOYOH/A4J2SIdCu
+	VpE9/Kgi7av0klkhtE09iTh3IVLnu51mtG/O97OP6jyrcB5e1Xq11XvmncMNwQY0HQD
+	M2ECWmZt5yYYYBOulzikYcRBtMJZlrgrQxfsPdFTNArtRepT0yuJVaOz+CUdJa2qSW6
+	/VaqCMAilBtNzaNeDg+dcFvE6sXKMNqQg5EgaFqvtjHQZiNYpsm+674urzyhHM6HYqK
+	FdNP+hNcjg==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1701893022;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=NNoyb9Bc+D76Byeci9jPxYlsSDjuRLVXAEc0HTDJX5A=;
+	b=UZq1YRJycn5zIaNUFWrn76WZREajH9XmSR4vQ1K4ovh4r2DFUl4XtWYAjxw9UcJ2
+	2Yplf5D6Fq4SIV4146W0UYGn3kzGn8subLxfjgH5GJ7/kb+vVqw6fpQvsbCwLaUZX86
+	xETJHGT1raN+X0T5zZX6CGbLJeFdBnSGRePq1XTk=
+Date: Wed, 6 Dec 2023 20:03:41 +0000
+From: Better Stack <hello@email.betterstack.com>
+To: info@node16.xyz
+Message-ID: <0100018c40baa02f-cb4b8205-8db6-4693-af87-1c0a8049963d-000000@email.amazonses.com>
+Subject: =?UTF-8?Q?=F0=9F=94=94_Get_notifications_in_your_pocket?=
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Feedback-ID: 1.us-east-1.wcFI9cKjbk4KC0Z5pTUE1sExtV4FopsWkVpjuuGd06k=:AmazonSES
+X-SES-Outgoing: 2023.12.06-23.251.230.74
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sv83.ifastnet.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Better Stack Apps Enable push notifications by downloading
+    our app from App Store or Google Play Helping developers in building a better
+    internet. 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: betterstack.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 DKIM_ADSP_NXDOMAIN     No valid author signature and domain not in
+                             DNS
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micro=
+soft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<title></title>
+<!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3De=
+dge">
+<!--<![endif]--><meta http-equiv=3D"Content-Type" content=3D"text/html; c=
+harset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">
+<style type=3D"text/css">#outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-si=
+ze-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table=
+-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-deco=
+ration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }</style>
+<!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]--><!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]--><!--[if !mso]><!--><link href=3D"https://uptime.bettersta=
+ck.com/font/Inter.css" rel=3D"stylesheet" type=3D"text/css">
+<style type=3D"text/css">@import url(https://uptime.betterstack.com/font/=
+Inter.css);</style>
+<!--<![endif]--><style type=3D"text/css">@media only screen and (min-widt=
+h:620px) {
+        .mj-column-px-540 { width:540px !important; max-width: 540px; }
+.mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-25 { width:25% !important; max-width: 25%; }
+.mj-column-px-520 { width:520px !important; max-width: 520px; }
+      }</style>
+<style media=3D"screen and (min-width:620px)">.moz-text-html .mj-column-p=
+x-540 { width:540px !important; max-width: 540px; }
+.moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100=
+%; }
+.moz-text-html .mj-column-per-25 { width:25% !important; max-width: 25%; =
+}
+.moz-text-html .mj-column-px-520 { width:520px !important; max-width: 520=
+px; }</style>
+<style type=3D"text/css">@media only screen and (max-width:620px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style>
+<style type=3D"text/css">:root { color-scheme: light; supported-color-sch=
+emes: light }
+* { margin: 0; padding: 0 }
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: gray=
+scale }
+
+.heading { font-size: 20px; font-weight: 600; line-height: 1.5; letter-sp=
+acing: -0.01em; color: #121826 }
+strong { font-weight: 600 }
+a { color: #5056ED; text-decoration: none }
+
+[data-ogsb] * { border-color: #555555 !important }
+
+.fake-border { box-shadow: 0 0 0 2px #E2E4E9; border-radius: 12px; }</sty=
+le>
+<meta content=3D"light" name=3D"color-scheme">
+<meta content=3D"light" name=3D"supported-color-schemes">
+<!--[if !mso]><!--><style>table, table td { border: none !important }
+  .align-top { vertical-align: top !important }
+  .align-text-top { vertical-align: text-top !important }
+  .align-middle { vertical-align: middle !important }</style>
+<!--<![endif]--><!--[if mso]><style>
+  .card td { color: #70778C; line-height: 19.5px; font-size: 13px }
+</style><![endif]-->
+</head>
+<body style=3D"word-spacing:normal;background-color:#f8f9fc;">
+<div style=3D"background-color:#f8f9fc;">
+<!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;"=
+ width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:=
+600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D=
+"direction:ltr;font-size:0px;padding:54px 20px 34px 20px;text-align:cente=
+r;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:540px;" ><![endif]--><div class=3D"mj-column-px-540 mj-outlook-group-fi=
+x" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td st=
+yle=3D"vertical-align:top;padding:20px;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td=
+ align=3D"center" class=3D"logo-light" style=3D"font-size:0px;padding:0px=
+;word-break:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;border-sp=
+acing:0px;"><tbody><tr><td style=3D"width:243px;"><a href=3D"https://upti=
+me.betterstack.com/ahoy/messages/l6zqrztfWJf6bxHSee9naH1OuNMEmzrQ/click?s=
+ignature=3D58224251a04a278e2ea4268903aa98dc9a667260&amp;url=3Dhttps%3A%2F=
+%2Fuptime.betterstack.com%3Futm_source%3Duser_mailer%26utm_medium%3Demail=
+%26utm_campaign%3Dinstall_apps" target=3D"_blank"><img alt=3D"Better Stac=
+k" height=3D"auto" src=3D"https://uptime.betterstack.com/assets/static_as=
+sets/email_v2/betterstack-logo-grey-bg.png" style=3D"border:0;display:blo=
+ck;outline:none;text-decoration:none;height:auto;width:100%;font-size:16p=
+x;" width=3D"243"></a></td></tr></tbody></table></td></tr></tbody></table=
+></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"fake-border-outlook" role=3D=
+"presentation" style=3D"width:600px;" width=3D"600" bgcolor=3D"#FFFFFF" >=
+<tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exact=
+ly;"><v:rect style=3D"width:600px;" xmlns:v=3D"urn:schemas-microsoft-com:=
+vml" fill=3D"true" stroke=3D"false"><v:fill origin=3D"0, 0.5" position=3D=
+"0, 0.5" src=3D"https://uptime.betterstack.com/assets/static_assets/email=
+/mobile-apps/devices-background-v2.png" color=3D"#FFFFFF" type=3D"frame" =
+size=3D"600px" aspect=3D"atmost" /><v:textbox style=3D"mso-fit-shape-to-t=
+ext:true" inset=3D"0,0,0,0"><![endif]--><div class=3D"fake-border" style=3D=
+"background:#FFFFFF url('https://uptime.betterstack.com/assets/static_ass=
+ets/email/mobile-apps/devices-background-v2.png') center bottom / 600px n=
+o-repeat;background-position:center bottom;background-repeat:no-repeat;ba=
+ckground-size:600px;margin:0px auto;border-radius:12px;max-width:600px;">=
+<div style=3D"line-height:0;font-size:0;"><table align=3D"center" backgro=
+und=3D"https://uptime.betterstack.com/assets/static_assets/email/mobile-a=
+pps/devices-background-v2.png" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"background:#FFFFFF url('https://upt=
+ime.betterstack.com/assets/static_assets/email/mobile-apps/devices-backgr=
+ound-v2.png') center bottom / 600px no-repeat;background-position:center =
+bottom;background-repeat:no-repeat;background-size:600px;width:100%;borde=
+r-radius:12px;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;paddi=
+ng:50px 0 0 0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" width=3D"600px" ><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=
+=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"=
+line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->=
+<div style=3D"margin:0px auto;max-width:600px;"><table align=3D"center" b=
+order=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" sty=
+le=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;pa=
+dding:0px;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:540px;" ><![endif]--><div class=3D"mj-column-px-540 mj-outlook-group-fi=
+x" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td st=
+yle=3D"vertical-align:top;padding:0px;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:0px;padding-top:0=
+px;word-break:break-word;"><div style=3D"font-family:Inter, -apple-system=
+, system-ui, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-size:36px;fo=
+nt-weight:700;line-height:36px;text-align:center;color:#222838;">Better S=
+tack Apps</div></td></tr>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:0px;padding-top:2=
+0px;word-break:break-word;"><div style=3D"font-family:Inter, -apple-syste=
+m, system-ui, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-size:14px;f=
+ont-weight:400;line-height:23px;text-align:center;color:#222838;"><p styl=
+e=3D"max-width: 330px; width: 100%; text-align: center; margin: 0 auto">E=
+nable push notifications by downloading our app from App Store or Google =
+Play</p></div></td></tr>
+</tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" width=3D=
+"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D=
+"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direct=
+ion:ltr;font-size:0px;padding:20px 0 0 0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"width:600px;" ><![endif=
+]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize:0;line-height:0;text-align:left;display:inline-block;width:100%;direc=
+tion:ltr;">
+<!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" ><tr><td style=3D"vertical-align:top;width:150px;"=
+ ><![endif]--><div class=3D"mj-column-per-25 mj-outlook-group-fix" style=3D=
+"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertica=
+l-align:top;width:25%;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"verti=
+cal-align:top;padding:0px;"><table border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" role=3D"presentation" width=3D"100%"><tbody></tbody></table></=
+td></tr></tbody></table></div>
+<!--[if mso | IE]></td><td style=3D"vertical-align:top;width:150px;" ><![=
+endif]--><div class=3D"mj-column-per-25 mj-outlook-group-fix" style=3D"fo=
+nt-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-a=
+lign:top;width:25%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical=
+-align:top;padding:0px;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td align=3D"cent=
+er" style=3D"font-size:0px;padding:8px;word-break:break-word;"><table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style=3D=
+"width:134px;"><a href=3D"https://uptime.betterstack.com/ahoy/messages/l6=
+zqrztfWJf6bxHSee9naH1OuNMEmzrQ/click?signature=3Dbd13708a9bdf6fdc0fc8376d=
+f1795656f8638f5e&amp;url=3Dhttps%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fbett=
+er-uptime%2Fid1533057735%3Futm_source%3Duser_mailer%26utm_medium%3Demail%=
+26utm_campaign%3Dinstall_apps" target=3D"_blank"><img alt=3D"Download fro=
+m App Store" height=3D"auto" src=3D"https://uptime.betterstack.com/assets=
+/static_assets/email/mobile-apps/app-store-v2.png" style=3D"border:0;disp=
+lay:block;outline:none;text-decoration:none;height:auto;width:100%;font-s=
+ize:16px;" width=3D"134"></a></td></tr></tbody></table></td></tr></tbody>=
+</table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td><td style=3D"vertical-align:top;width:150px;" ><![=
+endif]--><div class=3D"mj-column-per-25 mj-outlook-group-fix" style=3D"fo=
+nt-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-a=
+lign:top;width:25%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical=
+-align:top;padding:0px;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td align=3D"cent=
+er" style=3D"font-size:0px;padding:8px;word-break:break-word;"><table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td style=3D=
+"width:134px;"><a href=3D"https://uptime.betterstack.com/ahoy/messages/l6=
+zqrztfWJf6bxHSee9naH1OuNMEmzrQ/click?signature=3Dfc0f8adaf577b1608a9c3daf=
+1cbd98e1a5b0dcef&amp;url=3Dhttps%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2=
+Fdetails%3Fid%3Dcom.betteruptime.opw%26utm_source%3Duser_mailer%26utm_med=
+ium%3Demail%26utm_campaign%3Dinstall_apps" target=3D"_blank"><img alt=3D"=
+Download from Google Play" height=3D"auto" src=3D"https://uptime.betterst=
+ack.com/assets/static_assets/email/mobile-apps/play-store-v2.png" style=3D=
+"border:0;display:block;outline:none;text-decoration:none;height:auto;wid=
+th:100%;font-size:16px;" width=3D"134"></a></td></tr></tbody></table></td=
+></tr></tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td><td style=3D"vertical-align:top;width:150px;" ><![=
+endif]--><div class=3D"mj-column-per-25 mj-outlook-group-fix" style=3D"fo=
+nt-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-a=
+lign:top;width:25%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"vertical=
+-align:top;padding:0px;"><table border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"presentation" width=3D"100%"><tbody></tbody></table></td>=
+</tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table></td></tr><tr><td class=3D"" width=3D=
+"600px" ><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D=
+"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direct=
+ion:ltr;font-size:0px;padding:0px;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:540px;" ><![endif]--><div class=3D"mj-column-px-540 mj-outlook-group-fi=
+x" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td st=
+yle=3D"vertical-align:top;padding:0;padding-top:18px;"><table border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%=
+"><tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word=
+-break:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"border-collapse:collapse;border-spacing=
+:0px;"><tbody><tr><td style=3D"width:362px;"><img height=3D"auto" src=3D"=
+https://uptime.betterstack.com/assets/static_assets/email/mobile-apps/dev=
+ices-upper@2x.png" style=3D"border:0;display:block;outline:none;text-deco=
+ration:none;height:auto;width:100%;font-size:16px;" width=3D"362"></td></=
+tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table></td></tr></table><![endif]-->
+</td></tr></tbody></table></div></div>
+<!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align=3D"=
+center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D=
+"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"lin=
+e-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><di=
+v style=3D"margin:0px auto;max-width:600px;"><table align=3D"center" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D=
+"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding=
+:0px;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:540px;" ><![endif]--><div class=3D"mj-column-px-540 mj-outlook-group-fi=
+x" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td st=
+yle=3D"vertical-align:top;padding:0px;"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td=
+ align=3D"center" style=3D"font-size:0px;padding:0px;word-break:break-wor=
+d;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><t=
+r><td style=3D"width:362px;"><img height=3D"auto" src=3D"https://uptime.b=
+etterstack.com/assets/static_assets/email/mobile-apps/devices-lower@2x.pn=
+g" style=3D"border:0;display:block;outline:none;text-decoration:none;heig=
+ht:auto;width:100%;font-size:16px;" width=3D"362"></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" styl=
+e=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"margin:0=
+px auto;max-width:600px;"><table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tb=
+ody><tr><td style=3D"direction:ltr;font-size:0px;padding:0px;text-align:c=
+enter;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:520px;" ><![endif]--><div class=3D"mj-column-px-520 mj-outlook-group-fi=
+x" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-bl=
+ock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody><tr><td st=
+yle=3D"vertical-align:top;padding:0 20px;"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%"><tbody>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-break:br=
+eak-word;"><div style=3D"font-family:Inter, -apple-system, system-ui, Bli=
+nkMacSystemFont, 'Segoe UI', sans-serif;font-size:14px;font-weight:400;li=
+ne-height:21px;text-align:center;color:#646E87;"><p>Helping developers in=
+ building a better internet.</p></div></td></tr>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:5px 0;word-break:=
+break-word;">
+<p style=3D"border-top:dashed 1px #DFE3EA;font-size:1px;margin:0px auto;w=
+idth:100%;"></p>
+<!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:dashed 1px #DFE3EA;font-size:1px;ma=
+rgin:0px auto;width:480px;" role=3D"presentation" width=3D"480px" ><tr><t=
+d style=3D"height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-break:br=
+eak-word;"><div style=3D"font-family:Inter, -apple-system, system-ui, Bli=
+nkMacSystemFont, 'Segoe UI', sans-serif;font-size:14px;font-weight:400;li=
+ne-height:21px;text-align:center;color:#646E87;"><p>3501 Jack Northrop Av=
+e #XM642, Hawthorne, CA 90250</p></div></td></tr>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:5px 0;word-break:=
+break-word;">
+<p style=3D"border-top:dashed 1px #DFE3EA;font-size:1px;margin:0px auto;w=
+idth:100%;"></p>
+<!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"border-top:dashed 1px #DFE3EA;font-size:1px;ma=
+rgin:0px auto;width:480px;" role=3D"presentation" width=3D"480px" ><tr><t=
+d style=3D"height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]-->
+</td></tr>
+<tr><td align=3D"center" style=3D"font-size:0px;padding:0px;word-break:br=
+eak-word;"><div style=3D"font-family:Inter, -apple-system, system-ui, Bli=
+nkMacSystemFont, 'Segoe UI', sans-serif;font-size:14px;font-weight:400;li=
+ne-height:21px;text-align:center;color:#646E87;"><p><a style=3D"text-deco=
+ration: underline; color: #646E87" href=3D"https://betterstack.com/unsubs=
+cribe/aW5mb0Bub2RlMTYueHl6/j/eyJqb3VybmV5X3NvdXJjZSI6InVwdGltZSIsImpvdXJu=
+ZXkiOiJpbnN0YWxsX2FwcHMifQ">Unsubscribe</a></p></div></td></tr>
+</tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<img alt=3D"" src=3D"https://uptime.betterstack.com/ahoy/messages/l6zqrzt=
+fWJf6bxHSee9naH1OuNMEmzrQ/open.gif" width=3D"1" height=3D"1">
+</body>
+</html>

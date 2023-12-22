@@ -1,0 +1,788 @@
+Return-Path: <0100018c5964afad-8e9958f9-8558-42fe-accf-d267f1161cc2-000000@mail.betterstack.com>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id qEXwOgkkd2XElSEAAQ44CQ
+	(envelope-from <0100018c5964afad-8e9958f9-8558-42fe-accf-d267f1161cc2-000000@mail.betterstack.com>)
+	for <info@node16.xyz>; Mon, 11 Dec 2023 10:00:25 -0500
+Return-path: <0100018c5964afad-8e9958f9-8558-42fe-accf-d267f1161cc2-000000@mail.betterstack.com>
+Envelope-to: info@node16.xyz
+Delivery-date: Mon, 11 Dec 2023 15:00:26 +0000
+Received: from e230-75.smtp-out.amazonses.com ([23.251.230.75]:36903)
+	by sv83.ifastnet.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.96.2)
+	(envelope-from <0100018c5964afad-8e9958f9-8558-42fe-accf-d267f1161cc2-000000@mail.betterstack.com>)
+	id 1rChlc-009FKM-1Y
+	for info@node16.xyz;
+	Mon, 11 Dec 2023 15:00:25 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7y2cx54yddpbclhm2ev6dipgrn6u53vb; d=betterstack.com;
+	t=1702306820; i=@weekly.betterstack.com;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=Tc6JQIBvdL3znUaOnNO27Fm3XMXGRVPqJBqhwBGpRes=;
+	b=HmPZUpcqB9CvVoNPckbiI9vCCstCzcrqnDLamZHbU+V4vepjUUa6PTlzpPt0Vc3G
+	kZFEKGuTERhAMhdXQHyS94QI5tuZ5cLAsXad9HMWKQ3lAUhvfvFr4TrbpOXB/VvWHMr
+	OVwx+BzloG0yRa/dDkNsUB3BanDYx3R4IGemTSzuGF8R2mWetlU8zZEkmDKkGJvVk7j
+	OfWejwTfx3VaNRMtjRXxtNuUS5lgc2+dtsfXei/GvUzXtm0rAjvDMqhHV3va9ENcRq9
+	v/6NAGt+z/Xc/akXi3gtc/2H9U/AIPJhsXV/wlwX/P8GOOd2eCymrKV1GRiPN0l+kji
+	WdkUmWsoYg==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1702306820;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=Tc6JQIBvdL3znUaOnNO27Fm3XMXGRVPqJBqhwBGpRes=;
+	b=eKHopKL0GOt5xw9EkMZgiRDylFSAYlLIYLfHJ6TRLdEmKLP3WCHM7+wkokzUfZWi
+	Tivt6HOnaWqWa2pkTtomqnrI0wYR5RlrLWylHOTDgEITD0QNwNs18PdpLXzE1gt2Dix
+	HlyFPlRbhswVVDkOCjFsWEPHZKRIBNoeJOgJKKS0=
+Date: Mon, 11 Dec 2023 15:00:20 +0000
+From: Better Stack Weekly <weekly@weekly.betterstack.com>
+To: info@node16.xyz
+Message-ID: <0100018c5964afad-8e9958f9-8558-42fe-accf-d267f1161cc2-000000@email.amazonses.com>
+Subject: Weekly summary for Team Node16
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Feedback-ID: 1.us-east-1.wcFI9cKjbk4KC0Z5pTUE1sExtV4FopsWkVpjuuGd06k=:AmazonSES
+X-SES-Outgoing: 2023.12.11-23.251.230.75
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "sv83.ifastnet.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Juan, your weekly summary is here. See how Node16 performed.
+    Weekly report for Node16 Dec 4th — Dec 10th Overview 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.8 DKIM_ADSP_NXDOMAIN     No valid author signature and domain not in
+                             DNS
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micro=
+soft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<title></title>
+<!--[if !mso]><!--><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3De=
+dge">
+<!--<![endif]--><meta http-equiv=3D"Content-Type" content=3D"text/html; c=
+harset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">
+<style type=3D"text/css">#outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-si=
+ze-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table=
+-rspace:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-deco=
+ration:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }</style>
+<!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]--><!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]--><!--[if !mso]><!--><link href=3D"https://uptime.bettersta=
+ck.com/font/Inter.css" rel=3D"stylesheet" type=3D"text/css">
+<style type=3D"text/css">@import url(https://uptime.betterstack.com/font/=
+Inter.css);</style>
+<!--<![endif]--><style type=3D"text/css">@media only screen and (min-widt=
+h:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-49 { width:49% !important; max-width: 49%; }
+.mj-column-per-50 { width:50% !important; max-width: 50%; }
+      }</style>
+<style media=3D"screen and (min-width:480px)">.moz-text-html .mj-column-p=
+er-100 { width:100% !important; max-width: 100%; }
+.moz-text-html .mj-column-per-49 { width:49% !important; max-width: 49%; =
+}
+.moz-text-html .mj-column-per-50 { width:50% !important; max-width: 50%; =
+}</style>
+<style type=3D"text/css">@media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }</style>
+<style type=3D"text/css">:root {
+  color-scheme: light;
+  supported-color-schemes: light;
+}
+html { -webkit-font-smoothing: antialiased }
+.heading-title { font-size: 24px; font-weight: 600; margin-bottom: 0; lin=
+e-height: 1.4 }
+.heading-title-secondary { font-size: 16px; font-weight: 600; margin-bott=
+om: 0; line-height: 1.4 }
+.heading-subtitle { font-size: 16px; font-weight: normal; margin-top: 16p=
+x; margin-bottom: 0; line-height: 24px; color:#424761; }
+
+.display-1 { font-size: 24px; font-family: "Poppins", Inter, -apple-syste=
+m, system-ui, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-weight: 60=
+0; }
+.display-5 { font-size: 16px; font-weight: 600; }
+
+.text-right { text-align: right !important; }
+.text-subdued { color: #9DA1AF; }
+.text-green { color: #47C186; }
+.text-red { color: #DE3618; }
+.font-weight-medium { font-weight: 500; }
+.white-space-nowrap { white-space: nowrap !important; }
+
+img { vertical-align: middle; }
+
+.card-top { background: white; border-radius: 8px 8px 0 0; border: 1px so=
+lid #F3F3F3; border-bottom: 0; }
+.card-content { background: white; border-radius: 0 0 8px 8px; border: 1p=
+x solid #F3F3F3; border-top: 0; border-bottom-width: 3px; margin-bottom: =
+20px !important; padding: 14px 0; }
+.card-header { border-bottom: 1px solid #E5E7EF; }
+.card-title { line-height: 1.4; color: #9DA1AF; margin: 4px 0; font-size:=
+ 14px; font-weight: 500 }
+
+.overview-incidents-count { font-size: 20px; margin: 0; font-weight: 600;=
+ }
+.overview-incidents-change { margin: 8px 0 0; font-size: 14px; }
+
+.table-column { background: white; border-radius: 8px; border: 1px solid =
+#F3F3F3; border-bottom-width: 3px; margin-bottom: 20px !important; }
+.table-column.mb-0 { margin-bottom: 0 !important; }
+.table thead th { color: #9DA1AF; white-space: nowrap; text-align: left; =
+line-height: 1.4; font-weight: 500; }
+.table th, .table td { padding: 14px 6px; color: #424761; font-size: 13px=
+; }
+.table th.first-child, .table td.first-child { padding-left: 20px; }
+.table th.last-child, .table td.last-child { padding-right: 20px; }
+.table tfoot { border-top: 1px solid #E5E7EF; }
+.table strong { font-weight: 600; }
+.table tbody tr { border-top: 1px solid #E5E7EF; }
+.table tbody tr.bt-0 { border-top: 0; }
+.table tbody tr th.highlighted { background: #FAFBFB; border-radius: 0 0 =
+6px 6px; text-align: left; font-weight: normal; }
+
+.desktop-monitor-name { width: 44%; overflow-wrap: break-word; word-break=
+: break-all; }
+.endpoints-table .day-column { text-align: center; }
+.status-oval { display: block; width: 40px; height: 16px; border-radius: =
+40px; background: #E0E0E1; }
+.day-column--downtime .status-oval { background: #DE3618; }
+.day-column--operational .status-oval { background: #21B062; }
+.endpoints-table .endpoint-summary-row { border-top: 0; }
+.endpoints-table .endpoint-summary-row td { padding-top: 0; color: #9DA1A=
+F; font-weight: 500 }
+.endpoints-table .change-icon { vertical-align: middle; margin-right: 2px=
+; }
+.endpoints-table .icon-explanation { display: inline-block; white-space: =
+nowrap; }
+.endpoints-table .main-mobile-row { display: none; }
+.endpoints-table .main-mobile-row td { padding-bottom: 0; }
+
+.link { color: #0E153A; font-weight: 500; }
+.link--no-decoration { text-decoration: none }
+
+.tweet { margin-bottom: 20px; }
+.tweet-avatar { width: 48px; margin-right: 20px; vertical-align: top; }
+.tweet-avatar, .tweet-content { display: inline-block; }
+.tweet-content { display: inline-block; width: 492px; color: #424761; bac=
+kground: #EEEEF1; padding: 20px; border-radius: 10px; line-height: 1.6; f=
+ont-size: 14px; font-family: Inter, -apple-system, system-ui, sans-serif;=
+ }
+.tweet-content p { margin: 0 0 10px; }
+
+.announcement { font-size: 16px; line-height: 1.6; background: #EEEEF1; b=
+order-radius: 10px; padding: 10px 20px; }
+
+/* mobile */
+@media (max-width: 600px) {
+  .hidden-mobile { display: none !important; }
+
+  .status-oval { width: 100%; height: 10px; }
+
+  .endpoints-table > table { table-layout: fixed !important; }
+  .endpoints-table .day-column { width: 100%; padding-top: 10px; padding-=
+bottom: 10px; }
+  .endpoints-table .desktop-monitor-name { display: none; }
+
+  .endpoints-table .first-child { padding-left: 6px !important; }
+  .endpoints-table .last-child { padding-right: 6px !important; }
+
+  .endpoints-table .main-endpoint-row { border-top: 0; }
+  .endpoints-table .main-mobile-row { display: table-row; }
+  .tweet { padding-left: 20px; padding-right: 20px; }
+  .tweet-avatar { display: none }
+  .tweet-content { width: 100%; display: block; box-sizing: border-box; }=
+
+}
+
+/* desktop */
+@media (min-width: 640px) {
+  .display-1 { font-size: 38px; }
+
+  .hidden-desktop { display: none !important; }
+
+  .desktop-p-0 { padding: 0 !important; }
+  .desktop-pl-0 { padding-left: 0 !important; }
+  .desktop-pr-0 { padding-right: 0 !important; }
+
+  .endpoints-table .endpoint-summary-row td { text-align: right; }
+}</style>
+<link href=3D"https://fonts.googleapis.com/css?family=3DPoppins:600" rel=3D=
+"stylesheet" type=3D"text/css">
+<style>@import url(https://fonts.googleapis.com/css?family=3DPoppins:600)=
+;</style>
+<meta content=3D"light" name=3D"color-scheme">
+<meta content=3D"light" name=3D"supported-color-schemes">
+</head>
+<body style=3D"word-spacing:normal;background-color:#FAFAFA;">
+<div style=3D"display:none;font-size:1px;color:#ffffff;line-height:1px;ma=
+x-height:0px;max-width:0px;opacity:0;overflow:hidden;">Juan, your weekly =
+summary is here. See how Node16 performed.</div>
+<div style=3D"background-color:#FAFAFA;">
+<div style=3D"background: #B7C0D2; height: 5px; width: 100%; max-width: 6=
+60px; margin: 0 auto"></div>
+<!-- header --><!--[if mso | IE]><table align=3D"center" border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D=
+"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:=
+0px;mso-line-height-rule:exactly;"><![endif]--><div style=3D"margin:0px a=
+uto;max-width:600px;"><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody>=
+<tr><td style=3D"direction:ltr;font-size:0px;padding:20px 0;padding-botto=
+m:0;padding-top:40px;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-f=
+ix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-b=
+lock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" w=
+idth=3D"100%"><tbody><tr><td align=3D"left" class=3D"desktop-p-0" style=3D=
+"font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-brea=
+k:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px;=
+"><tbody><tr><td style=3D"width:120px;"><a href=3D"https://uptime.betters=
+tack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/click?signature=3D=
+4724d28d419fb97939d8fa9ad570c9091435ae69&amp;url=3Dhttps%3A%2F%2Fuptime.b=
+etterstack.com%3Futm_source%3Dsummary_mailer%26utm_medium%3Demail%26utm_c=
+ampaign%3Dweekly" target=3D"_blank"><img alt=3D"Better Stack" height=3D"a=
+uto" src=3D"https://uptime.betterstack.com/assets/static_assets/email_v2/=
+betterstack-email-logo.png" style=3D"border:0;display:block;outline:none;=
+text-decoration:none;height:auto;width:100%;font-size:13px;" width=3D"120=
+"></a></td></tr></tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]--><!-- content --><!--[if m=
+so | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D=
+"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rul=
+e:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><=
+table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direct=
+ion:ltr;font-size:0px;padding:20px 0;padding-top:0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-f=
+ix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-b=
+lock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" w=
+idth=3D"100%"><tbody><tr><td align=3D"left" class=3D"desktop-pl-0" style=3D=
+"font-size:0px;padding:10px 25px;word-break:break-word;"><div style=3D"fo=
+nt-family:Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI'=
+, sans-serif;font-size:13px;line-height:1;text-align:left;color:#0E153A;"=
+>
+<h1 class=3D"heading-title">Weekly report for Node16</h1>
+<h4 class=3D"heading-subtitle text-subdued">Dec 4th =E2=80=94 Dec 10th</h=
+4>
+</div></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]--><!-- overview --><!--[if =
+mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"card-top-outlook" role=3D"presentation" style=3D"width=
+:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;ms=
+o-line-height-rule:exactly;"><![endif]--><div class=3D"card-top" style=3D=
+"margin:0px auto;max-width:600px;"><table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:1=
+00%;"><tbody><tr><td style=3D"direction:ltr;font-size:0px;padding:0;text-=
+align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;widt=
+h:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-group-f=
+ix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-b=
+lock;vertical-align:top;width:100%;"><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" w=
+idth=3D"100%"><tbody><tr><td align=3D"left" class=3D"card-header" style=3D=
+"font-size:0px;padding:10px 25px;word-break:break-word;"><div style=3D"fo=
+nt-family:Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI'=
+, sans-serif;font-size:13px;line-height:1;text-align:left;color:#0E153A;"=
+><p class=3D"card-title">Overview</p></div></td></tr></tbody></table></di=
+v>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" class=3D"card-content-outlook" role=3D=
+"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"lin=
+e-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]--><di=
+v class=3D"card-content" style=3D"margin:0px auto;max-width:600px;"><tabl=
+e align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D=
+"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"direction:lt=
+r;font-size:0px;padding:0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:middle;w=
+idth:600px;" ><![endif]--><div class=3D"mj-column-per-100 mj-outlook-grou=
+p-fix" style=3D"font-size:0;line-height:0;text-align:left;display:inline-=
+block;width:100%;direction:ltr;vertical-align:middle;">
+<!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" ><tr><td style=3D"vertical-align:top;width:294px;"=
+ ><![endif]--><div class=3D"mj-column-per-49 mj-outlook-group-fix" style=3D=
+"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertica=
+l-align:top;width:49%;"><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"=
+><tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:10px 25px;w=
+ord-break:break-word;"><div style=3D"font-family:Inter, -apple-system, sy=
+stem-ui, BlinkMacSystemFont, 'Segoe UI', sans-serif;font-size:13px;line-h=
+eight:1;text-align:left;color:#0E153A;">
+<h5 class=3D"overview-incidents-count white-space-nowrap">5 incidents</h5=
+>
+<p class=3D"overview-incidents-change text-subdued"><span class=3D"font-w=
+eight-medium text-red">+5 incidents </span>from previous week</p>
+</div></td></tr></tbody></table></div>
+<!--[if mso | IE]></td><td style=3D"vertical-align:top;width:300px;" ><![=
+endif]--><div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D"fo=
+nt-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-a=
+lign:top;width:50%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%"><t=
+body><tr><td align=3D"right" style=3D"font-size:0px;padding:10px 25px;wor=
+d-break:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"border-collapse:collapse;border-spacin=
+g:0px;"><tbody><tr><td style=3D"width:48px;"><img alt=3D"" height=3D"auto=
+" src=3D"https://uptime.betterstack.com/assets/static_assets/email/incide=
+nts-increase.png" style=3D"border:0;display:block;outline:none;text-decor=
+ation:none;height:auto;width:100%;font-size:13px;" width=3D"48"></td></tr=
+></tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]--><!-- monitors table --><!=
+--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" w=
+idth=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-hei=
+ght-rule:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:60=
+0px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"d=
+irection:ltr;font-size:0px;padding:0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"table-column-outlook" style=3D"ver=
+tical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-10=
+0 mj-outlook-group-fix table-column" style=3D"font-size:0px;text-align:le=
+ft;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top;padding:0;"><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" width=3D"100%"><tbody><tr><td align=3D"left" class=3D"table endpoints=
+-table" style=3D"font-size:0px;padding:0;word-break:break-word;"><table c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0" style=3D"c=
+olor:#000000;font-family:Inter, -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', sans-serif;font-size:13px;line-height:22px;table-layout:=
+auto;width:100%;border:none;">
+<thead><tr>
+<th class=3D"desktop-monitor-name first-child">Monitors</th>
+<th class=3D"day-column day-column--Mon">Mon</th>
+<th class=3D"day-column day-column--Tue">Tue</th>
+<th class=3D"day-column day-column--Wed">Wed</th>
+<th class=3D"day-column day-column--Thu">Thu</th>
+<th class=3D"day-column day-column--Fri">Fri</th>
+<th class=3D"day-column day-column--Sat">Sat</th>
+<th class=3D"day-column day-column--Sun last-child">Sun</th>
+</tr></thead>
+<tbody>
+<tr class=3D"main-mobile-row"><td class=3D"first-child last-child" colspa=
+n=3D"8"><strong><a style=3D"color: #424761; text-decoration: none" href=3D=
+"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65=
+RkDXI/click?signature=3D519e35a63d67b14b59c58c88ca53b508a8fa9a46&amp;url=3D=
+https%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl=
+6MTcwMjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%252Fuptim=
+e.betterstack.com%252Fteam%252F182058%252Fmonitors%252F1601823%26utm_sour=
+ce%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">setup.n=
+ode16.xyz</a></strong></td></tr>
+<tr class=3D"main-endpoint-row">
+<td class=3D"desktop-monitor-name first-child"><strong><a style=3D"color:=
+ #424761; text-decoration: none" href=3D"https://uptime.betterstack.com/a=
+hoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/click?signature=3D519e35a63=
+d67b14b59c58c88ca53b508a8fa9a46&amp;url=3Dhttps%3A%2F%2Fuptime.betterstac=
+k.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcwMjMwNjgxNQ%3D%3D74e415beff=
+%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.betterstack.com%252Fteam%252F=
+182058%252Fmonitors%252F1601823%26utm_source%3Dsummary_mailer%26utm_mediu=
+m%3Demail%26utm_campaign%3Dweekly">setup.node16.xyz</a></strong></td>
+<td class=3D"day-column day-column--Mon day-column--not_monitored"><span =
+class=3D"status-oval"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--downtime"><span class=3D"status-oval"=
+></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational last-child"><span class=3D=
+"status-oval"></span></td>
+</tr>
+<tr class=3D"endpoint-summary-row"><td class=3D"first-child last-child" c=
+olspan=3D"8">
+<img alt=3D"" class=3D"change--decrease change-icon" src=3D"https://uptim=
+e.betterstack.com/assets/static_assets/email/caret-decrease.png" width=3D=
+"8px"> 83.033% availability in the last 6 days</td></tr>
+<tr class=3D"main-mobile-row"><td class=3D"first-child last-child" colspa=
+n=3D"8"><strong><a style=3D"color: #424761; text-decoration: none" href=3D=
+"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65=
+RkDXI/click?signature=3D829d71f0e87215810dc97bdd4483577951c9a171&amp;url=3D=
+https%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl=
+6MTcwMjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%252Fuptim=
+e.betterstack.com%252Fteam%252F182058%252Fmonitors%252F1601822%26utm_sour=
+ce%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">api.nod=
+e16.xyz</a></strong></td></tr>
+<tr class=3D"main-endpoint-row">
+<td class=3D"desktop-monitor-name first-child"><strong><a style=3D"color:=
+ #424761; text-decoration: none" href=3D"https://uptime.betterstack.com/a=
+hoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/click?signature=3D829d71f0e=
+87215810dc97bdd4483577951c9a171&amp;url=3Dhttps%3A%2F%2Fuptime.betterstac=
+k.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcwMjMwNjgxNQ%3D%3D74e415beff=
+%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.betterstack.com%252Fteam%252F=
+182058%252Fmonitors%252F1601822%26utm_source%3Dsummary_mailer%26utm_mediu=
+m%3Demail%26utm_campaign%3Dweekly">api.node16.xyz</a></strong></td>
+<td class=3D"day-column day-column--Mon day-column--not_monitored"><span =
+class=3D"status-oval"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--downtime"><span class=3D"status-oval"=
+></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational last-child"><span class=3D=
+"status-oval"></span></td>
+</tr>
+<tr class=3D"endpoint-summary-row"><td class=3D"first-child last-child" c=
+olspan=3D"8">
+<img alt=3D"" class=3D"change--decrease change-icon" src=3D"https://uptim=
+e.betterstack.com/assets/static_assets/email/caret-decrease.png" width=3D=
+"8px"> 83.081% availability in the last 6 days</td></tr>
+<tr class=3D"main-mobile-row"><td class=3D"first-child last-child" colspa=
+n=3D"8"><strong><a style=3D"color: #424761; text-decoration: none" href=3D=
+"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65=
+RkDXI/click?signature=3D359177252cc5eeee8835e1f96c2d8f3b2238cb0e&amp;url=3D=
+https%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl=
+6MTcwMjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%252Fuptim=
+e.betterstack.com%252Fteam%252F182058%252Fmonitors%252F1601804%26utm_sour=
+ce%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">node16.=
+xyz</a></strong></td></tr>
+<tr class=3D"main-endpoint-row">
+<td class=3D"desktop-monitor-name first-child"><strong><a style=3D"color:=
+ #424761; text-decoration: none" href=3D"https://uptime.betterstack.com/a=
+hoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/click?signature=3D359177252=
+cc5eeee8835e1f96c2d8f3b2238cb0e&amp;url=3Dhttps%3A%2F%2Fuptime.betterstac=
+k.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcwMjMwNjgxNQ%3D%3D74e415beff=
+%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.betterstack.com%252Fteam%252F=
+182058%252Fmonitors%252F1601804%26utm_source%3Dsummary_mailer%26utm_mediu=
+m%3Demail%26utm_campaign%3Dweekly">node16.xyz</a></strong></td>
+<td class=3D"day-column day-column--Mon day-column--not_monitored"><span =
+class=3D"status-oval"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--downtime"><span class=3D"status-oval"=
+></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational last-child"><span class=3D=
+"status-oval"></span></td>
+</tr>
+<tr class=3D"endpoint-summary-row"><td class=3D"first-child last-child" c=
+olspan=3D"8">
+<img alt=3D"" class=3D"change--decrease change-icon" src=3D"https://uptim=
+e.betterstack.com/assets/static_assets/email/caret-decrease.png" width=3D=
+"8px"> 99.786% availability in the last 6 days</td></tr>
+<tr class=3D"main-mobile-row"><td class=3D"first-child last-child" colspa=
+n=3D"8"><strong><a style=3D"color: #424761; text-decoration: none" href=3D=
+"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65=
+RkDXI/click?signature=3D2cb3ab17b3a8c2e0536cd84d24688b4a15feba29&amp;url=3D=
+https%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl=
+6MTcwMjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%252Fuptim=
+e.betterstack.com%252Fteam%252F182058%252Fmonitors%252F1606062%26utm_sour=
+ce%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">forum.n=
+ode16.xyz</a></strong></td></tr>
+<tr class=3D"main-endpoint-row">
+<td class=3D"desktop-monitor-name first-child"><strong><a style=3D"color:=
+ #424761; text-decoration: none" href=3D"https://uptime.betterstack.com/a=
+hoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/click?signature=3D2cb3ab17b=
+3a8c2e0536cd84d24688b4a15feba29&amp;url=3Dhttps%3A%2F%2Fuptime.betterstac=
+k.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcwMjMwNjgxNQ%3D%3D74e415beff=
+%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.betterstack.com%252Fteam%252F=
+182058%252Fmonitors%252F1606062%26utm_source%3Dsummary_mailer%26utm_mediu=
+m%3Demail%26utm_campaign%3Dweekly">forum.node16.xyz</a></strong></td>
+<td class=3D"day-column day-column--Mon day-column--not_monitored"><span =
+class=3D"status-oval"></span></td>
+<td class=3D"day-column day-column--not_monitored"><span class=3D"status-=
+oval"></span></td>
+<td class=3D"day-column day-column--not_monitored"><span class=3D"status-=
+oval"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--operational"><span class=3D"status-ov=
+al"></span></td>
+<td class=3D"day-column day-column--downtime"><span class=3D"status-oval"=
+></span></td>
+<td class=3D"day-column day-column--operational last-child"><span class=3D=
+"status-oval"></span></td>
+</tr>
+<tr class=3D"endpoint-summary-row"><td class=3D"first-child last-child" c=
+olspan=3D"8">
+<img alt=3D"" class=3D"change--decrease change-icon" src=3D"https://uptim=
+e.betterstack.com/assets/static_assets/email/caret-decrease.png" width=3D=
+"8px"> 99.933% availability in the last 4 days</td></tr>
+<tr><th class=3D"highlighted first-child last-child" colspan=3D"8"><img a=
+lt=3D"" src=3D"https://uptime.betterstack.com/assets/static_assets/email/=
+legend.png" style=3D"max-width: 320px"></th></tr>
+</tbody>
+</table></td></tr></tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]--><!-- longest incidents --=
+><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;=
+" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-=
+height-rule:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width=
+:600px;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" role=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=
+=3D"direction:ltr;font-size:0px;padding:0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"table-column-outlook" style=3D"ver=
+tical-align:top;width:600px;" ><![endif]--><div class=3D"mj-column-per-10=
+0 mj-outlook-group-fix table-column" style=3D"font-size:0px;text-align:le=
+ft;direction:ltr;display:inline-block;vertical-align:top;width:100%;"><ta=
+ble border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+" width=3D"100%"><tbody><tr><td style=3D"vertical-align:top;padding:0;"><=
+table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" width=3D"100%"><tbody><tr><td align=3D"left" class=3D"table longest-i=
+ncidents-table" style=3D"font-size:0px;padding:0;word-break:break-word;">=
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0" st=
+yle=3D"color:#000000;font-family:Inter, -apple-system, system-ui, BlinkMa=
+cSystemFont, 'Segoe UI', sans-serif;font-size:13px;line-height:22px;table=
+-layout:auto;width:100%;border:none;">
+<thead><tr>
+<th class=3D"first-child">Longest incidents</th>
+<th class=3D"text-right hidden-mobile">Cause</th>
+<th class=3D"last-child text-right hidden-mobile">Length</th>
+</tr></thead>
+<tbody>
+<tr>
+<td class=3D"first-child">
+<strong><a style=3D"color: #424761; text-decoration: none" href=3D"https:=
+//uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/c=
+lick?signature=3D51b7aad9c7c1e44beac056c5b1877c1c5402e286&amp;url=3Dhttps=
+%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcw=
+MjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.bet=
+terstack.com%252Fteam%252F182058%252Fincidents%252F494176953%26utm_source=
+%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">assetgame=
+.node16.xyz</a></strong><p class=3D"text-subdued hidden-desktop" style=3D=
+"margin: 0 0 8px"><strong><a style=3D"color: #9DA1AF; text-decoration: no=
+ne" href=3D"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquL=
+b2VPlND3N65RkDXI/click?signature=3D51b7aad9c7c1e44beac056c5b1877c1c5402e2=
+86&amp;url=3Dhttps%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0=
+Bub2RlMTYueHl6MTcwMjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%2=
+52F%252Fuptime.betterstack.com%252Fteam%252F182058%252Fincidents%252F4941=
+76953%26utm_source%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3=
+Dweekly">Status 404</a></strong></p>
+<p class=3D"text-subdued hidden-desktop" style=3D"margin: 0">1d 19h</p>
+</td>
+<td class=3D"text-right hidden-mobile">Status 404</td>
+<td class=3D"last-child text-right hidden-mobile white-space-nowrap">1d 1=
+9h</td>
+</tr>
+<tr>
+<td class=3D"first-child">
+<strong><a style=3D"color: #424761; text-decoration: none" href=3D"https:=
+//uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/c=
+lick?signature=3D4cc59be3f095e31cd032da905bad0b6ac754070b&amp;url=3Dhttps=
+%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcw=
+MjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.bet=
+terstack.com%252Fteam%252F182058%252Fincidents%252F494176802%26utm_source=
+%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">setup.nod=
+e16.xyz</a></strong><p class=3D"text-subdued hidden-desktop" style=3D"mar=
+gin: 0 0 8px"><strong><a style=3D"color: #9DA1AF; text-decoration: none" =
+href=3D"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VP=
+lND3N65RkDXI/click?signature=3D4cc59be3f095e31cd032da905bad0b6ac754070b&a=
+mp;url=3Dhttps%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2=
+RlMTYueHl6MTcwMjMwNjgxNQ%3D%3D74e415beff%3Fredirect_to%3Dhttps%253A%252F%=
+252Fuptime.betterstack.com%252Fteam%252F182058%252Fincidents%252F49417680=
+2%26utm_source%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dwee=
+kly">Status 404</a></strong></p>
+<p class=3D"text-subdued hidden-desktop" style=3D"margin: 0">20h 59m</p>
+</td>
+<td class=3D"text-right hidden-mobile">Status 404</td>
+<td class=3D"last-child text-right hidden-mobile white-space-nowrap">20h =
+59m</td>
+</tr>
+<tr>
+<td class=3D"first-child">
+<strong><a style=3D"color: #424761; text-decoration: none" href=3D"https:=
+//uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/c=
+lick?signature=3D1a39ccb71d65a13377e71bc56624f38b55c55b09&amp;url=3Dhttps=
+%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcw=
+MjMwNjgxNg%3D%3D6a9865342b%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.bet=
+terstack.com%252Fteam%252F182058%252Fincidents%252F494176886%26utm_source=
+%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">api.node1=
+6.xyz</a></strong><p class=3D"text-subdued hidden-desktop" style=3D"margi=
+n: 0 0 8px"><strong><a style=3D"color: #9DA1AF; text-decoration: none" hr=
+ef=3D"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlN=
+D3N65RkDXI/click?signature=3D1a39ccb71d65a13377e71bc56624f38b55c55b09&amp=
+;url=3Dhttps%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2Rl=
+MTYueHl6MTcwMjMwNjgxNg%3D%3D6a9865342b%3Fredirect_to%3Dhttps%253A%252F%25=
+2Fuptime.betterstack.com%252Fteam%252F182058%252Fincidents%252F494176886%=
+26utm_source%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekl=
+y">Status 404</a></strong></p>
+<p class=3D"text-subdued hidden-desktop" style=3D"margin: 0">20h 55m</p>
+</td>
+<td class=3D"text-right hidden-mobile">Status 404</td>
+<td class=3D"last-child text-right hidden-mobile white-space-nowrap">20h =
+55m</td>
+</tr>
+<tr>
+<td class=3D"first-child">
+<strong><a style=3D"color: #424761; text-decoration: none" href=3D"https:=
+//uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/c=
+lick?signature=3D3b0a85c24654e78e461f9df1325387ea45448fbb&amp;url=3Dhttps=
+%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcw=
+MjMwNjgxNg%3D%3D6a9865342b%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.bet=
+terstack.com%252Fteam%252F182058%252Fincidents%252F494176909%26utm_source=
+%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">node16.xy=
+z</a></strong><p class=3D"text-subdued hidden-desktop" style=3D"margin: 0=
+ 0 8px"><strong><a style=3D"color: #9DA1AF; text-decoration: none" href=3D=
+"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65=
+RkDXI/click?signature=3D3b0a85c24654e78e461f9df1325387ea45448fbb&amp;url=3D=
+https%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl=
+6MTcwMjMwNjgxNg%3D%3D6a9865342b%3Fredirect_to%3Dhttps%253A%252F%252Fuptim=
+e.betterstack.com%252Fteam%252F182058%252Fincidents%252F494176909%26utm_s=
+ource%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">Stat=
+us 404</a></strong></p>
+<p class=3D"text-subdued hidden-desktop" style=3D"margin: 0">15m</p>
+</td>
+<td class=3D"text-right hidden-mobile">Status 404</td>
+<td class=3D"last-child text-right hidden-mobile white-space-nowrap">15m<=
+/td>
+</tr>
+<tr>
+<td class=3D"first-child">
+<strong><a style=3D"color: #424761; text-decoration: none" href=3D"https:=
+//uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VPlND3N65RkDXI/c=
+lick?signature=3Ddc75418fec54452d1089589770884e41a63fd480&amp;url=3Dhttps=
+%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcw=
+MjMwNjgxNg%3D%3D6a9865342b%3Fredirect_to%3Dhttps%253A%252F%252Fuptime.bet=
+terstack.com%252Fteam%252F182058%252Fincidents%252F496177387%26utm_source=
+%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly">forum.nod=
+e16.xyz</a></strong><p class=3D"text-subdued hidden-desktop" style=3D"mar=
+gin: 0 0 8px"><strong><a style=3D"color: #9DA1AF; text-decoration: none" =
+href=3D"https://uptime.betterstack.com/ahoy/messages/NcXkAeuckkbkCquLb2VP=
+lND3N65RkDXI/click?signature=3Ddc75418fec54452d1089589770884e41a63fd480&a=
+mp;url=3Dhttps%3A%2F%2Fuptime.betterstack.com%2Fusers%2Flink%2FaW5mb0Bub2=
+RlMTYueHl6MTcwMjMwNjgxNg%3D%3D6a9865342b%3Fredirect_to%3Dhttps%253A%252F%=
+252Fuptime.betterstack.com%252Fteam%252F182058%252Fincidents%252F49617738=
+7%26utm_source%3Dsummary_mailer%26utm_medium%3Demail%26utm_campaign%3Dwee=
+kly">Status 503</a></strong></p>
+<p class=3D"text-subdued hidden-desktop" style=3D"margin: 0">3m</p>
+</td>
+<td class=3D"text-right hidden-mobile">Status 503</td>
+<td class=3D"last-child text-right hidden-mobile white-space-nowrap">3m</=
+td>
+</tr>
+</tbody>
+</table></td></tr></tbody></table></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]--><!-- footer --><!--[if ms=
+o | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D"=
+600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule=
+:exactly;"><![endif]--><div style=3D"margin:0px auto;max-width:600px;"><t=
+able align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"width:100%;"><tbody><tr><td style=3D"directi=
+on:ltr;font-size:0px;padding:20px 0;text-align:center;">
+<!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"width:600px;" ><![endif=
+]--><div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-s=
+ize:0;line-height:0;text-align:left;display:inline-block;width:100%;direc=
+tion:ltr;">
+<!--[if mso | IE]><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" ><tr><td style=3D"vertical-align:middle;width:294p=
+x;" ><![endif]--><div class=3D"mj-column-per-49 mj-outlook-group-fix" sty=
+le=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;ve=
+rtical-align:middle;width:49%;"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"vertical-align:middle;" wid=
+th=3D"100%"><tbody><tr><td align=3D"left" class=3D"desktop-pl-0" style=3D=
+"font-size:0px;padding:10px 25px;word-break:break-word;"><table border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"bo=
+rder-collapse:collapse;border-spacing:0px;"><tbody><tr><td style=3D"width=
+:120px;"><a href=3D"https://uptime.betterstack.com/ahoy/messages/NcXkAeuc=
+kkbkCquLb2VPlND3N65RkDXI/click?signature=3D4724d28d419fb97939d8fa9ad570c9=
+091435ae69&amp;url=3Dhttps%3A%2F%2Fuptime.betterstack.com%3Futm_source%3D=
+summary_mailer%26utm_medium%3Demail%26utm_campaign%3Dweekly" target=3D"_b=
+lank"><img alt=3D"Better Stack" height=3D"auto" src=3D"https://uptime.bet=
+terstack.com/assets/static_assets/email_v2/betterstack-email-logo.png" st=
+yle=3D"border:0;display:block;outline:none;text-decoration:none;height:au=
+to;width:100%;font-size:13px;" width=3D"120"></a></td></tr></tbody></tabl=
+e></td></tr></tbody></table></div>
+<!--[if mso | IE]></td><td style=3D"vertical-align:middle;width:300px;" >=
+<![endif]--><div class=3D"mj-column-per-50 mj-outlook-group-fix" style=3D=
+"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertica=
+l-align:middle;width:50%;"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"vertical-align:middle;" width=3D=
+"100%"><tbody><tr><td align=3D"right" class=3D"desktop-pr-0" style=3D"fon=
+t-size:0px;padding:10px 25px;word-break:break-word;"><div style=3D"font-f=
+amily:Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', sa=
+ns-serif;font-size:13px;line-height:1;text-align:right;color:#0E153A;"><a=
+ class=3D"link link--unsubscribe" style=3D"text-decoration: none; color: =
+#0E153A" href=3D"https://betterstack.com/unsubscribe/aW5mb0Bub2RlMTYueHl6=
+/j/eyJqb3VybmV5X3NvdXJjZSI6InVwdGltZSIsImpvdXJuZXkiOiJ3ZWVrbHkifQ">Unsubs=
+cribe</a></div></td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</td></tr></tbody></table></div>
+<!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+<img alt=3D"" src=3D"https://uptime.betterstack.com/ahoy/messages/NcXkAeu=
+ckkbkCquLb2VPlND3N65RkDXI/open.gif" width=3D"1" height=3D"1">
+</body>
+</html>

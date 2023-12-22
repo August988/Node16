@@ -1,0 +1,36 @@
+Return-Path: <forum@node16.xyz>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id 8PzHMWkXfmVvGDwAAQ44CQ
+	(envelope-from <forum@node16.xyz>)
+	for <info@node16.xyz>; Sat, 16 Dec 2023 16:32:25 -0500
+Return-path: <forum@node16.xyz>
+Envelope-to: info@node16.xyz
+Delivery-date: Sat, 16 Dec 2023 21:32:25 +0000
+Received: from nodexyz (helo=node16.xyz)
+	by sv83.ifastnet.com with local-smtp (Exim 4.96.2)
+	(envelope-from <forum@node16.xyz>)
+	id 1rEcGn-00GXG4-2D
+	for info@node16.xyz;
+	Sat, 16 Dec 2023 21:32:25 +0000
+Message-ID: <f0e0c65d3545cd67986fa4c6f35acca3@node16.xyz>
+Date: Sat, 16 Dec 2023 21:32:25 +0000
+Subject: Flarum Email Test
+From: Node16 Forum <forum@node16.xyz>
+To: info@node16.xyz
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hey ROBLOX!
+
+This is a test email to confirm that your Flarum email con=
+figuration is working properly.
+
+If this was you, this email means that=
+ your configuration works!
+
+If this was not you, please ignore this ema=
+il.
+

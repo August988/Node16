@@ -1,0 +1,1744 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202311 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2006                
+POS_TIME 2694                
+POS_VISITOR 46043               
+POS_DAY 71377               
+POS_DOMAIN 3541                
+POS_LOGIN 4322                
+POS_ROBOT 4477                
+POS_WORMS 5162                
+POS_EMAILSENDER 5293                
+POS_EMAILRECEIVER 5436                
+POS_SESSION 71611               
+POS_SIDER 71824               
+POS_FILETYPES 5571                
+POS_DOWNLOADS 5913                
+POS_OS 15412               
+POS_BROWSER 15898               
+POS_SCREENSIZE 18890               
+POS_UNKNOWNREFERER 18964               
+POS_UNKNOWNREFERERBROWSER 20080               
+POS_ORIGIN 20725               
+POS_SEREFERRALS 20869               
+POS_PAGEREFS 21060               
+POS_SEARCHWORDS 21469               
+POS_KEYWORDS 21621               
+POS_MISC 2356                
+POS_ERRORS 21680               
+POS_CLUSTER 4178                
+POS_SIDER_404 21808               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231201000144 1236 336733 13914841694707
+FirstTime 20231125200938
+LastTime 20231130235552
+LastUpdate 20231130225241 1236 0 1235 0 0
+TotalVisits 756                 
+TotalUnique 614                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 646                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+AddToFavourites 0 224 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 294 372 43286429 1083 1272 2092689
+1 148 177 13446078 114 167 19112
+2 117 145 3988770 319 377 41540
+3 65 69 2407222 34 172 21441
+4 43 51 3365046 12 28 6694
+5 26 37 6838925 6 18 11713
+6 30 47 9480027 103 107 15829
+7 20 30 1525136 0 12 9852
+8 6 7 754557 39 47 9450
+9 21 30 781476 12 29 12400
+10 17 20 2261201 2 18 8845
+11 12 14 1510240 5 17 7307
+12 58 100 18381986 17 40 19623
+13 51 57 238880 12 24 102908
+14 159 199 15470640 68 85 16613
+15 62 130 21838662 21 29 7970
+16 24 59 870867 6 14 4584
+17 18 18 28986 226 233 11040
+18 35 45 1540926 100 109 11024
+19 89 92 1671600 936 951 777383
+20 126 143 5033939 57 74 10526
+21 428 513 40653949 885 1027 202572
+22 160 233 23127592 882 976 197735
+23 84 94 3562091 193 266 100396
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 40
+us 927 1116 125339089
+ca 526 646 36778524
+ip 123 167 20632003
+in 76 77 942486
+eu 71 89 9083939
+gb 63 228 6144083
+by 60 76 7597993
+ru 39 41 1552984
+cn 35 38 2790472
+vg 34 34 40083
+jp 28 28 50344
+cl 25 39 2136201
+be 14 14 19729
+gr 10 10 17980
+de 8 9 758716
+ua 6 9 2050906
+au 5 6 751498
+ro 4 5 751524
+il 4 6 890478
+it 4 4 3792
+fr 3 3 5394
+nl 3 5 888572
+tw 2 2 3596
+mk 2 3 72029
+zz 2 2 174
+kr 1 1 1798
+sc 1 1 1047
+bg 1 1 1798
+hn 1 3 3378
+se 2 2 2845
+sg 2 3 746130
+iq 1 1 968
+ie 2 5 1991350
+vn 1 1 1798
+ch 1 1 1798
+sa 2 2 3596
+br 1 1 1798
+gt 1 1 736
+es 1 1 1798
+id 1 1 1798
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+Discordbot/ 32 2322864 20231130221053 0
+Go\-http\-client/ 27 35290 20231130232829 0
+Googlebot/ 14 25172 20231129194108 0
+no_user_agent 9 9072 20231130092106 0
+scanner 8 13821 20231128110221 0
+bingbot/ 7 9752 20231129221825 0
+facebookexternalhit/ 5 748520 20231127192445 0
+curl 4 7192 20231128120329 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 5315 20231127214927 0
+Apache\-HttpClient/ 3 3734 20231127095955 0
+spider 2 1798 20231128034821 0
+Dalvik/ 2 3596 20231128142358 0
+link 1 1798 20231129221242 0
+baidu 1 1798 20231128122148 0
+crawl 1 1798 20231127081923 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+js 15 767028 0 0
+png 260 89945221 0 0
+html 1840 21704728 0 0
+svg 2 28286 0 0
+webp 1 11716 0 0
+php 169 836045 0 0
+mp3 18 40884480 0 0
+Unknown 27 554865 0 0
+pem 2 1764 0 0
+cur 18 77148 0 0
+aspx 30 37099 0 0
+css 99 1717887 0 0
+txt 160 10656 0 0
+gif 34 65487855 0 0
+ashx 7 447 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 132
+/.well-known/pki-validation/06C4981946CDA07B2291905E9FED7511.txt 16 0 1232
+/.well-known/pki-validation/1539EEE8D1795E553670C6E03DE1357E.txt 16 0 1232
+/3dgame/sounds/time/day.mp3 9 0 8471520
+/3dgame/sounds/time/night.mp3 9 0 32412960
+/.well-known/pki-validation/BC18B7BAA85259C139CB3C84BA056727.txt 1 0 64
+/.well-known/pki-validation/56A86865F7549C63AE3C06F9C70769EB.txt 1 0 64
+/.well-known/pki-validation/634E21E5F7F55F7400F0000A06BE5C84.txt 1 0 64
+/.well-known/pki-validation/7B98978C7F2C232813ED5A6E51E5F726.txt 1 0 64
+/.well-known/pki-validation/00E0357FFD8CC1BEE7A4E9AF078A4848.txt 1 0 64
+/.well-known/pki-validation/2DDFD7E8A603F8FD831851A48BD16E85.txt 1 0 64
+/.well-known/pki-validation/79891076BD9C6861D51066DA499B41B4.txt 1 0 64
+/.well-known/pki-validation/B80948EDB23A2D7592800528B8298A23.txt 1 0 64
+/.well-known/pki-validation/0C1C15BC5783C70CB1C9C0EC1BB5C58F.txt 1 0 64
+/.well-known/pki-validation/0CD1F2507DC6CB26AF340100D13A191E.txt 1 0 64
+/.well-known/pki-validation/F0BD53F2EB926A033DC79EC6CC5F76FC.txt 1 0 64
+/.well-known/pki-validation/44283645D2238DC58722683592F34830.txt 1 0 64
+/.well-known/pki-validation/5F185A04869296A760893BB0B2FCBFFC.txt 1 0 64
+/.well-known/pki-validation/E9734DC00B28B944F6D5AAFE64A2F68C.txt 1 0 64
+/.well-known/pki-validation/CA067F1107795135B3F76A91B7250C21.txt 1 0 64
+/.well-known/pki-validation/A6205FD0642260AE86EE7072001A56C5.txt 1 0 64
+/.well-known/pki-validation/940D64ECB8FA14401CAA0100046223BD.txt 1 0 64
+/.well-known/pki-validation/A4AAFDAEAFD1B00563B6B3C609F841BC.txt 1 0 64
+/.well-known/pki-validation/0664A028059F79A2FCD93AF5547810B5.txt 1 0 64
+/.well-known/pki-validation/572E044171464EEA6214FB6BEF2B20E8.txt 1 0 64
+/.well-known/pki-validation/94A61D4F97FFC3EBAA80206838B0E38C.txt 1 0 64
+/.well-known/pki-validation/A138D7E92ED099B2602551C2EF27D597.txt 1 0 64
+/.well-known/pki-validation/3B401A6836474BA25FB5FA356D761887.txt 1 0 64
+/.well-known/pki-validation/7935209FED407154BE3633009D02BBF2.txt 1 0 64
+/.well-known/pki-validation/E10A4B1F4DFC52D30B2A150FB842F159.txt 1 0 64
+/.well-known/pki-validation/B562772FAA9802C60C7AE70560FF5F94.txt 1 0 64
+/.well-known/pki-validation/298D78495A0B10C5FF830AFA5D832078.txt 1 0 64
+/.well-known/pki-validation/61EC428F3236F62FD92F36643885DF5D.txt 1 0 64
+/.well-known/pki-validation/8D51372B4CA199CDC256DFA94CEC0162.txt 1 0 64
+/.well-known/pki-validation/B9156DEE3B064B0C94FC3E24B7135E19.txt 1 0 64
+/.well-known/pki-validation/E42105F10A0D9597D08AA6B89C3B7220.txt 1 0 64
+/.well-known/pki-validation/430EE65257506A7F82883C380F43A8E5.txt 1 0 64
+/.well-known/pki-validation/03402F697B461C97ADA86FD365945956.txt 1 0 64
+/.well-known/pki-validation/41917171C14E49585119B5D5BAAAA972.txt 1 0 64
+/.well-known/pki-validation/5EDFAA181979D13B7ACA618CECE2C84C.txt 1 0 64
+/.well-known/pki-validation/9525A2614A9D2C8A6FA173B428ECEB27.txt 1 0 64
+/.well-known/pki-validation/81D474F22F1C237E10CCF7DFDABA3CFC.txt 1 0 64
+/.well-known/pki-validation/3BE21965F69E11A0D045B73ECC89EFDB.txt 1 0 64
+/.well-known/pki-validation/954BCC0E5CD3835AAE7025E9CE1EAA7B.txt 1 0 64
+/.well-known/pki-validation/DC5B1DFC35DB950ECA2997F0AA35F4BF.txt 1 0 64
+/.well-known/pki-validation/72E9C0E0BFD721136BBE8D94BC5AF1A7.txt 1 0 64
+/.well-known/pki-validation/0B3153AFB3FF84991CD724E7CDFE6886.txt 1 0 64
+/.well-known/pki-validation/645DD805B3299F552C70F249EDCD7D66.txt 1 0 64
+/.well-known/pki-validation/6B888A7445FC4EE049FE9425E991CF25.txt 1 0 64
+/.well-known/pki-validation/22AB99C34E6FFCEF4219E907C0B4942F.txt 1 0 64
+/.well-known/pki-validation/A0DA064581DCB2095222F7F4940514E6.txt 1 0 64
+/.well-known/pki-validation/BE5FA5964795C5C3B0B6FB6C77ABECA4.txt 1 0 64
+/.well-known/pki-validation/00FC8D740C3CBB78F90A23019E997F26.txt 1 0 64
+/.well-known/pki-validation/43FF5C594EC0FA8972FAF268F9128DA0.txt 1 0 64
+/.well-known/pki-validation/4BC60F52B0B1E37996542413DBE090F2.txt 1 0 64
+/.well-known/pki-validation/B8D1CEDA53C87986D4E23B6A0511ED9B.txt 1 0 64
+/.well-known/pki-validation/98CD0BB8A72C4BA3483E49C024629347.txt 1 0 64
+/.well-known/pki-validation/5E2D60BECF8D24D1FDFD477B3727EE61.txt 1 0 64
+/.well-known/pki-validation/D56189C853FBF8F8820332D427AC9017.txt 1 0 64
+/.well-known/pki-validation/E700013FF51F9E8A07F69A3E2C780423.txt 1 0 64
+/.well-known/pki-validation/46C1588370D12DBDCF0D852BF2B83678.txt 1 0 64
+/.well-known/pki-validation/9F878DDE4C365BDC8FB71032F871D845.txt 1 0 64
+/.well-known/pki-validation/F9200BAA06EC477F4538133AF399EFFE.txt 1 0 64
+/.well-known/pki-validation/D974E264BB3C263887431A91B62B64BF.txt 1 0 64
+/.well-known/pki-validation/CD5BCB77F4EE507D6FB93CABE97C60D4.txt 1 0 64
+/.well-known/pki-validation/C276AA2461F8B5C729FF390A44313A6F.txt 1 0 64
+/.well-known/pki-validation/C4826EEB10B24746B15BBE90BC6BFCBD.txt 1 0 64
+/.well-known/pki-validation/81D3D6F9472FF76E7F1341033E640FB0.txt 1 0 64
+/.well-known/pki-validation/4CF5B49B51FEC1E6D22D0789BFD9083D.txt 1 0 64
+/.well-known/pki-validation/3F82DC8927138BC0EE15D070153C4B36.txt 1 0 64
+/.well-known/pki-validation/9A82FD60F4D6A6D7DBD77495B1C05E62.txt 1 0 64
+/.well-known/pki-validation/C774609B4434E7C4D34B6777FAE9BCEB.txt 1 0 64
+/.well-known/pki-validation/FE12948E871B4885837C00AF1E50854B.txt 1 0 64
+/.well-known/pki-validation/9BA6C677924FE173DCBFD5E5E8CE30F7.txt 1 0 64
+/.well-known/pki-validation/DD4AC2BD6A898D026E55B15D1AE04D46.txt 1 0 64
+/.well-known/pki-validation/7CB4BCC8031CB2744A82C30369FEF70D.txt 1 0 64
+/.well-known/pki-validation/2AD00074CE02E9D076BEED5450598A87.txt 1 0 64
+/.well-known/pki-validation/81FD165CE1D2D903521B61D48163A4F9.txt 1 0 64
+/.well-known/pki-validation/E4339B407161E08521A6EC720A31DD00.txt 1 0 64
+/.well-known/pki-validation/BAC91C1A20DDFD6A303310B2E3D597D5.txt 1 0 64
+/.well-known/pki-validation/BC49D653E3DBB8AC04C5F48442917E44.txt 1 0 64
+/.well-known/pki-validation/3725B605019584BEB7D15BB68E830908.txt 1 0 64
+/.well-known/pki-validation/664B907A585BC2D91BED6951BAF3FADF.txt 1 0 64
+/.well-known/pki-validation/3F45C38F9544BEBAF8A48177BF4F22E4.txt 1 0 64
+/.well-known/pki-validation/9751E8C83EC9EED1225605B1659B17C1.txt 1 0 64
+/.well-known/pki-validation/968C1EEABA66FA1498ACEA055941824C.txt 1 0 64
+/.well-known/pki-validation/CA12117C355D557A18AFA7CC8A16DA15.txt 1 0 64
+/.well-known/pki-validation/FA688313C2BABB22F2D08BB12EF0AB68.txt 1 0 64
+/.well-known/pki-validation/BFA08657691DFBC5B91FE4ACC483C9AE.txt 1 0 64
+/.well-known/pki-validation/3A6465065CA7E2C79DE9C8D3090779F7.txt 1 0 64
+/.well-known/pki-validation/9286B9F7D729AEA3749FCEFA2C3B705A.txt 1 0 64
+/.well-known/pki-validation/7A7E86C19C963A28C82E7ACD2895997A.txt 1 0 64
+/.well-known/pki-validation/BD4972C9F7C94850979E857BB739B9B6.txt 1 0 64
+/.well-known/pki-validation/040C0AAB6CCC7B4315188F4746CEAC24.txt 1 0 64
+/.well-known/pki-validation/00461840B010A3F8B6C2EE70F945C95D.txt 1 0 64
+/.well-known/pki-validation/502717B4F4EEBC84D07C4EDE0FD2CC49.txt 1 0 64
+/.well-known/pki-validation/56B957A3E76E10DE7B94202506F70E72.txt 1 0 64
+/.well-known/pki-validation/B3C0313BF4F46257BE058770C2E114C6.txt 1 0 64
+/.well-known/pki-validation/EEADAB44B097B1724B95F43833C47CEF.txt 1 0 64
+/.well-known/pki-validation/75E8248B112B8694ED99400053D7149B.txt 1 0 64
+/.well-known/pki-validation/F049DE1BC6B86705557E7F207D659C12.txt 1 0 64
+/.well-known/pki-validation/2B5AC1D52C6151EE11AE92A36ACED7A4.txt 1 0 64
+/.well-known/pki-validation/CE39287CE734381746582A3185074070.txt 1 0 64
+/.well-known/pki-validation/E16449223BB56C929F46C181019CEC18.txt 1 0 64
+/.well-known/pki-validation/B9E32BE974ACE52ACA1C36BBA74D5933.txt 1 0 64
+/.well-known/pki-validation/A0ED5F1DC03DB25A662C957741EC8A83.txt 1 0 64
+/.well-known/pki-validation/EC640AE534379283270E3207469DC7F7.txt 1 0 64
+/.well-known/pki-validation/F8EFEE961F7B8BF070607AB0D5F37CE4.txt 1 0 64
+/.well-known/pki-validation/30D3C46A69BD834801575805BC7F0A30.txt 1 0 64
+/.well-known/pki-validation/A1C1C5003639E1C9202F7E73C62B0BD1.txt 1 0 64
+/.well-known/pki-validation/B0B44F5EFE320D01DD177F235D6A06A8.txt 1 0 64
+/.well-known/pki-validation/75C6B4730F9E0D370011B4CA3F87A80B.txt 1 0 64
+/.well-known/pki-validation/38E608110489A064E642BCB57C63CC73.txt 1 0 64
+/.well-known/pki-validation/F096F7D023D5D44E5BDFEDE8170EF2CC.txt 1 0 64
+/.well-known/pki-validation/6C5137C9F9FAFAA843E7B5378AF15027.txt 1 0 64
+/.well-known/pki-validation/74C4643CFD3271B56748FC47C955675C.txt 1 0 64
+/.well-known/pki-validation/4773DB3CAD79B1816C567714EC4EB18A.txt 1 0 64
+/.well-known/pki-validation/D572AC103CA24FD014102202B48C7D00.txt 1 0 64
+/.well-known/pki-validation/DEA838886EC289C79CC5407426CF320D.txt 1 0 64
+/.well-known/pki-validation/B28D2453DA939BF1A6FB75D49EA2D272.txt 1 0 64
+/.well-known/pki-validation/FAABC8803E1766A3E2C19C78988A29FD.txt 1 0 64
+/.well-known/pki-validation/9E123669A98CFDC25FF1FB94B100EB25.txt 1 0 64
+/.well-known/pki-validation/E6153A82F4D80A8ACEB4762946A7DDFB.txt 1 0 64
+/.well-known/pki-validation/0DDA390056C651250DF7A01A845F0884.txt 1 0 64
+/.well-known/pki-validation/B8C5E3F28D88D6E38A8A61603D8D5BF4.txt 1 0 64
+/.well-known/pki-validation/F3E06A9B587EAC283F1052A1F0DBC33E.txt 1 0 64
+/.well-known/pki-validation/A4C6EA86722E2934B72E67D0AB2B3153.txt 1 0 64
+/.well-known/pki-validation/A25460C90E3BD0B51300ECCE66DA6C6B.txt 1 0 64
+/.well-known/pki-validation/AD764E84EAE6BA1F5B883525F1D1B17F.txt 1 0 64
+/.well-known/pki-validation/BFE81D397E1E8F5EC6F18466E6B5ED57.txt 1 0 64
+/.well-known/pki-validation/15042CC77ED25177E0421702047BE4A2.txt 1 0 64
+/.well-known/pki-validation/1A22BA40F70911DB4D9D228AD7B5A181.txt 1 0 64
+/.well-known/pki-validation/C41627306941D8D430F4F365A35E815E.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 29
+unix 54 13
+macosx10 1 0
+win7 17 15
+androidkitkat 1 1
+android10 88 58
+macosx6 2 2
+linux 82 60
+macosx12 1 1
+androidmarshmallow 10 10
+winxp 3 3
+winnt 1 1
+android 31 22
+win8.1 63 40
+symbian 1 1
+macosx15 37 35
+androidpie 2 2
+androidlollipop 2 2
+linuxubuntu 3 3
+macosx7 1 1
+macosx 14 2
+win8 215 181
+win2003 2 2
+androidgingerbread 1 1
+macosx9 1 1
+ios_iphone 135 117
+win10 1359 1131
+Unknown 548 383
+androidoreo 6 4
+macosx14 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 141
+netscape5.0 2 2
+chrome88.0.4324.181 1 1
+chrome30.0.1599.17 1 1
+chrome116.0.0.0 7 6
+chrome113.0.0.0 2 2
+chrome110.0.5481.100 4 3
+chrome112.0.0.0 2 2
+chrome85.0.4183.127 1 1
+chrome97.0.4692.99 2 2
+chrome87.0.4280.88 4 2
+firefox65.0 1 1
+chrome70.0.3538.77 5 5
+chrome85.0.4183.102 2 1
+firefox64.0 2 2
+chrome89.0.4389.114 9 9
+chrome99.0.4844.83 1 1
+chrome117.0.5938.132 22 13
+safari 222 186
+chrome98.0.4758.102 5 3
+edge17 2 2
+chrome94.0.4606.61 33 33
+chrome4.0.203.0 1 1
+chrome36.0.1985.135 1 1
+chrome79.0.3945.79 6 3
+chrome111.0.5563.65 2 2
+firefox109.0 2 1
+chrome55.0.2883.87 6 6
+chrome84.0.4147.89 2 2
+firefox108.0 1 1
+opera104.0.0.0 10 5
+chrome116.0.5845.140 6 3
+chrome69.0.3497.81 1 1
+chrome57.0.2987.132 1 1
+chrome111.0.0.0 2 2
+chrome114.0.0.0 6 4
+chrome99.0.4844.51 2 2
+chrome111.0.5563.116 4 2
+chrome101.0.4951.41 1 1
+safari10.0 8 6
+chrome31.0.1650.63 1 1
+chrome12.0.706.0 1 1
+chrome2.0.172.0 1 1
+firefox56.2.4 1 1
+chrome118.0.0.0 78 31
+chrome85.0.4183.121 1 1
+safari17.0.1 18 13
+firefox29.0 1 1
+chrome100.0.4896.60 3 3
+firefox115.0 68 42
+chrome109.0.0.0 4 2
+chrome2.0.177.0 1 1
+chrome3.0.195.21 1 1
+firefox63.0 1 1
+chrome83.0.4103.97 4 4
+chrome101.0.4951.61 1 1
+chrome107.0.0.0 5 5
+chrome2.0.174.0 1 1
+chrome115.0.0.0 9 5
+nokia 1 1
+safari13.0.3 65 65
+chrome86.0.4240.110 1 1
+chrome28.0.1467.0 1 1
+firefox119.0 22 17
+chrome117.0.0.0 8 8
+chrome17.0.963.66 1 1
+iphone 1 1
+safari16.6 2 2
+chrome105.0.0.0 1 1
+firefox35.0 1 1
+chrome80.0.3987.132 2 1
+chrome35.0.1916.47 1 1
+chrome88.0.4240.193 20 20
+firefox53.0 1 1
+chrome119.0.0.0 1167 947
+chrome63.0.3239.108 2 2
+chrome10.0.648.204 1 1
+chrome80.0.3987.162 4 4
+firefox60.0 1 1
+chrome80.0.3987.149 6 5
+chrome102.0.5005.63 1 1
+chrome108.0.0.0 22 16
+chrome60.0.3112.113 1 1
+chrome80.0.3987.119 1 1
+chrome11.0.696.14 1 1
+chrome16.0.912.63 1 1
+chrome100.0.860.0 1 0
+chrome55.0.291 1 1
+safari17.1.1 4 4
+chrome36.0.802.0 1 1
+edge12 8 5
+firefox52.9 1 1
+chrome104.0.0.0 4 3
+firefox92.0 11 0
+Unknown 480 316
+chrome62.0.3202.94 2 2
+chrome103.0.5060.114 5 5
+chrome61.0.3163.100 2 1
+chrome103.0.249 1 1
+chrome19.0.1084.9 1 1
+chrome74.0.3729.169 1 1
+chrome58.0.3029.110 2 2
+chrome105.0.2062 1 1
+chrome84.0.2589 1 1
+safari16.1 16 8
+chrome52.0.3105.98 6 6
+cloudflare 18 18
+chrome119.0.6045.105 4 2
+chrome76.0.3809.111 1 1
+chrome88.0.2429 1 1
+chrome100.0.4896.127 1 1
+chrome118.0.5993.80 4 4
+firefox77.0 2 2
+firefox54.0 1 1
+chrome91.0.4472.114 1 1
+chrome37.0.874.0 1 1
+chrome102.0.0.0 12 12
+safari15.5 1 1
+firefox121.0 2 2
+chrome78.0.2885 1 1
+mozilla 44 43
+chrome83.0.4103.61 5 5
+chrome21.0.1180.83 5 3
+chrome109.0.5414.46 5 3
+chrome78.0.3904.108 27 27
+chrome86.0.4240.198 1 1
+firefox69.0 1 1
+safari17.1 9 8
+chrome73.0.3683.86 1 1
+chrome119.0.6045.159 8 4
+chrome71.0.3578.141 1 1
+chrome106.0.0.0 3 3
+firefox33.0 6 6
+chrome86.0.4240.111 3 3
+chrome110.0.0.0 22 21
+firefox98.0 6 6
+firefox118.0 1 1
+chrome81.0.4044.138 2 2
+chrome55.0.826.0 1 1
+chrome0.2.149.27 1 1
+chrome79.0.3945.130 2 2
+chrome73.0.3683.103 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 24
+Mozilla/5.0_Firefox/33.0 20231128051056
+Python/3.10_aiohttp/3.9.0 20231127144327
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20231126195619
+Python/3.11_aiohttp/3.8.4 20231128193754
+python-requests/2.27.1 20231127105902
+python-requests/2.25.1 20231127215304
+python-httpx/0.25.1 20231126170431
+Cloudflare-SSLDetector 20231130233550
+Mozilla/5.0_Firefox/35.0 20231127014131
+python-requests/2.31.0 20231130025004
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231127035228
+python-requests/2.21.0 20231127092705
+Mozilla/5.0_(compatible;_Dataprovider.com) 20231127165740
+Sectigo_DCV 20231125223919
+Python/3.6_aiohttp/3.5.4 20231127145222
+webtech/1.2.11 20231127133806
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231129005253
+axios/1.4.0 20231126195923
+Softaculous 20231130000301
+Roblox/WinInet 20231128000959
+undici 20231129093147
+python-requests/2.22.0 20231127215639
+cortex/1.0 20231125220759
+COMODO_DCV 20231129092426
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 17
+COMODO_DCV 20231129092426
+python-requests/2.31.0 20231130025004
+cortex/1.0 20231125220759
+python-requests/2.21.0 20231127092705
+undici 20231129093147
+Roblox/WinInet 20231128000959
+python-requests/2.22.0 20231127215639
+Softaculous 20231130000301
+axios/1.4.0 20231126195923
+python-httpx/0.25.1 20231126170431
+python-requests/2.25.1 20231127215304
+python-requests/2.27.1 20231127105902
+Python/3.11_aiohttp/3.8.4 20231128193754
+Sectigo_DCV 20231125223919
+Python/3.10_aiohttp/3.9.0 20231127144327
+Python/3.6_aiohttp/3.5.4 20231127145222
+webtech/1.2.11 20231127133806
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1769 1960
+From1 0 0
+From2 12 12
+From3 21 36
+From4 291 674
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_ie 2 2
+www_google_com 9 9
+baidu 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://mail.node16.xyz 9 17
+http://sv83.ifastnet.com:2082 4 4
+https://sv83.ifastnet.com:2083 3 3
+http://mail.node16.xyz 3 5
+https://www.gametest.node16.xyz 2 2
+https://mail.node16.xyz/static/img/maintenance.png 0 4
+https://storage-maddox.000webhostapp.com 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 2734 0
+500 1 550
+404 2614 228072
+301 382 116021
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 393
+/web/20160718154330im_/https://t4.rbxcdn.com/7d16a6312061cf1076c3e33cca2af838 1 https://www.admin.node16.xyz/
+/livewire/livewire.js 1 https://node16.xyz/
+/test/home/lol/gotcha/node16.com_files/c4dab426a4c2108f1d9f88e3204889e6 1 https://node16.xyz/test/home/lol/gotcha/
+/sitemap.txt 1 -
+/wp/wp-admin/setup-config.php 1 www.google.com
+/.git/config 15 -
+/test/home/lol/gotcha/node16.com_files/8a762994af1e122de8ac427005ac3d9b.png 1 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/5316-6d1ab7e81dff61d0.js 2 https://www.node16.xyz/
+/assets/js/app-id-4bbc03704dda6e4b3476.js 1 https://node16.xyz/
+/old/ 1 -
+/_next/static/chunks/3241-594810dd25bf9532.js 2 https://node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/f9d6953aebf90492ba912e4e62a860ed 9 https://node16.xyz/test/home/lol/gotcha/
+/humans.txt 3 http://www.node16.xyz/humans.txt
+/GetAllowedMD5Hashes/index 1 -
+/Thumbs/Avatar.asmx/js 2 https://node16.xyz/image/
+/s/player/63e90c30/player_ias.vflset/en_US/remote.js 1 https://node16.xyz/
+/web/20160718154330im_/https://t1.rbxcdn.com/54a0f4145dab7eb054359e6e3050e176 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/seal 21 https://node16.xyz/test/home/lol/gotcha/
+/sitemap/sitemap.xml 1 -
+/_next/static/chunks/5166-93361169db9cbf09.js 2 https://www.node16.xyz/
+/wp-content/ 1 -
+/undefined 1 https://node16.xyz/
+/test/home/lol/gotcha/node16.com_files/seg 1 https://node16.xyz/test/home/lol/gotcha/
+/image/ 3 -
+/test/home/lol/gotcha/ROBLOX.com_files/d8d05001369d0bceef38a07ebd2dda1c 63 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/ROBLOX.com_files/316a6dffaa1158bc97f90a204eb130b7 13 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/2844-57974992dfbcc16f.js 2 https://www.node16.xyz/
+/styles/hypixel-v2/images/footer/blue-avatar.png 1 https://node16.xyz/
+/CharacterFetch.ashx 1 -
+/_next/static/chunks/pages/_app-1e6cc140e56ea0d4.js 2 https://www.node16.xyz/
+/test/home/lol/gotcha/node16.com_files/MicrosoftAjax.js 1 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330im_/https://t6.rbxcdn.com/ee20277e047efdc76d308df47fcfcfc9 1 https://www.admin.node16.xyz/
+//cdn.js 22 -
+/sitemap.php 1 -
+/js/xf/preamble.min.js 1 https://node16.xyz/
+/web/20160718154330js_/https://ajax.aspnetcdn.com/ajax/4.5.1/1/MicrosoftAjaxWebForms.js 1 https://www.admin.node16.xyz/
+/js/hsts.js 3 https://forum.node16.xyz/
+/_next/static/j3ptO0zY9caKxuVHGZq3N/_buildManifest.js 2 https://www.node16.xyz/
+/games 2 -
+/kewl 1 -
+/login.action 6 -
+/catalog/ 1 -
+/timg/rbx 5 https://node16.xyz/
+/cg-bin/ 1 -
+/web/20160718154330im_/https://t7.rbxcdn.com/85029b7693f796fd87ca333fa21a882b 1 https://www.admin.node16.xyz/
+/old/wp-admin/setup-config.php 1 www.google.com
+/static/img/bg-drop_down_btn.png 64 https://www.node16.xyz/IDE/ClientToolbox.aspx/
+/admin/ 7 -
+/_next/static/chunks/c31f1870-720c63e45c0ae903.js 2 https://www.node16.xyz/
+/_next/static/chunks/pages/dash/shorts-ec6c34b5bd8f2d61.js 2 https://www.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/BestFriends.css 6 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/pages/dash/user/settings-e3d0952a522a70e1.js 2 https://www.node16.xyz/
+/game/report-stats 83 https://node16.xyz/
+/main.js 1 -
+/yourhelper 1 -
+/RussianPostz/tb.php 8 -
+/GetRecentlyVisitedPlaces.ashx 61 https://node16.xyz/test/home/lol/gotcha/
+//wordpress/wp-admin/setup-config.php 1 www.google.com
+/web/20160718154330js_/https://www.node16.xyz/js/jquery/jquery-migrate-1.2.1.js 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/gpt.js 2 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330js_/https://ajax.aspnetcdn.com/ajax/4.5.1/1/WebForms.js 1 https://www.admin.node16.xyz/
+/home/ 2 -
+/web/20160718154330im_/https://t1.rbxcdn.com/d7c3fb557331374bf3731f9c3b0d3ba4 1 https://www.admin.node16.xyz/
+/_next/static/chunks/pages/privacy-cc340dc718fa3331.js 2 https://www.node16.xyz/
+/minecraft-twerk.gid 1 -
+/web/20160718154330im_/https://images.rbxcdn.com/b84cdb8c0e7c6cbe58e91397f91b8be8.png 2 https://www.admin.node16.xyz/
+/s/player/63e90c30/player_ias.vflset/en_US/base.js 1 https://node16.xyz/
+/sitemap.xml 20 -
+/wp/ 1 -
+/_next/static/chunks/763-0041905adf97984a.js 2 https://www.node16.xyz/
+//IDE/ClientToolbox.aspx 4 -
+/debug/default/view 6 -
+/test/home/lol/gotcha/ROBLOX.com_files/MicrosoftAjax.js 6 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/ROBLOX.com_files/8a762994af1e122de8ac427005ac3d9b.png 4 https://node16.xyz/test/home/lol/gotcha/
+/assets/img/finnobe3logo.png 1 https://node16.xyz/
+//wp-includes/ID3/license.txt 9 -
+/assets/releases/v5.10.0/css/brands.css 1 https://node16.xyz/
+/_next/static/chunks/pages/dash/files/uploads-e3ebb26f9a06d6af.js 2 https://www.node16.xyz/
+/web/20160718154330im_/https://t2.rbxcdn.com/a22eea9dbaebf7cb7f758f500254bf56 1 https://www.admin.node16.xyz/
+/_next/static/chunks/d0447323-864c4c427721cc3e.js 2 https://www.node16.xyz/
+/web/20160718154330im_/https://t2.rbxcdn.com/7b9d188923efc9e4f4ef0a50743e0260 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/e998fb4c03e8c2e30792f2f3436e9416.gif 4 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/node16.com_files/4111f0f738c237c65ed4047aece12d6c 1 https://node16.xyz/test/home/lol/gotcha/
+/russianfederation 8 -
+//old/wp-admin/setup-config.php 1 www.google.com
+/wp-admin/install.php 1 -
+/static/admin/javascript/hetong.js 3 -
+/3ds1633693954432212 9 -
+/test/home/lol/gotcha/node16.com_files/osd.js 1 https://node16.xyz/test/home/lol/gotcha/
+/config.json 6 -
+/js/xf/lightbox-compiled.js 1 https://node16.xyz/
+/test/home/lol/gotcha/node16.com_files/jquery-1.7.2.min.js 1 https://node16.xyz/test/home/lol/gotcha/
+/assets/css/app-id-e2fe3521460c959f9e8f.css 1 https://node16.xyz/
+/styles/fonts/fa/fa-regular-400.woff2 1 https://node16.xyz/
+/_next/static/j3ptO0zY9caKxuVHGZq3N/_ssgManifest.js 2 https://www.node16.xyz/
+/3ds.php 10 -
+/image/serversplash.png 2 https://node16.xyz/
+/web/20160718154330im_/https://t4.rbxcdn.com/71b4db9371f8f4bd54f172139da010fa 1 https://www.admin.node16.xyz/
+/js/simpleslider/simpleslider.min.js 1 https://node16.xyz/
+/web/20160718154330im_/https://t7.rbxcdn.com/27524747fb1f76b23e269ca1c0b8fe1c 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/node16.com_files/BestFriends.css 1 https://node16.xyz/test/home/lol/gotcha/
+/misc/ajax.js 6 -
+/web/20160718154330im_/https://t0.rbxcdn.com/6888cd8967105c10505a392fdc38ce50 1 https://www.admin.node16.xyz/
+/js/hashcash/worker.js 1 https://node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/seg 38 https://node16.xyz/test/home/lol/gotcha/
+/s/player/63e90c30/www-player.css 1 https://node16.xyz/
+/test/home/lol/gotcha/node16.com_files/0184aa2e2c447c5b6211374e1ba2a90a 2 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/framework-a2363dd3c3dbe572.js 2 https://www.node16.xyz/
+/sitemap/index.xml 1 -
+/game/visit.ashx 4 -
+/static/img/unapprove-60x62.Png 69 https://www.node16.xyz/IDE/ClientToolbox.aspx/
+/_next/static/css/25ea4d054657ce8b.css 2 https://www.node16.xyz/
+/games/moreresultsuncached 1 https://node16.xyz/image/
+/My/Places.aspx&version=0.303.1.144437 18 -
+/.DS_Store 6 -
+/api/client/ToolBox.aspx 1 -
+/web/20160718154330im_/https://t3.rbxcdn.com/d0ac75e8daeba888f056cd33e3e199bd 1 https://www.admin.node16.xyz/
+/cPanel_magic_revision_1664874715/unprotected/cpanel/style_v2_optimized.css 1 https://node16.xyz/
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//blog/wp-admin/setup-config.php 1 www.google.com
+/css.php 2 https://node16.xyz/
+/server-status 6 -
+/test/home/lol/gotcha/node16.com_files/bed87dced341d944b093b1f9c9b148d7 1 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/ROBLOX.com_files/ga.js 7 https://node16.xyz/test/home/lol/gotcha/
+/js/hypixel/core/playNow.js 1 https://node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/0184aa2e2c447c5b6211374e1ba2a90a 70 https://node16.xyz/test/home/lol/gotcha/
+/styles/fonts/fa/fa-brands-400.woff2 1 https://node16.xyz/
+/.env 3 -
+/navigation/userdata 1 https://node16.xyz/image/
+/static/img/bg-tab-active.png 64 https://www.node16.xyz/IDE/ClientToolbox.aspx/
+/chat/data 7 https://node16.xyz/image/
+/s/search/audio/success.mp3 1 https://node16.xyz/
+/wordpress/ 1 -
+/s/player/63e90c30/player_ias.vflset/en_US/offline.js 1 https://node16.xyz/
+/s/search/audio/open.mp3 1 https://node16.xyz/
+/games/ 1 -
+/_next/static/chunks/pages/tos-df37c79628b89cc9.js 2 https://www.node16.xyz/
+/web/20160718154330im_/https://t4.rbxcdn.com/ed8c03b3e07a782bec4dfb1345fd7e5c 1 https://www.admin.node16.xyz/
+/dist/umd/popper.min.js 20 -
+/web/20160718154330im_/https://images.rbxcdn.com/4fc3a98692c7ea4d17207f1630885f68.png 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/efe86a4cae90d4c37a5d73480dea4cb1.png 4 https://node16.xyz/test/home/lol/gotcha/
+/join 2 -
+/js/vendor/vendor-compiled.js 1 https://node16.xyz/
+/megaballsftp 1 -
+/games/moreresultscached 5 https://node16.xyz/image/
+/smf/ 4 -
+/login/ 1 -
+/Error/Dmp.ashx 226 -
+/test/home/lol/gfotcha/ 1 -
+/js/xf/core-compiled.js 1 https://node16.xyz/
+/ads.txt 4 http://www.node16.xyz/ads.txt
+/js/xf/notice.min.js 1 https://node16.xyz/
+/wp-login.php 5 -
+/YourHelper 1 -
+/administrator/index.php 6 -
+/fixprice 8 -
+/test/home/lol/gotcha/ROBLOX.com_files/jquery-1.7.2.min.js 7 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/node16.com_files/ga.js 1 https://node16.xyz/test/home/lol/gotcha/
+/js/hypixel/news/featured-items.js 1 https://node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/osd.js 5 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330js_/https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js 1 https://www.admin.node16.xyz/
+/Game/MachineConfiguration.ashx 1 -
+/web/20160718154330im_/https://t6.rbxcdn.com/972178ea052f902b4a78544a871eddac 1 https://www.admin.node16.xyz/
+/view-source: 6 -
+/Game/LoadPlaceInfo.ashx 16 -
+/readme.html 1 -
+/_next/static/chunks/pages/dash/files/settings-f783288f3347a0de.js 2 https://www.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/urchin.js 3 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330js_/https://js.rbxcdn.com/e67b413c9056ca52e49b129e8d332909.js 1 https://www.admin.node16.xyz/
+/web/20160718154330im_/https://images.rbxcdn.com/d649b9c54a08dcfa76131d123e7d8acc.png 2 https://www.admin.node16.xyz/
+/Thumbs/Asset.asmx/js 2 https://node16.xyz/image/
+/web/20160718154330im_/https://t0.rbxcdn.com/036dcf14760bd2985e1e6ef3ad4aeffe 1 https://www.admin.node16.xyz/
+/core/ 1 -
+/_next/static/chunks/pages/dash/donate-a1f94843051ad1e4.js 2 https://www.node16.xyz/
+/discover/ 2 https://forum.node16.xyz/
+/cPanel_magic_revision_1648610195/unprotected/cpanel/fonts/open_sans/open_sans.min.css 1 https://node16.xyz/
+/sitemapindex.xml 1 -
+/megaballszftp 1 -
+/test/home/lol/gotcha/ROBLOX.com_files/07487bc51b2c69df705e34a6e238f08c 3 https://node16.xyz/test/home/lol/gotcha/
+/assets/css/site.css 1 https://node16.xyz/
+/My/Places.aspx&showlogin=True 3 -
+/yourhelper/login 1 -
+/_next/static/chunks/webpack-1be243bfa0b44b67.js 2 https://www.node16.xyz/
+/yourhelper/index.php 1 -
+//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js 20 -
+/_next/static/chunks/4191-6b8ba9ee947ab167.js 2 https://www.node16.xyz/
+/web/20160718154330im_/https://t3.rbxcdn.com/19324dac28bd5492e5be515c9986458c 1 https://www.admin.node16.xyz/
+/web/20160718154330js_/https://js.rbxcdn.com/a3697efa36c353add7ef8f66e26d2e34.js 1 https://www.admin.node16.xyz/
+/My/index.php 5 https://www.node16.xyz/My/Places.aspx&version=0.303.1.144437
+/s/search/audio/no_input.mp3 1 https://node16.xyz/
+/s/search/audio/failure.mp3 1 https://node16.xyz/
+/_next/static/chunks/pages/%5Bid%5D-32dfeaa5c44fc3d3.js 2 https://www.node16.xyz/
+/_next/static/chunks/3151-a8530ce5ac142c36.js 2 https://www.node16.xyz/
+/sitemap1.xml 1 -
+/_next/static/chunks/252f366e-e6ab085e72168946.js 2 https://www.node16.xyz/
+/api/ 2 -
+/_next/static/chunks/312-2da8b713506e9cf9.js 2 https://www.node16.xyz/
+//OLD/wp-admin/setup-config.php 1 www.google.com
+/test/home/lol/gotcha/node16.com_files/ec4e85b0c4396cf753a06fade0a8d8af.gif 1 https://node16.xyz/test/home/lol/gotcha/
+/forum/ 1 -
+/web/20160718154330im_/https://t7.rbxcdn.com/30a44d925216dd1aad94c18714fa6d55 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/pubads_impl_30.js 1 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/pages/dash/integrations-372804ab17d7347a.js 2 https://www.node16.xyz/
+/_next/static/chunks/pages/dash/files-0c42c989341d545c.js 2 https://www.node16.xyz/
+/s/player/63e90c30/player_ias.vflset/en_US/miniplayer.js 1 https://node16.xyz/
+/test/home/lol/gotcha/node16.com_files/164e80229d83c8b6e55b1eb671887e54.png 1 https://node16.xyz/test/home/lol/gotcha/
+/Tatneftwxa/tb.php 8 -
+/%7D 1 -
+/_next/static/chunks/9038-cc674e6b8dec387b.js 2 https://www.node16.xyz/
+/wp-admin/setup-config.php 2 -
+/files/interior-designer-from-scratch-to-pro.html 8 -
+/images/ice-cream-1024.png 1 https://node16.xyz/
+/My/ 1 -
+/web/20160718154330js_/https://www.node16.xyz/js/jquery/jquery-1.11.1.js 1 https://www.admin.node16.xyz/
+/_all_dbs 6 -
+/license.txt 1 -
+/Lenta-wa 8 -
+/s/player/63e90c30/player_ias.vflset/en_US/captions.js 1 https://node16.xyz/
+/apple-touch-icon.png 1 -
+/test/home/lol/gotcha/ROBLOX.com_files/ff153e9e7c36ff977858edc942083051 9 https://node16.xyz/test/home/lol/gotcha/
+/assets/js/vendor-id-0a688bea04d34662c8c5.js 1 https://node16.xyz/
+/game/gameserver.ashx 2 -
+/API_Stuff 1 -
+/security.txt 2 http://www.node16.xyz/security.txt
+/game/logout.aspx 38 -
+/Public/home/js/check.js 5 -
+/web/20160718154330cs_/https://static.rbxcdn.com/css/MainCSS___5cddc74fc45cf2bb2de8265865a0f87b_m.css/fetch 1 https://www.admin.node16.xyz/
+/telescope/requests 6 -
+/test/home/lol/gotcha/ROBLOX.com_files/c4dab426a4c2108f1d9f88e3204889e6 63 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/pages/faq-53184301a46882ec.js 2 https://www.node16.xyz/
+/CSS/navbar.css 1 https://node16.xyz/
+/bruhhttps://node16.xyz/bruh 1 -
+//wp/wp-admin/setup-config.php 1 www.google.com
+/yourhelper/admin.php 1 -
+/web/20160718154330if_/https://www.node16.xyz/Login/iFrameLogin.aspx 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/8ed6b064a35786706f738c0858345c11.png 4 https://node16.xyz/test/home/lol/gotcha/
+/about 6 -
+/_next/static/css/e6628ce32f421bf6.css 2 https://www.node16.xyz/
+/My/Places.aspx 19 -
+/.well-known/security.txt 2 http://www.node16.xyz/.well-known/security.txt
+/web/20160718154330/https://js.rbxcdn.com/8db82e6d725b907e91441b849cc35e47.js 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/f0443c9bf1dd79661fce85ecec129d0d 63 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330im_/https://images.rbxcdn.com/e998fb4c03e8c2e30792f2f3436e9416.gif 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/node16.com_files/e998fb4c03e8c2e30792f2f3436e9416.gif 1 https://node16.xyz/test/home/lol/gotcha/
+/v2/_catalog 6 -
+/Game/PlaceLauncher.ashx 6 http://www.node16.xyz/Game/PlaceLauncher.ashx
+/bruh 10 -
+/web/20160718154330js_/https://ajax.aspnetcdn.com/ajax/4.5.1/1/MicrosoftAjax.js 1 https://www.admin.node16.xyz/
+/sitemap-index.xml 1 -
+/ide/toolbox 1 -
+/test/home/lol/gotcha/node16.com_files/facepile.htm 1 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/node16.com_files/d8d05001369d0bceef38a07ebd2dda1c 1 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330cs_/https://static.rbxcdn.com/css/page___c9c0bf9807c51dab7f7d436a5ffc59df_m.css/fetch 1 https://www.admin.node16.xyz/
+/signup/ 2 -
+/web/20160718154330/https://js.rbxcdn.com/3368571372da9b2e1713bb54ca42a65a.js 1 https://www.admin.node16.xyz/
+/s/player/63e90c30/player_ias.vflset/en_US/inline_preview.js 1 https://node16.xyz/
+/Game/index.php 2 https://node16.xyz/Game/index.php
+/err/index.php 2 https://node16.xyz/err/index.php
+//code.jquery.com/jquery-3.5.1.slim.min.js 22 -
+/web/20160718154330im_/https://images.rbxcdn.com/7aee41db80c1071f60377c3575a0ed87.ico 1 https://www.admin.node16.xyz/
+/s/9313e2333313e27323e2538313/_/ 6 -
+/test/home/lol/gotcha/ROBLOX.com_files/17055d26d12f1f3113b95498478142ce 13 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330im_/https://images.rbxcdn.com/8b0052e4ff81d8e14f19faff2a22fcf7.png 1 https://www.admin.node16.xyz/
+/minecraft-twerk.gif 4 -
+/web/20160718154330im_/https://images.rbxcdn.com/4a3f96d30df0f7879abde4ed837446c6.png 1 https://www.admin.node16.xyz/
+/api 1 -
+/OLD/wp-admin/setup-config.php 1 www.google.com
+/assets/bzr7dxi.css 1 https://node16.xyz/
+//asset/GetScriptState.ashx 10 -
+/web/20160718154330im_/https://images.rbxcdn.com/38db481d8e9c04ce960b4f49cbf94af2.png 1 https://www.admin.node16.xyz/
+/test/home/lol/games 1 https://node16.xyz/test/home/lol/gotcha/
+/blog/wp-admin/setup-config.php 1 www.google.com
+/_next/static/chunks/3659-41c115421ea6497a.js 2 https://www.node16.xyz/
+/_next/static/chunks/8855-a574472097cd0b0e.js 2 https://www.node16.xyz/
+/test/home/lol/gotcha/node16.com_files/7be0fc39343608e796de90d97186f72c 2 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330/https://js.rbxcdn.com/c14a216bd7773e7b637b4e6c3c2e619d.js 1 https://www.admin.node16.xyz/
+/styles/hypixel-v2/images/header-logo.png 1 https://node16.xyz/
+/rusagro 8 -
+/home/updatestatus 1 https://node16.xyz/test/home/lol/gotcha/
+//wp-admin/setup-config.php 1 www.google.com
+/apple-touch-icon-precomposed.png 1 -
+/yesnot 1 -
+/usercheck/show-tos 1 https://node16.xyz/
+/web/20160718154330im_/https://images.rbxcdn.com/793dc1fd7562307165231ca2b960b19a.png 2 https://www.admin.node16.xyz/
+/_next/static/chunks/pages/index-be0a631852c6a220.js 2 https://www.node16.xyz/
+/avatar-thumbnails 2 https://node16.xyz/image/
+/merchant/code 10 -
+/thumbs/asset.ashx 40 -
+/static/img/MaintenanceGoof.png/ 26 https://node16.xyz/
+/web/20160718154330im_/https://t6.rbxcdn.com/19b7830372f838052b85f6132449beca 1 https://www.admin.node16.xyz/
+/js/clipboard/clipboard.min.js 1 https://node16.xyz/
+/index/php 2 -
+/test/home/lol/gotcha/ROBLOX.com_files/1ea8de3b0f71a67b032b67ddc1770c78.png 5 https://node16.xyz/test/home/lol/gotcha/
+/site/ 1 -
+/kfc 8 -
+/merchant/z/payment/ 10 -
+/_next/static/chunks/main-1603b0cdefd5f8d9.js 2 https://www.node16.xyz/
+/web/20160718154330im_/https://t3.rbxcdn.com/1daafca6f703d740d8cff055875c116f 1 https://www.admin.node16.xyz/
+/game/GetCurrentUser.ashx 62 -
+/_next/static/chunks/31664189-e332846a43ed3b89.js 2 https://www.node16.xyz/
+/js/vue/vue.min.js 1 https://node16.xyz/
+/web/20160718154330im_/https://t6.rbxcdn.com/9e1c8dfb1992fdec6b696ee2caa71893 1 https://www.admin.node16.xyz/
+/login/RequestAuth.ashx 8 -
+/test/home/lol/gotcha/ROBLOX.com_files/4111f0f738c237c65ed4047aece12d6c 63 https://node16.xyz/test/home/lol/gotcha/
+/sitemap.xml.gz 1 -
+/test/home/lol/gotcha/node16.com_files/1ea8de3b0f71a67b032b67ddc1770c78.png 1 https://node16.xyz/test/home/lol/gotcha/
+/test/home/lol/gotcha/ROBLOX.com_files/5c0ab8090c02bb29581b8849c8bfa642 13 https://node16.xyz/test/home/lol/gotcha/
+/assets/releases/v5.10.0/css/fontawesome.css 1 https://node16.xyz/
+/assets/js/manifest-id-01c8731923a46c30aaed.js 1 https://node16.xyz/
+/forum 1 -
+/tag-sitemap.xml 1 -
+/russia-w1 8 -
+/f 2 https://www.google.com/
+/game/IDE 2 -
+/test/home/lol/gotcha/ROBLOX.com_files/1736a3b6a65aba70d74e80cdbba532de 13 https://node16.xyz/test/home/lol/gotcha/
+//backup/wp-admin/setup-config.php 1 www.google.com
+/_next/static/chunks/7525-e7dde5a66d304061.js 2 https://www.node16.xyz/
+/static/css/Toolbox.css 3 https://node16.xyz/IDE/ClientToolbox.aspx/
+/test/home/lol/gotcha/ROBLOX.com_files/4ec0c6c40a454f2f6537946d00f09b56.png 1 https://node16.xyz/test/home/lol/gotcha/
+/IDE/ClientToolbox.aspx 11 -
+/game/static 1 -
+/lenta 8 -
+/GetAllowedMD5Hashs 1 -
+/admin/index.php 5 -
+/robots.txt 44 -
+/cgi-bin/ 3 -
+/ScriptResource.axd 4 https://node16.xyz/image/
+/sitemap_index/xml 1 -
+/web/20160718154330im_/https://images.rbxcdn.com/7c8d7a39b4335931221857cca2b5430b.png 1 https://www.admin.node16.xyz/
+/wordpress/wp-admin/setup-config.php 1 www.google.com
+//feed/ 9 -
+/test/home/lol/gotcha/node16.com_files/f0443c9bf1dd79661fce85ecec129d0d 1 https://node16.xyz/test/home/lol/gotcha/
+/err/ 2 -
+/i 1 -
+/forums/ 1 -
+/web/20160718154330/https://js.rbxcdn.com/4acfdab2e6131feb84d783765b82a888.js 1 https://www.admin.node16.xyz/
+/web/20160718154330if_/https://www.node16.xyz/userads/1 1 https://www.admin.node16.xyz/
+/web/20150208004256cs_/https://www.roblox.com/CSS/Base/CSS/FetchCSS 4 https://node16.xyz/
+/vps/ 1 -
+/test/home/lol/gotcha/ROBLOX.com_files/164e80229d83c8b6e55b1eb671887e54.png 4 https://node16.xyz/test/home/lol/gotcha/
+/lenta-wa 8 -
+/test/home/lol/gotcha/ROBLOX.com_files/facepile.htm 39 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330im_/https://t6.rbxcdn.com/8068b38912f821dd9824ca9cc359b668 1 https://www.admin.node16.xyz/
+/web/20160718154330im_/https://t5.rbxcdn.com/18a4799e8a643fba28ebbaa6b3b648de 1 https://www.admin.node16.xyz/
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 6 -
+/cPanel_magic_revision_1645403871/unprotected/cpanel/images/cpanel-logo.svg 1 https://node16.xyz/
+/s/player/63e90c30/player_ias.vflset/en_US/endscreen.js 1 https://node16.xyz/
+/static/css/plswait.css 36 https://node16.xyz/
+/web/20160718154330im_/https://t1.rbxcdn.com/82243d5c723c6b3a22e78aff4ddc8b8f 1 https://www.admin.node16.xyz/
+/assets/img/diu_16.png 1 https://node16.xyz/
+/aeroflot 8 -
+/signup.php 1 -
+/test/home/lol/gotcha/ROBLOX.com_files/7be0fc39343608e796de90d97186f72c 87 https://node16.xyz/test/home/lol/gotcha/
+/web/20160718154330im_/https://images.rbxcdn.com/6e23e4971ee146e719fb1abcb1d67d59.png 1 https://www.admin.node16.xyz/
+/backup/wp-admin/setup-config.php 1 www.google.com
+/_next/static/chunks/95b64a6e-4498083fcf8721f7.js 2 https://www.node16.xyz/
+/image/index.php 10 https://node16.xyz/image/index.php
+/test/home/lol/gotcha/node16.com_files/efe86a4cae90d4c37a5d73480dea4cb1.png 1 https://node16.xyz/test/home/lol/gotcha/
+/assets/js/settings-id-dd31c892fbf657cf5b38.js 1 https://node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/bed87dced341d944b093b1f9c9b148d7 63 https://node16.xyz/test/home/lol/gotcha/
+//UploadMedia/PostImage.aspx 3 -
+/_next/static/chunks/1339-5d175560e66b90a3.js 2 https://www.node16.xyz/
+/transneft 8 -
+/UploadMedia/UploadVideo.aspx 3 -
+/test/home/lol/gotcha/ROBLOX.com_files/ec4e85b0c4396cf753a06fade0a8d8af.gif 4 https://node16.xyz/test/home/lol/gotcha/
+/feedifications/get 61 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/pages/dash-02b91fc0c75d83db.js 2 https://www.node16.xyz/
+/category-sitemap.xml 1 -
+/CSS/homepage1.css 1 https://node16.xyz/
+/web/20160718154330im_/https://images.rbxcdn.com/4bed93c91f909002b1f17f05c0ce13d1.gif 1 https://www.admin.node16.xyz/
+/games.php 1 -
+/test/home/lol/gotcha/ROBLOX.com_files/3a3aa21b169be06d20de7586e56e3739.png 1 https://node16.xyz/test/home/lol/gotcha/
+/images/Accounts/ProgressIndicator.gif 1 https://node16.xyz/image/
+/web/20160718154330js_/https://ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js 1 https://www.admin.node16.xyz/
+/test/home/lol/gotcha/ROBLOX.com_files/045d304a6d5dc78e3bcfa6f64b2c780d 7 https://node16.xyz/test/home/lol/gotcha/
+/static/img/maintenance.png 1 https://node16.xyz/
+/IDE/welcome.php 1 -
+/sberbank-yh/tb.php 8 -
+/.vscode/sftp.json 6 -
+/web/20160718154330js_/https://js.rbxcdn.com/c55982be90aee588f799ba26ede12190.js 1 https://www.admin.node16.xyz/
+/admin/panel.php 1 -
+/backup/ 1 -
+/styles/fonts/fa/fa-solid-900.woff2 1 https://node16.xyz/
+/UploadMedia/index.php 6 http://www.node16.xyz/UploadMedia/index.php
+/public_ftp 1 -
+/megaballzftp 1 -
+/test/home/lol/gotcha/ROBLOX.com_files/8739c638360017bc222dc7e54641a4f7 13 https://node16.xyz/test/home/lol/gotcha/
+/_next/static/chunks/3282-b8e629ee2c01ee89.js 2 https://www.node16.xyz/
+//My/Places.aspx 2 -
+/static/img/img-dropdown_arrow.png 66 https://www.node16.xyz/IDE/ClientToolbox.aspx/
+/tatneft 8 -
+/web/20160718154330im_/https://images.rbxcdn.com/e060b59b57fdcc7874c820d13fdcee71.svg 2 https://www.admin.node16.xyz/
+/aeroflot-fry/tb.php 8 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 646
+173.238.183.191 204 244 10669645 20231130213811
+142.93.246.195 127 143 7618647 20231127024122
+24.126.8.242 78 87 9051356 20231126040204
+142.113.200.85 78 109 5521868 20231126133503
+24.126.8.245 69 74 4314992 20231125215758
+178.120.22.94 58 74 7562753 20231128165317
+142.113.186.73 55 76 6893384 20231130224954
+47.231.180.114 52 61 5188304 20231129220208
+68.33.202.215 46 48 3554341 20231130221219
+157.245.81.161 41 74 8260929 20231126190850
+24.126.8.221 35 48 7554043 20231130143725
+89.39.107.196 34 34 40083 20231126191330
+138.199.22.107 32 48 8077885 20231127020528
+24.126.9.212 29 29 16989 20231130140359
+68.183.34.62 24 24 553985 20231126035359
+138.199.21.197 22 24 152417 20231126145251
+51.15.73.89 20 20 3147129 20231127023213
+34.207.114.204 20 20 24700 20231126170432
+167.99.206.212 16 16 42060 20231126141526
+2600:1700:1c60:6d40:90f:a8e1:4e83:d357 15 17 1509252 20231126210358
+2a02:d247:6100:9463:1:1:be34:c64d 15 28 6475729 20231128065656
+138.199.22.98 14 14 849428 20231130222816
+68.33.203.38 14 16 820097 20231127020705
+178.128.84.228 10 10 17980 20231130202541
+2001:1970:5425:e400:51f2:cdd7:b06d:b37 10 10 17174 20231126152349
+24.126.8.176 3 4 748859 20231128013837
+35.231.137.239 0 1 1984437 
+191.101.41.164 1 1 1235 20231126200145
+162.222.195.123 1 1 1798 20231128064543
+216.73.161.60 1 1 1798 20231127215501
+45.80.158.52 1 1 1798 20231129173505
+207.241.232.189 1 1 721 20231125211510
+174.138.84.205 2 2 2984 20231129221624
+212.102.57.91 2 2 1896 20231125224310
+43.135.164.74 1 1 1798 20231128090015
+24.144.94.85 1 1 1798 20231127191354
+45.92.229.116 1 1 604 20231125214333
+195.201.41.238 1 1 1798 20231127000610
+216.73.161.52 2 2 3596 20231127215503
+44.220.251.59 3 3 1235 20231126195923
+216.73.161.51 1 1 1798 20231127215319
+45.79.26.146 3 3 0 20231130164646
+45.90.60.81 1 1 1798 20231127073256
+34.222.128.25 1 1 1798 20231129191654
+129.226.158.26 2 2 3596 20231130210634
+190.148.87.34 1 1 736 20231125212427
+45.90.63.168 1 1 1798 20231130014546
+34.97.228.180 1 2 746130 20231127004416
+44.228.242.45 2 2 1798 20231128164844
+173.239.211.196 2 2 3596 20231127215444
+45.130.83.66 2 2 2362 20231126014918
+192.42.116.175 0 1 744332 
+95.177.163.4 1 1 1798 20231130034246
+45.130.83.80 2 2 2416 20231126015009
+95.164.159.15 0 1 790 
+199.45.155.32 1 1 1798 20231127223832
+23.82.137.76 1 1 1798 20231128064513
+34.118.88.70 1 1 1798 20231128020345
+149.40.50.70 1 2 746130 20231129055427
+198.147.22.231 1 1 645 20231125214119
+34.118.89.25 1 1 1798 20231128020150
+43.130.47.136 1 1 1798 20231129121208
+73.147.72.174 8 13 200884 20231126021659
+173.252.83.1 0 1 1984437 
+66.220.149.13 1 2 1837 20231125220421
+2600:1700:6a30:7140:1cc7:2eaf:3215:56d 1 1 1798 20231128194927
+45.92.229.134 3 3 2739 20231125220134
+77.28.228.10 2 3 72029 20231127005615
+45.130.83.93 1 1 604 20231125214340
+87.236.176.145 1 1 1235 20231126160716
+173.252.111.4 0 1 790 
+179.104.243.90 1 1 1798 20231127092705
+176.53.218.107 1 1 1798 20231127175351
+3.66.167.124 2 3 747928 20231127125554
+93.159.230.88 1 1 948 20231125225517
+146.70.133.72 1 1 613 20231125214051
+67.220.86.160 1 1 1798 20231130224342
+176.53.221.140 1 1 1798 20231127094227
+109.69.66.101 1 1 1798 20231127133806
+45.130.83.84 1 1 1235 20231126015008
+34.222.202.100 1 1 1798 20231129105705
+205.169.39.156 2 3 747928 20231127005717
+34.219.196.17 1 1 1798 20231127092219
+45.92.229.182 1 1 1181 20231126014518
+185.246.173.191 1 2 746130 20231128123914
+216.73.161.5 1 1 1235 20231126200136
+195.211.77.142 1 1 647 20231125214124
+23.178.112.203 1 1 87 20231125215620
+89.104.110.248 1 1 1798 20231127180933
+63.88.73.139 1 2 746130 20231128004440
+34.220.16.150 3 3 4268 20231127045206
+5.189.180.74 1 1 1798 20231127145222
+161.35.106.26 1 1 1798 20231128071555
+45.90.62.98 1 1 1798 20231129001251
+14.215.163.132 1 1 1798 20231127035845
+138.199.60.178 2 2 3596 20231130053255
+54.81.73.53 1 1 1798 20231128000940
+43.205.115.123 1 1 1798 20231130025004
+173.239.211.190 1 1 1798 20231127215436
+31.94.37.208 2 2 1772 20231125213103
+154.95.32.64 1 1 1047 20231125215613
+136.144.19.29 1 1 4286 20231125225020
+65.154.226.171 3 5 1494058 20231128102818
+216.73.161.55 1 1 1798 20231127215645
+89.104.100.121 1 1 1798 20231127003056
+146.190.74.9 3 3 6182 20231125232924
+45.130.83.99 1 1 645 20231125214151
+3.129.209.196 1 2 746130 20231127154118
+199.116.118.231 1 1 948 20231125223949
+45.92.229.194 1 1 1235 20231126015010
+68.33.204.182 1 2 746130 20231129072159
+2001:550:1d05:1::5 1 2 746130 20231129053158
+130.180.200.34 1 2 141829 20231125211922
+3.19.141.138 2 2 174 20231125215620
+2600:3000:1511:200::81 1 1 87 20231126195619
+89.163.242.42 2 2 3596 20231127031623
+86.154.85.218 2 2 3596 20231128064543
+67.205.184.71 1 1 1798 20231129183404
+34.122.147.229 1 1 1798 20231128025448
+66.220.149.116 0 1 1984437 
+191.101.41.146 1 1 1235 20231126015001
+216.73.161.64 2 2 3596 20231127215532
+141.94.174.211 1 1 1798 20231127042056
+89.104.101.234 1 1 1798 20231129175731
+2001:1970:5425:e400:5291:6beb:99ed:a991 1 1 134225 20231126035705
+51.158.65.22 1 1 1798 20231127204529
+173.239.211.197 1 1 1798 20231127215105
+58.49.233.126 1 1 1798 20231129230614
+47.89.195.210 1 1 1798 20231128095503
+31.13.127.12 0 1 1984437 
+173.239.211.191 1 1 1798 20231127215423
+54.242.160.41 1 1 1235 20231126191151
+63.135.161.210 1 1 1235 20231126200057
+2605:aa80:0:9::3 3 3 5394 20231128064514
+20.235.243.146 4 4 7192 20231128074733
+66.115.182.143 1 2 746130 20231129055427
+43.134.89.111 1 1 1798 20231127150015
+88.0.90.25 1 1 1798 20231128164809
+206.189.104.88 1 1 1798 20231130012309
+45.92.229.119 1 1 828 20231125214430
+68.235.50.234 2 3 747928 20231127125555
+198.13.62.122 1 1 1798 20231127134214
+195.88.252.196 4 4 7192 20231130103905
+34.97.238.26 1 2 746130 20231128015800
+173.239.211.105 1 1 1235 20231126200446
+3.209.10.111 4 4 6629 20231128231900
+176.53.222.2 1 1 1798 20231129181406
+199.45.155.33 4 4 7192 20231129005253
+45.92.229.118 5 5 3326 20231125214450
+173.239.211.185 1 1 1798 20231127215311
+43.159.128.172 1 1 1798 20231129180050
+45.154.228.157 1 1 1235 20231126185205
+45.87.212.57 2 2 1442 20231125212010
+35.238.8.211 2 2 1208 20231125214412
+43.159.129.209 1 1 1798 20231129123034
+176.53.219.26 1 1 1798 20231129074753
+2602:fc05::21 1 1 1798 20231127044957
+175.178.76.152 1 1 1235 20231126022229
+104.164.173.103 1 1 1047 20231125215741
+3.109.157.113 2 2 1896 20231125231748
+84.252.95.135 1 1 1798 20231127125554
+191.102.161.235 1 1 1798 20231129071831
+23.224.89.180 8 8 13821 20231130161620
+149.56.160.145 1 1 1798 20231127111809
+20.68.197.52 2 2 3596 20231130172524
+216.73.161.53 2 2 3596 20231127215502
+54.149.241.205 1 1 87 20231125215620
+54.225.202.104 1 1 1235 20231126024345
+2600:1f14:804:fd01:9fc:7041:c713:6c8f 1 1 87 20231126195619
+184.80.125.88 0 1 744332 
+45.92.229.130 5 5 3730 20231125220138
+20.27.95.9 4 4 7192 20231130074614
+45.90.62.239 1 1 1798 20231129200144
+45.92.229.129 1 1 828 20231125214511
+45.130.83.81 2 2 2470 20231126015013
+199.45.154.50 1 1 1798 20231127192951
+207.241.229.38 1 1 721 20231125211506
+87.236.176.218 1 1 1235 20231126104829
+38.6.186.190 8 8 13821 20231130044945
+182.42.105.144 1 1 1798 20231127012121
+54.212.200.65 1 1 1798 20231128194751
+3.236.149.51 1 2 746130 20231129071847
+35.84.180.56 1 1 1798 20231128114840
+51.254.199.11 1 1 1798 20231127201056
+193.17.44.106 1 1 1798 20231129223603
+175.6.217.4 1 1 1798 20231130110827
+114.160.71.84 1 1 1798 20231127182947
+2001:550:1d05:1::8 1 2 746130 20231129053648
+45.134.142.204 1 1 1798 20231127214953
+167.88.60.233 2 2 1896 20231125224309
+152.39.148.108 0 1 790 
+199.45.155.34 2 2 3596 20231128031439
+2a02:d247:6100:79:1:1:b334:f552 1 3 94987 20231126050955
+216.73.161.65 2 2 3596 20231127215628
+54.175.47.179 1 1 968 20231125215308
+84.17.42.46 2 2 1896 20231125224309
+76.164.198.173 1 1 1798 20231127101228
+117.33.163.216 1 1 1798 20231128120336
+45.130.83.61 2 2 2416 20231126014948
+63.246.149.46 1 2 141829 20231125212212
+45.90.62.37 1 1 1798 20231128232259
+43.130.39.101 1 1 1798 20231130120122
+146.70.120.79 2 4 1990560 20231125220200
+172.59.16.177 2 4 283660 20231125212323
+95.177.180.82 2 3 747928 20231128055522
+66.115.189.167 1 1 1235 20231126195753
+2600:1700:6a30:7140:a931:49b:475a:4ae2 3 6 1549989 20231128004725
+205.169.39.153 2 3 747928 20231129235924
+45.14.71.9 2 4 96222 20231126022546
+2605:6400:10:984:41e7:4ad6:a11e:cdcc 1 2 746130 20231128064544
+45.130.83.59 2 2 2416 20231126015001
+43.135.181.13 1 1 1798 20231127020330
+149.56.150.143 3 3 5394 20231127165716
+3.139.70.87 1 2 746130 20231127202315
+45.92.229.195 1 1 1235 20231126014957
+109.126.160.213 2 2 35240 20231125203001
+80.94.92.10 2 2 3596 20231129204538
+216.73.161.54 1 1 1798 20231127215220
+2602:ffc8:2:104::16 1 2 746130 20231129053010
+146.70.132.110 2 2 3596 20231128183855
+34.221.79.15 1 1 1798 20231130122540
+51.81.245.138 4 4 4822 20231127214858
+172.241.131.139 2 2 1772 20231125213102
+61.221.51.11 1 1 1798 20231127042013
+52.212.220.87 1 2 746130 20231127040437
+54.145.77.120 1 1 1798 20231127004125
+176.125.235.109 1 1 1798 20231127214955
+45.90.63.79 1 1 1798 20231128011315
+207.241.236.60 1 1 1798 20231126215559
+2600:1f16:269:da01:523d:34a4:da80:59aa 1 1 87 20231126195619
+156.146.63.153 2 2 1442 20231125212011
+89.104.100.201 1 1 1798 20231128040708
+2603:9000:a100:5b5b:89c1:88ea:b50:6d2d 2 4 229212 20231126144114
+45.14.71.22 2 3 57858 20231127211654
+87.236.176.177 1 1 1798 20231126222957
+173.239.211.177 1 1 1798 20231127215648
+191.101.41.147 1 1 1235 20231126015004
+111.207.155.211 1 1 1798 20231127014131
+34.211.52.219 1 1 1798 20231128123142
+89.248.171.23 1 2 141829 20231125212117
+34.220.240.88 1 1 1798 20231127190703
+199.45.155.16 2 2 3596 20231128054057
+104.164.173.29 1 1 948 20231125223932
+207.241.225.159 1 1 1798 20231126215603
+34.74.142.41 0 1 1984437 
+176.53.223.51 1 1 1798 20231128233839
+104.164.195.188 1 1 948 20231125224159
+199.45.154.51 1 1 1798 20231128004945
+45.130.83.98 2 2 1249 20231125214250
+109.134.179.189 5 5 7488 20231127215304
+3.67.180.135 2 3 747928 20231127005050
+8.41.221.54 2 2 3596 20231127185651
+87.236.176.154 1 1 1235 20231126185353
+89.104.110.120 1 1 1798 20231130072103
+45.92.229.131 2 2 1875 20231125220101
+89.104.100.104 1 1 1798 20231130045740
+170.254.179.142 0 1 1984437 
+137.132.211.132 2 3 746130 20231128102741
+34.118.107.38 1 2 746130 20231127004503
+45.92.229.132 3 3 2479 20231125220121
+66.60.182.71 1 2 728 20231130141352
+66.220.149.20 1 1 4286 20231125220421
+176.53.222.10 2 2 3596 20231129200137
+65.154.226.168 1 1 604 20231125214231
+45.14.71.21 2 2 3119 20231127225721
+193.34.73.69 0 1 1984437 
+173.239.211.188 3 3 5394 20231127215335
+216.73.161.50 1 1 1798 20231127215551
+63.88.73.138 1 1 1186 20231129221621
+154.28.229.169 1 1 1235 20231126195659
+95.177.180.85 1 1 1798 20231129060351
+45.92.229.133 2 2 1208 20231125214244
+35.238.199.71 1 1 1798 20231127094237
+124.220.171.131 2 2 3596 20231127220119
+43.131.62.4 3 3 5394 20231128120009
+119.13.213.42 1 1 1798 20231126215112
+63.135.161.214 1 1 1235 20231126200124
+3.127.135.245 1 1 645 20231125214118
+216.73.161.62 1 1 1798 20231127215335
+141.98.252.232 1 1 948 20231125223936
+2001:1970:5425:e400:70ce:9c74:4ee:7e88 1 2 95258 20231126204216
+144.202.5.83 4 4 7192 20231127203927
+95.216.27.249 1 1 1798 20231127024941
+213.188.68.65 1 1 968 20231125215145
+34.116.225.149 1 2 746130 20231128103225
+35.231.252.70 0 1 1984437 
+31.13.127.5 0 1 790 
+172.70.7.213 9 9 16182 20231130233550
+45.130.83.108 1 1 604 20231125214336
+89.238.135.189 2 2 1896 20231125224309
+47.88.78.6 1 1 1798 20231128095503
+45.130.83.116 1 1 604 20231125214203
+45.130.83.64 1 1 1181 20231126014552
+45.92.229.192 3 3 3543 20231126014914
+45.92.229.191 2 2 2416 20231126015019
+156.146.41.200 2 2 1442 20231125212010
+45.130.83.107 2 2 1552 20231125224305
+168.151.167.200 1 3 1986195 20231125215016
+172.110.130.133 3 17 7198775 20231127125946
+216.251.130.74 3 4 749726 20231130104513
+51.158.232.81 1 1 0 20231126191357
+45.130.83.73 2 2 2416 20231126014950
+185.169.3.165 1 1 1798 20231127110059
+2600:387:15:2010::5 6 8 825937 20231127192915
+185.65.135.229 1 1 1047 20231125215752
+87.236.176.221 1 1 1235 20231126125815
+65.154.226.170 2 4 1492260 20231129004412
+173.239.211.192 1 1 1798 20231127215446
+207.241.232.185 1 1 948 20231125234455
+52.39.170.242 1 1 1235 20231126181454
+45.130.83.97 3 3 2703 20231125220102
+45.90.62.49 1 1 1798 20231129014233
+185.171.97.192 1 1 1798 20231130021742
+45.130.83.109 2 2 1896 20231125224341
+173.239.211.193 1 1 1798 20231127215257
+207.248.195.158 9 18 1181254 20231128002049
+207.241.225.158 0 2 1488664 
+209.127.108.244 1 1 1047 20231125221220
+13.36.178.136 2 3 747928 20231127125554
+43.135.166.178 2 2 3596 20231129210055
+54.225.54.125 3 3 3705 20231126134212
+199.192.18.45 1 1 0 20231129024506
+191.101.41.170 2 2 3596 20231127215421
+190.208.14.6 1 3 94987 20231126023245
+2620:18c:0:192::131 1 1 1798 20231127125556
+18.153.97.109 2 3 747928 20231127044952
+61.221.51.10 1 1 1798 20231127081046
+206.204.4.60 1 1 1798 20231128215507
+146.190.124.36 2 2 3596 20231127140644
+199.45.155.19 1 1 1798 20231128224026
+154.28.229.245 1 1 613 20231125214043
+200.73.124.137 1 3 94987 20231126023326
+54.88.179.33 1 1 1798 20231129223938
+185.81.157.220 2 2 3596 20231127032359
+20.200.125.147 2 2 3596 20231127000647
+43.130.32.224 1 1 1798 20231130020059
+2001:1970:5425:e400:ea:5781:f7a8:a514 4 4 4940 20231126150232
+207.241.225.160 1 1 4286 20231125234456
+129.153.125.162 6 6 8744 20231130230658
+182.3.42.247 1 1 1798 20231127181238
+63.135.161.211 2 2 2470 20231126200235
+173.239.211.108 1 1 1235 20231126200138
+45.130.83.100 2 2 1208 20231125214316
+202.43.6.10 2 2 1772 20231125213101
+93.159.230.90 1 1 948 20231125225546
+104.168.34.150 2 3 747928 20231127044953
+51.15.106.131 1 1 1798 20231127234829
+45.92.229.113 4 4 2905 20231125214447
+178.62.73.12 1 1 613 20231125214051
+168.151.196.242 1 2 746130 20231128215241
+173.239.211.186 2 2 3596 20231127215626
+212.143.94.254 4 6 890478 20231129053102
+2001:bc8:1640:518:dc00:ff:fe11:6bc1 4 5 751524 20231127021951
+164.92.127.19 1 1 1235 20231126195538
+34.71.255.110 1 1 828 20231125214514
+35.203.252.236 2 4 1990560 20231125220927
+45.128.38.244 1 1 647 20231125214125
+52.41.109.101 1 1 1798 20231127041528
+139.59.78.166 1 1 1798 20231128022615
+89.104.111.20 1 1 1798 20231128072651
+165.22.81.93 1 1 1798 20231128073418
+146.70.126.166 1 1 1235 20231126195800
+47.251.11.3 1 1 1798 20231128095503
+173.239.211.200 1 1 1798 20231127215059
+192.42.116.177 1 1 1798 20231127005051
+216.73.161.58 3 3 5394 20231127215639
+185.156.172.168 1 1 645 20231125214148
+117.62.235.53 1 1 1798 20231128224911
+43.135.149.154 1 1 1798 20231127011829
+191.101.41.163 3 3 3705 20231126200142
+119.91.137.155 2 3 747928 20231128061959
+34.219.48.90 1 1 1798 20231128023707
+145.255.21.199 1 1 1798 20231127165918
+87.236.176.15 1 1 1798 20231127035228
+85.209.176.29 2 2 3596 20231130163013
+58.251.94.154 2 2 968 20231125215219
+159.89.204.46 2 2 3596 20231128072638
+69.160.160.52 1 2 746130 20231127081927
+104.164.173.48 1 1 1798 20231127214922
+45.90.63.45 1 1 1798 20231128094153
+45.130.83.71 1 1 1181 20231126014900
+176.53.217.207 1 1 1798 20231126220241
+31.13.127.4 1 2 1837 20231125220724
+52.91.254.222 1 2 141829 20231125212041
+120.35.11.210 1 1 1798 20231126220911
+43.133.77.208 1 1 1798 20231128011042
+54.66.55.193 1 1 886 20231125213006
+173.239.211.180 2 2 3596 20231127215435
+113.141.91.58 1 1 1798 20231129101601
+216.73.161.59 1 1 1798 20231127215232
+162.243.167.155 1 1 1798 20231128215255
+45.130.83.88 1 1 645 20231125214145
+20.70.235.244 2 2 3596 20231128013623
+173.239.211.178 3 3 5394 20231127215619
+45.92.229.123 2 2 1432 20231125214515
+46.101.103.192 1 1 613 20231125214051
+107.181.154.167 1 1 1798 20231127171848
+2a03:94e0:ffff:185:181:60:0:12 1 1 1798 20231126204529
+2601:196:4880:1080:2fc5:9b5d:d54b:4a32 4 6 819345 20231127011000
+45.92.229.188 2 2 133034 20231126014936
+118.193.31.181 1 1 1798 20231127032557
+191.102.179.126 0 1 790 
+134.209.101.210 4 4 7192 20231130131218
+157.230.251.48 2 2 3596 20231128000904
+173.239.211.98 1 1 1235 20231126200125
+170.106.171.77 2 2 3596 20231129000038
+45.92.229.115 4 4 2598 20231125214350
+20.197.9.248 2 2 3596 20231128170820
+2400:6180:10:200::10d:1000 2 2 3596 20231129091754
+3.143.245.163 4 4 7192 20231129034053
+176.53.216.226 1 1 1798 20231127015942
+45.76.170.196 1 1 1798 20231127093355
+89.208.29.157 1 2 746130 20231130003008
+8.41.221.48 2 2 3596 20231128051023
+45.130.83.114 1 1 604 20231125214322
+45.92.229.187 2 2 2362 20231126014909
+49.51.206.130 2 2 3596 20231130013243
+106.75.2.171 2 2 3596 20231129130455
+191.101.31.33 1 2 746130 20231129055427
+63.135.161.207 1 1 1235 20231126200255
+138.197.194.139 1 1 1047 20231125220042
+185.171.97.41 1 1 1798 20231130021834
+173.239.211.181 1 1 1798 20231127215312
+34.75.117.92 0 1 1984437 
+51.75.141.254 2 3 747928 20231127005050
+173.239.211.187 1 1 1798 20231127215534
+45.56.121.155 1 1 1798 20231127093355
+89.104.101.233 1 1 1798 20231130101346
+173.33.174.146 3 5 129758 20231127235545
+62.192.154.50 2 3 747928 20231127063831
+154.28.229.127 1 1 1762 20231126014121
+45.130.83.70 3 3 3543 20231126014914
+2600:1900:2000:a1::1:c01 1 2 746130 20231126221735
+2001:bc8:1640:51b:dc00:ff:fe11:6bc7 1 1 1798 20231127235957
+54.191.39.156 1 1 1798 20231127092224
+161.35.246.138 2 2 1772 20231125213101
+104.196.68.19 0 1 1984437 
+45.130.83.104 4 4 3181 20231125220147
+45.92.229.121 3 3 2298 20231125220110
+65.154.226.167 1 2 746130 20231129235602
+63.135.161.188 1 1 1235 20231126200139
+2620:18c:0:192::137 1 2 746130 20231129055428
+63.135.161.190 1 1 1235 20231126200133
+162.19.25.94 5 8 192170 20231126015203
+69.171.251.9 0 1 1984437 
+43.135.153.93 1 1 1798 20231130035557
+2602:fc05::18 1 1 1798 20231127005054
+2600:1700:1c60:6d40:d896:d140:2030:ca1e 2 4 229212 20231126040249
+45.92.229.186 1 1 1181 20231126014931
+206.204.13.165 1 1 886 20231125212804
+91.199.212.132 0 6 462 
+157.245.12.106 1 1 1798 20231128043228
+211.176.125.70 1 1 1798 20231127105902
+45.130.203.152 1 1 948 20231125225019
+2a01:4f8:10a:2d6::2 4 4 7192 20231130024400
+152.39.228.244 0 1 1984437 
+92.16.217.167 1 1 721 20231125212022
+77.102.122.117 1 1 645 20231125214118
+34.148.227.83 0 1 1984437 
+63.135.161.198 1 1 1235 20231126195916
+18.236.93.158 1 1 1798 20231127105723
+43.153.110.177 1 1 1798 20231127040748
+43.130.62.164 3 3 5394 20231129122051
+163.172.145.116 1 1 1798 20231127204740
+101.91.148.219 1 1 1798 20231127142937
+137.184.140.204 1 1 1047 20231125220059
+23.108.51.19 3 3 2417 20231125214149
+45.130.83.110 3 3 1855 20231125214414
+63.135.161.202 1 1 1235 20231126200428
+104.225.165.192 1 1 1798 20231129191311
+173.239.211.195 1 1 1798 20231127215636
+45.130.83.87 1 1 131853 20231126014944
+206.189.247.132 3 4 748573 20231127044952
+119.29.202.15 2 2 3596 20231128022935
+194.61.41.64 0 1 790 
+205.169.39.128 1 1 1798 20231128015553
+119.13.205.107 1 2 746130 20231126215021
+63.135.161.216 1 1 1235 20231126200152
+35.171.144.152 2 2 3596 20231129223938
+173.239.211.101 1 1 1235 20231126200217
+45.92.229.202 3 3 134215 20231126014939
+205.169.39.71 1 1 604 20231125214323
+140.82.1.232 2 4 96222 20231126024616
+104.225.184.119 6 21 7946703 20231128185313
+165.22.74.203 2 2 1226 20231125214051
+45.130.83.75 1 1 1235 20231126015012
+68.183.175.180 1 1 1798 20231129220020
+216.73.161.56 2 2 3596 20231127215637
+173.239.211.201 2 2 3596 20231127215444
+103.72.146.153 1 2 746130 20231127181310
+106.75.62.161 1 1 1798 20231127085733
+34.75.28.221 0 1 1984437 
+45.130.83.96 2 2 1208 20231125214353
+133.242.174.119 1 1 1798 20231128004907
+154.28.229.53 1 1 613 20231125214043
+2602:fc05::31 1 2 746130 20231127044926
+185.27.133.18 6 160 20982 20231130000301
+23.111.114.116 5 5 8990 20231130184923
+45.130.83.67 1 1 1235 20231126014953
+63.135.161.195 1 1 1235 20231126195944
+164.92.87.210 2 2 3596 20231127144327
+45.130.83.105 2 2 1208 20231125214348
+154.28.229.79 1 1 1798 20231127214922
+37.19.205.206 2 3 59050 20231128212422
+87.236.176.38 1 1 1235 20231126084329
+45.90.61.14 1 1 1798 20231128015237
+44.234.19.83 2 4 1492260 20231130090630
+171.244.43.14 1 1 1798 20231128042841
+45.130.83.90 1 1 604 20231125214309
+199.244.88.228 1 1 1798 20231130053423
+43.153.108.194 1 1 1798 20231128070152
+104.197.69.115 1 2 746130 20231130000059
+174.138.84.62 8 8 14124 20231128022138
+207.241.236.159 1 2 2588 20231127014003
+190.123.209.217 0 1 790 
+2001:41d0:701:1100::716d 5 8 2240188 20231126210208
+199.45.154.16 3 3 5394 20231128213029
+45.92.229.120 1 1 702 20231125214135
+43.153.70.68 1 1 1798 20231128090207
+54.92.107.92 1 1 1235 20231126023519
+159.223.195.154 2 2 3596 20231127135740
+199.45.154.49 1 1 1798 20231128025831
+45.92.229.139 1 1 604 20231125214313
+35.227.92.4 0 1 1984437 
+87.236.176.209 1 1 1235 20231126195227
+45.92.229.138 4 4 2801 20231125224120
+144.217.135.218 3 3 5394 20231127111743
+199.45.154.48 1 1 1798 20231129003843
+45.130.83.112 1 1 604 20231125214247
+176.53.222.151 1 1 1798 20231128215758
+95.164.235.162 1 1 1235 20231126185645
+209.127.105.243 1 1 0 20231125215306
+2a02:8109:c40:891c:c915:c8d8:4730:c689 2 4 96222 20231126163830
+45.139.66.148 1 1 0 20231125215306
+149.56.160.157 1 2 746130 20231127165739
+45.130.83.111 2 2 1306 20231125214353
+146.70.190.215 1 1 645 20231125214118
+34.219.201.18 1 2 746130 20231126221550
+146.70.189.70 1 1 647 20231125214125
+54.202.165.132 1 1 1798 20231126215217
+216.73.161.3 1 1 1235 20231126200114
+123.6.49.9 0 1 1984437 
+87.236.176.153 1 1 1235 20231126130443
+209.127.97.105 1 1 1047 20231125221116
+45.92.229.137 3 3 1812 20231125214338
+45.90.62.175 1 1 1798 20231130042913
+205.169.39.163 2 3 747928 20231128112906
+35.236.77.171 2 2 3596 20231128053632
+45.130.83.94 1 1 604 20231125214321
+138.43.99.41 3 14 7183591 20231130143915
+2a0c:5a81:b80a:5f00:4d7d:2966:12d0:cee3 1 1 1798 20231128193754
+45.92.229.200 1 1 1181 20231126014541
+63.135.161.212 1 1 1235 20231126195925
+2620:101:2002:11a4::1011 1 1 1798 20231128154857
+89.32.170.184 1 1 1798 20231127103218
+106.75.65.190 3 3 5394 20231129130451
+45.130.83.83 1 1 1181 20231126014929
+54.214.116.135 1 1 1798 20231130045643
+68.235.33.177 2 3 747928 20231127005051
+51.158.75.88 2 2 0 20231127203621
+63.135.161.209 2 2 2470 20231126200440
+2606:4700:1101:2:e918:8057:1100:3d6 9 9 16182 20231130233551
+31.13.127.13 1 1 4286 20231125220724
+129.226.146.179 3 3 5394 20231130180145
+23.178.112.200 1 1 87 20231125215618
+42.228.9.78 1 1 1798 20231127060256
+173.239.211.103 2 2 2470 20231126200245
+34.23.30.131 0 1 1984437 
+45.92.229.198 1 1 1181 20231126014529
+34.211.48.206 1 1 87 20231125215618
+45.130.83.101 2 2 1694 20231125220044
+2400:6180:10:200::107:5000 2 2 3596 20231130043749
+173.239.211.102 1 1 1235 20231126200205
+152.39.149.33 1 1 1798 20231128123914
+45.92.229.197 4 4 4832 20231126015016
+144.126.198.24 1 1 613 20231125214051
+45.130.83.92 3 3 2199 20231125224606
+45.90.63.20 1 1 1798 20231126232842
+104.164.173.45 1 1 948 20231125223932
+173.239.211.202 2 2 3596 20231127215535
+176.53.223.120 1 1 1798 20231127195128
+195.211.77.140 1 1 0 20231125214054
+216.73.161.68 2 2 3596 20231127215404
+173.239.211.198 2 2 3596 20231127215454
+43.157.40.112 1 1 1798 20231129012917
+170.106.101.31 2 2 3596 20231129150135
+181.214.164.62 4 4 7192 20231129040731
+44.220.249.140 1 1 1798 20231129071852
+158.220.96.243 1 1 1798 20231127171204
+35.87.204.85 1 1 1798 20231130201715
+63.135.161.213 2 2 2470 20231126200151
+2001:1970:5425:e400:dcc6:efc:5886:e1b6 1 1 149 20231126184320
+45.130.83.68 1 1 1181 20231126014521
+183.129.153.157 2 2 3596 20231127175650
+45.130.83.113 2 2 1432 20231125214509
+173.239.211.204 1 1 1798 20231127215414
+142.93.242.246 1 1 1798 20231129093147
+45.130.83.89 5 5 3949 20231125220134
+165.232.76.155 1 1 613 20231125214051
+35.87.104.225 1 1 1798 20231128031217
+2001:bc8:1201:61f:569f:35ff:fe0f:ddec 1 1 1235 20231126200429
+154.28.229.239 1 1 1235 20231126195659
+123.6.49.18 2 3 6123 20231125220338
+45.92.229.114 3 3 2423 20231125224650
+173.239.211.184 1 1 1798 20231127215055
+2001:1970:5425:e400:9cff:a17:f27b:9628 6 8 280877 20231126035708
+38.170.177.54 1 1 968 20231125215307
+45.130.83.115 2 2 1249 20231125214221
+2001:bc8:1201:1d:ba2a:72ff:fee1:1d32 1 1 1798 20231127120141
+209.127.104.193 0 1 790 
+130.255.166.79 1 1 1798 20231130093317
+51.81.200.142 2 2 60036 20231130235552
+149.34.244.172 2 2 1186 20231129220134
+191.101.31.17 1 1 645 20231125214118
+2001:1970:5425:e400:998c:5e22:403d:2cac 1 1 1235 20231126173419
+152.39.203.110 1 2 746130 20231126215124
+176.53.223.85 1 1 1798 20231126234239
+8.41.221.51 2 2 3596 20231128051056
+23.91.98.38 1 1 0 20231127130010
+34.74.148.111 0 1 1984437 
+207.241.232.212 1 1 948 20231125234452
+34.118.120.18 1 1 604 20231125214403
+207.241.229.184 1 1 1798 20231127014000
+170.106.82.193 3 3 4831 20231128210040
+193.34.72.17 1 1 1798 20231127095957
+63.135.161.191 1 1 1235 20231126195913
+207.241.225.139 0 1 141108 
+110.166.71.39 2 2 3033 20231128005356
+176.53.216.212 1 1 1798 20231130235153
+34.23.96.48 0 1 1984437 
+44.242.135.60 1 1 1798 20231129042910
+64.227.76.141 1 1 1798 20231129051427
+104.200.71.223 1 2 746130 20231126215022
+89.104.110.89 1 1 1798 20231127215532
+35.186.174.3 2 2 3596 20231127202424
+15.204.182.106 2 2 3596 20231127005430
+165.22.143.112 2 2 2282 20231126190904
+154.47.30.166 1 1 604 20231125214202
+153.246.135.238 2 2 3596 20231128121656
+51.178.81.195 3 3 4241 20231127044953
+199.45.154.17 1 1 1798 20231127181643
+173.239.211.183 3 3 5394 20231127215333
+34.243.202.33 2 2 1798 20231127004613
+162.243.168.16 4 4 197615 20231130224718
+170.106.159.160 2 2 3596 20231130150139
+170.64.212.255 6 6 10788 20231128002046
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20231125 404 519 44879769 148
+20231126 705 901 73156003 159
+20231127 484 616 49997469 200
+20231128 180 263 19805441 111
+20231129 103 136 12300550 74
+20231130 217 247 21925993 64
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 20
+1h+ 21
+0s-30s 605
+15mn-30mn 20
+2mn-5mn 31
+30mn-1h 20
+30s-2mn 39
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 48
+/ 1469 10093829 699 690
+/IDE/ClientToolbox.aspx/ 156 2534430 11 12
+/test/home/lol/gotcha/ 66 4682815 6 4
+/yourhelper/adminpanel.php 61 276704 1 2
+/game/join.ashx/ 35 72037 4 7
+/My/Places.aspx 30 37099 4 3
+/yourhelper/login.php 29 10428 1 0
+/yourhelper/index.php 18 1029 1 2
+/cursor.cur 18 77148 7 7
+/smf/index.php 16 504578 1 0
+/yourhelper/signup.php 16 28443 0 0
+/cpanel 16 554044 2 1
+/3dgame/game_display.html 15 5510 0 6
+/index.php 12 13435 0 2
+/smf/cron.php 12 516 0 0
+/3dgame/ 12 5115 2 1
+/IDE/ 11 11896 6 2
+/IDE/welcome/ 10 0 0 2
+/image/ 10 1088936 0 0
+/game/visit.ashx/ 7 48806 0 0
+/Asset/ 7 5923 0 0
+/static/ 6 6618 0 0
+/Asset/CharacterFetch.ashx 6 447 2 3
+/test/ 5 3830 0 1
+/IDE/GetToolboxItems.ashx/ 5 1900 0 1
+/static/keys/UHJpdmF0ZUtleQ==.pem 2 1764 0 0
+/API_stuff/ 1 1050 0 0
+/game/studio.ashx/ 2 922 0 0
+/static/img/ 2 1724 0 0
+/asset/ 1 3124887 0 1
+/GetAllowedMD5Hashes/ 1 862 0 0
+/game/index.php 1 0 0 0
+/GetAllowedSecurityVersions/ 1 28 0 0
+/.well-known/acme-challenge/nbb8_uu4FZiWHm25oAYFEPouOnnTrPoCRC4yQwttGQk 3 261 3 2
+/game/ 3 2382 0 0
+/.well-known/acme-challenge/oz7ge6DwDP6Bf_5laCNUG1fnFUYEYkqBqJ6ym0y2U1g 3 261 2 3
+/smf/ 1 3204 0 0
+/static/css/ 3 2556 0 0
+// 1 1235 0 0
+/GetAllowedMD5Hashes/index.ashx 1 0 0 0
+/cpanelwebcall/ksaahgnatoxhozvqtszhebrjsltyetrh 1 19 0 0
+/cpanelwebcall/juvfitmucfzugjwqzgkvonaekkheoyde 1 19 0 0
+/yourhelper/logout.php 4 912 0 0
+/.well-known/acme-challenge/OoHrbGeBpStKfZ9dD-vsQHY2z2borVfocreZ7o5JfK8 3 261 3 3
+/test/home/lol/ 1 857 0 1
+/static/keys/ 2 1726 0 0
+/yourhelper/ 5 308 1 0
+/static/js/ 2 1342 0 0
+END_SIDER

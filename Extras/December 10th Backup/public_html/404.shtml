@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>node16 - 404</title></head>
+<!-- HTML Codes by Juan43603 -->
+<!-- and then redone by maddox -->
+<body style="background-image: url('https://node16.xyz/static/images/obctheme.png'); padding: 0; margin: 0; background-size: contain; font-family: Arial, sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; color: white; flex-direction: column;">
+    
+    <h1 style="font-size: 90px;">Error: 404</h1>
+    <h1 style="font-size: 60px;">requested page has not been found</h1>
+
+    
+
+</body>

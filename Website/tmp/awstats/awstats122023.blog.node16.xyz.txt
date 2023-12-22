@@ -1,0 +1,692 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.blog.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2691                
+POS_VISITOR 11382               
+POS_DAY 18112               
+POS_DOMAIN 3413                
+POS_LOGIN 3918                
+POS_ROBOT 4073                
+POS_WORMS 4781                
+POS_EMAILSENDER 4912                
+POS_EMAILRECEIVER 5055                
+POS_SESSION 18436               
+POS_SIDER 18643               
+POS_FILETYPES 5190                
+POS_DOWNLOADS 5506                
+POS_OS 6130                
+POS_BROWSER 6439                
+POS_SCREENSIZE 7606                
+POS_UNKNOWNREFERER 7680                
+POS_UNKNOWNREFERERBROWSER 8479                
+POS_ORIGIN 8821                
+POS_SEREFERRALS 8961                
+POS_PAGEREFS 9142                
+POS_SEARCHWORDS 9324                
+POS_KEYWORDS 9476                
+POS_MISC 2354                
+POS_ERRORS 9535                
+POS_CLUSTER 3774                
+POS_SIDER_404 9654                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231219230746 45 10344 13734744483303
+FirstTime 20231203001851
+LastTime 20231219230746
+LastUpdate 20231220031927 45 0 45 0 0
+TotalVisits 149                 
+TotalUnique 132                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 166                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 33 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 63 135 3143083 13 23 128239
+1 531 1116 50781744 30 36 94083
+2 73 84 1966470 5 7 73133
+3 9 61 2495459 2 5 37972
+4 9 28 800684 1 3 52
+5 6 22 162173 2 4 52
+6 3 3 54282 1 1 0
+7 0 0 0 0 2 0
+8 2 2 75788 0 1 0
+9 0 0 0 0 1 0
+10 74 147 3887531 44 50 1041055
+11 6 17 116519 2 4 52
+12 2 15 711399 0 2 0
+13 2 5 23566 2 5 168
+14 1 1 8594 1 2 37894
+15 93 191 9090474 17 20 46050
+16 47 129 4274611 6 9 47329
+17 29 66 3483489 5 23 360986
+18 10 15 333041 4 7 194
+19 177 305 9535182 30 31 172975
+20 30 45 1177973 3 7 38761
+21 88 374 17380348 10 15 108870
+22 65 141 7464738 5 10 83650
+23 41 62 1948974 4 5 83050
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 1098 2160 85018522
+ip 155 569 27106555
+ca 44 57 2066457
+gb 24 52 1004034
+be 8 22 208732
+fr 6 6 227364
+jp 4 7 43356
+ru 4 6 36134
+ua 3 3 26409
+il 3 16 722984
+pt 2 15 711399
+hk 2 14 713558
+cl 1 16 719127
+cn 1 1 8594
+eu 1 1 8803
+mk 1 1 39019
+vn 1 1 8604
+in 1 4 43341
+ma 1 4 25959
+de 1 9 177171
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 15
+blog 48 34376 20231206001058 0
+Discordbot/ 19 288813 20231219205433 0
+[\s_+:,\.\;\/\\-]bot 15 162540 20231204231247 0
+facebookexternalhit/ 12 360860 20231203174937 0
+Go\-http\-client/ 11 44254 20231206001827 0
+no_user_agent 8 186788 20231217032029 0
+unknown 5 684 20231205002739 5
+scanner 2 11256 20231203101414 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 36 20231203170048 0
+Links[\x20]\( 1 18 20231203170026 0
+curl 1 832 20231203223649 0
+AdsBot\-Google[\x20]\( 1 18 20231203170048 0
+CFNetwork 1 18 20231203170048 0
+FAST\-WebCrawler/ 1 18 20231203170026 0
+link 1 18 20231203170026 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+jpg 4 442187 0 0
+gif 24 271605 0 0
+txt 8 512 0 0
+php 433 39672650 0 0
+ttf 1 176144 0 0
+webp 11 796264 0 0
+Unknown 313 6192468 0 0
+png 205 5820883 0 0
+css 409 13954940 0 0
+js 878 29712127 0 0
+woff2 7 1234012 0 0
+html 607 20518659 0 0
+svg 64 123671 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 8
+/.well-known/pki-validation/6645311B121E609FD804E0CAA0FD5E99.txt 1 0 64
+/.well-known/pki-validation/7630F265FF62AB1BF3A7BC035CE43E37.txt 1 0 64
+/.well-known/pki-validation/CA2BB174DE5442B25B21C50D771FA402.txt 1 0 64
+/.well-known/pki-validation/516AC353E68C84A4BBF021020970D9E5.txt 1 0 64
+/.well-known/pki-validation/969A7F0A5ED04A3178E8E39DC3D825F5.txt 1 0 64
+/.well-known/pki-validation/C1412645D3AEF49893732599E7B173D4.txt 1 0 64
+/.well-known/pki-validation/BBCD84DE09DC6EEE3D246BE97DF18A12.txt 1 0 64
+/.well-known/pki-validation/6E705A3F8009A45CE7035257915E92A1.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+macosx 4 0
+j2me 1 0
+win8.1 91 40
+unix 2 0
+macosx15 24 5
+ios_iphone 40 16
+macosx9 2 0
+androidpie 1 0
+android10 13 6
+Unknown 132 98
+linux 71 19
+androidhoneycomb 1 0
+android 23 4
+win10 2549 1165
+win7 5 4
+androidmarshmallow 4 4
+androidcupcake 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 55
+Unknown 34 24
+firefox92.0 3 0
+cloudflare 59 59
+chrome101.0.4951.59 1 0
+chrome83.0.4103.61 1 1
+safari17.1.2 11 8
+safari17.0.1 1 1
+chrome52.0.2743.98 2 2
+edge12 1 1
+chrome86.0.4240.111 13 1
+chrome41.0.2228.0 1 1
+chrome55.0.2876.0 1 0
+firefox55.0 2 2
+chrome94.0.4606.61 12 4
+chrome101.0.4951.61 1 0
+firefox119.0 8 2
+chrome111.0.5563.65 1 1
+firefox115.0 57 13
+firefox109.0 14 2
+safari17.1.1 18 3
+safari 5 2
+chrome115.0.0.0 15 2
+chrome117.0.5938.132 28 4
+firefox11.0 1 1
+chrome33.0.1750.152 2 0
+chrome89.0.4389.114 6 6
+chrome117.0.0.0 6 2
+chrome4.0.249.0 1 0
+chrome114.0.0.0 15 2
+chrome116.0.5845.140 14 2
+chrome52.0.1746.98 1 1
+chrome79.0.3945.79 15 2
+chrome118.0.0.0 46 8
+android 2 0
+chrome112.0.5615.137 15 2
+chrome108.0.0.0 4 4
+chrome55.0.2883.87 4 4
+firefox121.0 5 1
+chrome85.0.4183.102 10 2
+mozilla 38 15
+chrome116.0.0.0 6 3
+opera10.61 1 0
+chrome109.0.5414.46 14 2
+chrome120.0.0.0 55 55
+chrome52.0.2890.98 1 1
+opera104.0.0.0 16 1
+firefox88.0 7 7
+opera9.20 1 0
+safari16.6 2 1
+chrome63.0.3239.108 1 1
+safari17.1 5 1
+chrome119.0.6045.199 17 2
+chrome103.0.5060.114 3 1
+chrome37.0.2049.0 34 27
+chrome119.0.0.0 2327 1074
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+python-requests/2.25.1 20231203100340
+cortex/1.0 20231203174941
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231204014018
+Cloudflare-SSLDetector 20231218223734
+Mozilla/5.0_(MeeGo;_NokiaN9)_AppleWebKit/534.13_(KHTML,_like_Gecko)_NokiaBrowser/8.5.0_Mobile_Safari/534.13 20231203170026
+python-requests/2.27.1 20231203100920
+COMODO_DCV 20231218220226
+Python/3.9_aiohttp/3.9.1 20231203100342
+python-requests/2.22.0 20231203101216
+axios/1.4.0 20231203100824
+Softaculous 20231203010155
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20231203100227
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231205040443
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Softaculous 20231203010155
+axios/1.4.0 20231203100824
+python-requests/2.22.0 20231203101216
+Python/3.9_aiohttp/3.9.1 20231203100342
+python-requests/2.25.1 20231203100340
+cortex/1.0 20231203174941
+COMODO_DCV 20231218220226
+python-requests/2.27.1 20231203100920
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 283 372
+From1 0 0
+From2 5 5
+From3 1 1
+From4 1072 2586
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 4 4
+www_google_ie 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://sv83.ifastnet.com:2082 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 3 0
+201 3 5105
+302 28 0
+404 71 1258151
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 36
+/wp-content/plugins/mstore-api/readme.txt 2 -
+/2023/12/03/syntax-users-restricted-on-node16/ 1 https://blog.node16.xyz/wp-admin/post.php
+/config.json 2 -
+/v2/_catalog 2 -
+/about 2 -
+/wp-admin/admin-ajax.php 9 https://blog.node16.xyz/wp-admin/customize.php
+/.htaccess 2 https://www.google.com/
+/wp-json/oembed/1.0/proxy 1 https://blog.node16.xyz/wp-admin/post.php
+/.DS_Store 2 -
+/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt 2 -
+/images/wordpress-logo.svg 1 https://blog.node16.xyz/wp-login.php
+/server-status 2 -
+/ 1 -
+/wp-json/wp/v2/media/2300 1 https://blog.node16.xyz/wp-admin/site-editor.php
+/_all_dbs 2 -
+/wp-content/plugins/ultimate-member/readme.txt 2 -
+/wp-content/plugins/wp-automatic/css/wp-automatic.css 2 -
+/wp-content/uploads/2023/12/sketchers.co.png 1 -
+/complete-order/ 2 -
+/.vscode/sftp.json 2 -
+/wp-content/plugins/royal-elementor-addons/readme.txt 2 -
+/wp-admin/images/freedoms.png 1 https://blog.node16.xyz/wp-admin/
+/telescope/requests 2 -
+/wp-content/plugins/ht-mega-for-elementor/readme.txt 2 -
+/.git/config 5 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/wp-content/plugins/wp-post-author/readme.txt 2 -
+/wp-json/oembed/1.0/embed 1 -
+/debug/default/view 2 -
+/admin/.git/config 1 -
+/s/5313e25363e21323e2430313/_/ 1 -
+/login.action 2 -
+/robots.txt 4 -
+/fuckshaker.com.co 1 -
+/s/5363e2735313e27363e2237313/_/ 1 -
+/wp-json/wp/v2/users/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 166
+104.248.232.252 570 1111 47999145 20231203023415
+24.144.104.12 307 524 21226216 20231203194702
+2001:1970:5425:e400:89d5:d53f:7b38:b9d1 47 331 17091512 20231203220942
+2600:387:15:2017::5 46 102 5427120 20231203222601
+198.211.101.138 34 52 1704528 20231204232112
+104.164.173.243 27 34 697252 20231203100344
+47.231.180.122 26 26 535434 20231219210452
+104.248.236.233 22 58 736056 20231205003939
+172.70.19.154 21 21 280365 20231204000301
+192.241.154.243 14 28 771103 20231204004651
+47.231.180.114 13 16 360888 20231210024235
+73.147.72.174 13 57 2175561 20231203192908
+2606:4700:1101:2:7df1:bbac:31ce:2bd2 12 12 165645 20231204000302
+2600:387:15:201b::3 9 9 159277 20231219212619
+51.81.153.189 9 25 811815 20231203225648
+185.27.133.18 8 16 78699 20231205060455
+172.70.15.20 8 8 303152 20231215215050
+2a06:98c0:360c:b30:d753:9719:1461:6b40 8 8 303152 20231218223735
+163.5.64.42 6 6 227364 20231213182642
+2a09:bac1:76e0:80::286:cc 6 6 215118 20231210025627
+2a06:98c0:360b:31d2:672:f69f:707:3ec2 5 5 189470 20231215215050
+172.70.65.72 5 5 189470 20231218223734
+173.238.183.191 4 13 1133541 20231203010344
+24.126.9.242 4 13 1066187 20231203010547
+34.72.176.129 3 14 611901 20231203101013
+216.73.160.166 1 1 8803 20231203101216
+2001:1970:5425:e400:28ec:31a8:15db:13e4 2 3 20629 20231203192109
+216.73.160.6 1 1 8803 20231203101028
+199.45.155.35 1 2 37406 20231203210301
+193.36.118.218 1 1 8594 20231204110712
+35.177.232.162 1 12 8886 20231203170010
+45.90.63.211 1 3 10258 20231204000023
+87.236.176.195 0 1 23784 
+45.90.61.112 0 4 41149 
+87.236.176.74 0 1 832 
+2a03:2880:31ff:c::face:b00c 1 3 177319 20231203174905
+135.148.233.107 2 2 75788 20231215191115
+76.72.175.119 1 4 25959 20231205040903
+143.198.104.180 1 1 8594 20231205140727
+47.89.193.162 0 1 18 
+64.246.133.5 3 11 336160 20231205003000
+18.236.155.200 1 4 25959 20231205040903
+87.236.176.119 1 1 8594 20231204135913
+87.236.176.118 0 1 4505 
+3.84.59.82 2 10 227109 20231205035123
+87.236.176.180 0 1 23784 
+172.241.131.138 1 1 8594 20231204110711
+61.115.12.244 2 2 8594 20231205040413
+87.236.176.140 0 1 12028 
+34.74.233.129 0 1 36770 
+5.45.104.176 0 2 12860 
+2600:3000:1511:200::85 1 1 87 20231203100227
+216.73.160.159 1 1 8803 20231203101038
+87.236.176.222 0 1 4505 
+47.251.13.32 0 1 18 
+2a03:2880:2ff:10::face:b00c 0 1 10772 
+2620:18c:0:192::132 1 1 8803 20231203101135
+54.66.55.193 1 1 8594 20231205040033
+139.99.170.109 1 3 25127 20231205051211
+143.198.113.74 1 1 37894 20231213174020
+204.85.30.5 0 6 549114 
+87.236.176.82 0 1 4505 
+45.8.19.101 1 1 8803 20231203101125
+2600:1900:2000:49::1:601 2 14 713558 20231204194641
+138.68.133.118 1 1 8803 20231203100342
+35.226.91.45 1 1 8803 20231203100527
+2600:1700:6a30:7140:ec38:2a6f:44ea:6d07 1 13 692933 20231205202322
+5.181.234.133 1 6 159806 20231205034847
+2620:7:6001::ffff:c759:e659 0 1 2453 
+138.197.168.0 2 2 75788 20231217080818
+149.102.244.115 1 1 39019 20231219211602
+2406:2d40:41da:b510:3135:7c24:6380:52d7 2 2 78038 20231219230746 20231219230721 /
+89.104.111.163 1 1 8594 20231204204904
+45.133.172.195 1 4 43341 20231203101133
+2620:18c:0:192::215 0 3 34538 
+207.248.195.158 1 16 719127 20231203014545
+103.46.140.7 2 14 713558 20231205041420
+69.30.77.66 2 15 704228 20231203100413
+192.232.16.70 1 20 1203505 20231203011604
+2600:1f14:804:fd00:39db:428e:57c0:d95a 1 1 87 20231203100227
+165.232.56.81 1 1 8693 20231203152917
+34.218.226.144 1 1 37894 20231217224256
+183.129.153.157 1 1 8594 20231205001702
+216.73.160.16 1 1 8803 20231203101025
+87.118.116.103 0 1 4505 
+35.237.25.86 0 1 36770 
+54.89.192.82 3 3 8803 20231203100824
+65.21.65.198 1 1 8803 20231203100342
+2600:1700:6a30:7140:bcfc:5c8e:e4a4:5336 2 18 743657 20231205002956
+89.104.111.120 1 2 9426 20231206001058
+134.209.127.155 2 2 17188 20231205003030
+87.236.176.230 0 1 4505 
+87.236.176.57 1 1 8594 20231205001310
+77.28.241.143 1 1 39019 20231219211113
+87.236.176.249 1 1 8594 20231204225057
+198.12.64.40 1 3 25127 20231204111035
+161.35.246.138 2 4 49482 20231205040902
+89.104.101.98 1 2 9520 20231203163209
+2600:3c03::f03c:92ff:fed8:d9ef 0 3 17365 
+47.254.25.10 1 1 36576 20231203220500
+87.236.176.48 0 1 832 
+2600:3c01::f03c:93ff:feb8:1a3 1 1 8803 20231203100343
+79.169.142.119 2 15 711399 20231205125418
+2a03:2880:31ff:76::face:b00c 0 5 193422 
+2601:c4:c580:1a50:e8a5:c151:69a8:c8aa 1 1 35239 20231210022849
+62.72.172.29 3 3 26409 20231203100920
+2a01:7e00::f03c:93ff:feb8:18c 1 1 8803 20231203100343
+51.81.245.138 1 2 11256 20231203100339
+24.126.10.158 1 1 0 20231210020809
+165.227.95.188 1 1 0 20231210020837
+216.73.160.9 1 1 8803 20231203101108
+164.90.241.135 1 4 43341 20231203101147
+2605:aa80:0:9::3 1 1 8594 20231204111039
+171.244.43.14 1 1 8604 20231203184647
+2600:1f16:269:da02:563e:b620:2e1:33ef 1 1 87 20231203100227
+87.236.176.13 0 1 12028 
+45.8.19.99 1 1 8803 20231203101012
+51.178.81.195 1 3 21454 20231204111051
+199.45.155.19 1 2 13099 20231204014010
+51.81.200.149 3 4 63830 20231205002618
+87.236.176.188 0 1 832 
+2600:803:a88:1199::199 1 11 660677 20231205031512
+63.117.14.137 0 6 289280 
+87.236.176.144 0 1 12028 
+216.73.160.13 1 1 8803 20231203101113
+204.186.55.229 1 1 39019 20231219230722 20231219230722 /
+216.73.160.5 1 1 8803 20231203101220
+2a03:2880:31ff:78::face:b00c 0 4 50562 
+45.254.254.214 1 4 25959 20231205051204
+178.62.3.65 1 1 8803 20231203100342
+87.236.176.92 1 1 8594 20231204051419
+216.73.160.167 1 1 8803 20231203100955
+212.143.94.254 3 16 722984 20231205034942
+216.73.160.153 1 1 8803 20231203101019
+51.81.153.6 1 1 8386 20231205230122
+198.147.22.233 1 4 43341 20231203101133
+2600:1700:1c60:6d40:7ce4:1f38:82d1:26f3 1 1 37894 20231214182521
+2600:1700:6a30:7140:fd1b:ab28:3b0a:9f30 1 1 39019 20231219210459
+87.236.176.83 1 1 8594 20231204184953
+87.236.176.47 1 1 8594 20231205012929
+2402:1f00:8100:400::11b5 1 2 9426 20231205051204
+133.242.174.119 1 1 8803 20231203130305
+87.236.176.241 0 1 12028 
+199.45.154.49 1 5 26801 20231203183831
+216.73.160.156 2 2 17606 20231203101140
+2a03:2880:31ff:5::face:b00c 0 1 832 
+18.212.65.75 0 2 1664 
+64.137.99.249 1 1 8594 20231204190749
+87.236.176.164 0 1 23784 
+216.73.160.168 1 1 8803 20231203101153
+216.73.160.169 1 1 8803 20231203101023
+106.161.65.206 1 4 25959 20231205051204
+216.73.160.4 1 1 8803 20231203101111
+174.138.84.205 1 3 53825 20231205223528
+2001:470:1:908::9001 0 1 832 
+34.23.137.121 0 1 36770 
+38.83.11.172 1 13 690777 20231205035125
+34.214.117.190 2 14 713558 20231203223647
+199.45.155.16 1 4 25969 20231203190242
+192.3.20.62 1 4 25959 20231205051203
+87.236.176.169 1 1 8594 20231205032503
+2605:6400:10:fa4:9e93:1da8:f7af:2e65 0 1 832 
+87.236.176.4 1 1 8594 20231205040443
+205.169.39.71 3 16 713031 20231203100418
+185.220.100.254 1 1 8594 20231204111041
+65.154.226.169 1 14 695425 20231203100348
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20231203 1116 2478 105171235 71
+20231204 88 143 3213451 22
+20231205 57 237 7536702 33
+20231206 1 2 9426 1
+20231210 19 20 578361 5
+20231213 7 7 265258 2
+20231214 1 1 37894 1
+20231215 15 15 568410 3
+20231217 3 5 113810 2
+20231218 13 15 492750 2
+20231219 41 41 928825 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 3
+1h+ 3
+15mn-30mn 2
+5mn-15mn 5
+0s-30s 126
+30mn-1h 6
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 99
+/ 450 16020336 127 120
+/wp-admin/admin-ajax.php 284 1063616 2 8
+/node16-status/ 46 1087345 9 4
+/2023/12/03/hello-world/ 28 1436123 0 4
+/wp-json/ 22 176824 0 0
+/wp-json/wp/v2/users 20 16192 0 0
+/wp-admin/edit.php 19 1038425 0 0
+/wp-admin/post.php 19 6494143 0 0
+/2023/12/03/syntax-users-restricted-on-node16/ 18 542471 6 4
+/wp-admin/load-scripts.php 17 3090785 0 0
+/wp-json/wp/v2/block-patterns/categories 17 34708 0 0
+/wp-json/wp/v2/themes 17 119685 0 0
+/wp-json/wp/v2/blocks 17 34 0 0
+/wp-json/wp/v2/wp_pattern_category 17 34 0 0
+/wp-json/wp/v2/block-patterns/patterns 17 5300314 0 0
+/wp-json/wp/v2/widget-types 15 84990 0 0
+/wp-admin/customize.php 15 15184980 0 0
+/myepicadministrativeabilityonnode16/index.php 13 8032 0 0
+/wp-json/wp/v2/settings 13 22253 0 0
+/wp-admin/load-styles.php 12 6496508 0 0
+/wp-json/wp/v2/categories 12 6242 0 0
+/wp-json/wp/v2/pages 11 26999 0 0
+/wp-json/wp/v2/posts 11 22638 0 0
+/wp-json/wp/v2/users/me 11 23920 0 0
+/wp-json/wp/v2/taxonomies 10 25632 0 0
+/softtest_zsedfzsm/soft 1 20 0 0
+/wp-json/wp/v2/block-directory/search 8 11896 0 0
+/wp-json/wp/v2/template-parts/weblogger/header 4 25697 0 0
+/wp-admin/comment.php 1 42371 0 0
+/category/uncategorized/ 4 86619 0 0
+/wp-admin/about.php 2 78550 0 0
+/wp-json/wp/v2/types/post 4 9560 0 0
+/wp-admin/ 6 465769 0 0
+/wp-admin/async-upload.php 6 8426 0 0
+/feed/ 1 1876 0 0
+/wp-json/oembed/1.0/embed 4 8676 0 0
+/wp-json/wp/v2/media/23 2 3500 0 0
+/wp-admin/edit-comments.php 1 56869 0 0
+/author/roblox/feed/ 1 1920 0 0
+/wp-json/wp/v2/templates/weblogger/home 5 58581 0 0
+/wp-json/wp/v2/media/21 1 1742 0 0
+/wp-admin/admin.php 2 357742 0 0
+/wp-json/wp/v2/pages/28 7 33597 0 0
+/wp-json/wp/v2/taxonomies/category 6 12222 0 0
+/wp-json/wp-block-editor/v1/navigation-fallback 1 1176 0 0
+/2023/12/03/hello-world/feed/ 1 1655 0 0
+/wp-admin/site-editor.php 4 2036131 0 0
+/wp-json/wp/v2/menus 4 8 0 0
+/sample-page/ 4 373571 0 0
+/wp-json/wp/v2/posts/45/autosaves 6 8901 0 0
+/wp-admin/users.php 1 40314 0 0
+/wp-login.php 3 17860 1 1
+/wp-json/wp/v2/template-parts 4 59821 0 0
+/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_normal_400.woff2 2 292120 0 1
+/wp-admin/themes.php 6 400210 0 0
+/wp-admin/options-discussion.php 2 79898 0 0
+/2023/12/03/syntax-users-restricted-on-node16/embed/ 1 21146 0 0
+/wp-admin/plugins.php 1 50409 0 0
+/wp-json/wp/v2/global-styles/6/revisions 2 4 0 0
+/wp-json/oembed/1.0/proxy 1 2211 0 0
+/wp-json/wp/v2/global-styles/6 4 2260 0 0
+/wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2 2 653256 0 0
+/wp-json/wp/v2/navigation/4 1 6397 0 0
+/wp-admin/plugin-install.php 1 84177 0 0
+/author/roblox/ 4 87885 0 0
+/wp-json/wp/v2/pages/28/autosaves 8 13951 0 0
+/.well-known/acme-challenge/m-Xkw5MxsmzT0TB4YnmIkaWCsZJgCPZwtlka_mVllmg 3 261 3 3
+/wp-json/wp/v2/media 9 37383 0 0
+/category/uncategorized/feed/ 1 1943 0 0
+/wp-json/wp/v2/themes/weblogger 4 13136 0 0
+/myepicadministrativeabilityonnode16/ 4 2487 1 0
+/wp-admin/options-writing.php 1 33283 0 0
+/wp-admin/post-new.php 6 2042700 0 0
+/wp-json/wp/v2/tags 2 4 0 0
+/wp-json/wp/v2/block-renderer/core/rss 1 1163 0 0
+/wp-admin/media-new.php 1 33098 0 0
+/wp-content/themes/fotawp/assets/fonts/plus-jakarta-sans/PlusJakartaSans-VariableFont_wght.ttf 1 176144 0 0
+/wp-json/wp/v2/global-styles/themes/weblogger/variations 1 7495 0 0
+/wp-admin/theme-install.php 2 102721 0 0
+/check_charset.php 1 77 0 0
+/2023/12/03/ 6 78630 0 1
+/2023/12/ 5 69705 0 0
+/wp-content/themes/twentytwentyfour/assets/fonts/cardo/cardo_italic_400.woff2 2 210368 0 1
+/wp-json/wp/v2/taxonomies/post_tag 2 3688 0 0
+/wp-admin/profile.php 7 422950 0 0
+/wp-json/wp/v2/types 4 77768 0 0
+/wp-json/wp/v2/navigation 1 1498 0 0
+/wp-admin/options-general.php 3 210511 0 0
+/wp-content/plugins/speedycache/assets/webfonts/fa-solid-900.woff2 1 78268 0 0
+/wp-json/wp/v2/posts/45 6 23022 0 0
+/wp-json/wp/v2/categories/1 3 1833 0 0
+/wp-json/wp/v2/posts/1 6 51574 0 0
+/comments/feed/ 1 1639 0 0
+/wp-json/wp/v2/users/1 5 9711 0 0
+/2023/ 4 60715 0 0
+/wp-admin/options-reading.php 1 32388 0 0
+/wp-json/wp/v2/block-renderer/core/latest-comments 1 1171 0 0
+/wp-json/wp/v2/templates 4 18900 0 0
+/wp-admin/index.php 2 165476 0 0
+END_SIDER

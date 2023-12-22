@@ -1,0 +1,496 @@
+# Webalizer V2.23-08 Incremental Data - 12/19/2023 21:47:02
+2023 12 19 21 47 2
+249 61 84 14 8 40 986387085 175 102 0
+2 9 105 9 19
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+119 7 18226 41 87 46
+17 3 3402 6 12 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+3 0 602 2 2 2
+5 0 1458 5 5 5
+19 4 7563 8 15 9
+23 9 12783 13 19 14
+7 6 152117348 2 2 1
+41 24 677239645 14 23 16
+15 8 156986058 2 10 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+6 1 1232 5
+9 0 2042 7
+2 1 355 1
+1 1 64 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 1084 1
+1 0 292 1
+5 4 152117220 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+3 0 584 3
+0 0 0 0
+11 7 147257772 7
+3 1 1385 2
+1 0 292 1
+0 0 0 0
+19 6 152121805 15
+47 27 534857325 29
+19 6 8127 14
+116 6 15979 82
+5 0 1527 5
+0
+0
+0
+61
+0
+0
+0
+0
+0
+0
+0
+111
+0
+0
+0
+0
+0
+0
+0
+0
+0
+77
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/pki-validation/685C03126C47D9D04939DDA091BDD33F.txt
+0 1 94454417379072 64 0 0
+/.well-known/pki-validation/773798D4C2FEB5466D938CFC58A9AAC7.txt
+0 3 94454417366768 231 0 0
+/.well-known/pki-validation/2B0C192A63B89EB2A512E51E4A02B1F5.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/66F36DB88A1DA3B6650F0A12477A38F2.txt
+0 1 0 64 0 0
+/ClientsAndRCC/Node16RCCService.zip
+0 6 0 470935062 0 0
+/.well-known/pki-validation/D608C8E0E41EB5B4B14CDA15C3C01E67.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/6652D29BCFDB524668A504EAFAAE3069.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/3C7DB3B81B1FBCAACD950898F91E546F.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/F847BA5B76B20BD87942B5D6BDD36383.txt
+0 1 0 64 0 0
+/ClientsAndRCC/350cf705f7f28c276edb303829701402-node16client.zip
+0 7 0 515381125 0 0
+/
+0 2 0 1366 67 8
+/.well-known/pki-validation/1AA6D1528F406C75CC79E31596FE76BC.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/A8A05A926B9ECCD84163BDCCA8EA5C01.txt
+0 1 0 64 0 0
+/ClientsAndRCC/
+0 34 0 36855 22 9
+# End Of Table - urls
+# -sites- (monthly)
+2603-9000-a100-5b5b-4c9f-0b8c-4aa0-e8b6.inf6.spectrum.com
+0 3 1 1394 1 1702757888
+-
+167.71.90.10
+0 5 3 3562 3 1702918715
+/ClientsAndRCC/
+214.4.237.35.bc.googleusercontent.com
+0 1 1 1084 1 1702673407
+/ClientsAndRCC/
+205.210.31.47
+0 1 0 292 1 1702739667
+/
+notworking.scan.leakix.org
+0 2 0 582 1 1702161960
+/
+45.88.97.210
+0 3 0 874 2 1702162086
+/
+157.245.176.68
+0 1 0 292 1 1702151503
+/
+2001:ac8:22:5d:6c::1
+0 2 1 1084 1 1702929679
+/ClientsAndRCC/
+pharmaceutical.scan.leakix.org
+0 18 0 1485 4 1702161965
+/
+154.28.229.223
+0 1 0 292 1 1702162030
+/
+bas911-toronto63-142-113-186-73.dsl.bell.ca
+0 1 1 1084 1 1702712273
+/ClientsAndRCC/
+45.130.83.20
+0 1 0 292 1 1702162177
+/
+2600:387:f:5919::6
+0 4 1 1686 1 1702673402
+/ClientsAndRCC/
+scan-42.a.internet-metrics.com
+0 1 0 292 1 1702667805
+/
+45.130.83.10
+0 1 0 292 1 1702162191
+/
+scanner-202.hk2.censys-scanner.com
+0 1 0 291 1 1702580934
+/
+172.70.15.20
+0 6 0 1167 2 1702677052
+/
+aitechnology.scan.leakix.org
+0 16 0 898 2 1702161965
+-
+2620:18c:0:192::218
+0 1 0 291 1 1702162084
+/
+sortie-tor.a-n-o-n-y-m-e.net
+0 1 0 0 0 0
+-
+195.211.77.142
+0 5 0 876 3 1702904831
+/
+146.70.202.86
+0 4 3 152116136 1 1702931724
+/ClientsAndRCC/
+2600:1700:1c60:6d40:fdae:1bb0:a9f9:64e7
+0 2 0 584 1 1702151088
+/
+2a06:98c0:360b:31d2:672:f69f:707:3ec2
+0 3 0 875 1 1702677051
+/
+178.62.227.35.bc.googleusercontent.com
+0 5 5 5019 5 1702931689
+/ClientsAndRCC/
+193.36.118.249
+0 2 0 583 1 1702162064
+/
+2600:387:f:a10::1
+0 1 0 292 1 1702994151
+/
+45.92.229.146
+0 1 0 292 1 1702162201
+/
+textgenerator.scan.leakix.org
+0 18 0 1483 3 1702161960
+-
+45.92.229.151
+0 1 0 292 1 1702162200
+/
+static.198.65.21.65.clients.your-server.de
+0 1 0 292 1 1702165340
+/
+2606:4700:1101:2:4129:9343:eab2:ec41
+0 7 0 1751 1 1702171481
+/
+134.122.116.14
+0 3 1 975 1 1702150460
+/
+2620:18c:0:192::217
+0 2 0 583 1 1702162065
+/
+customer.sydyaus1.pop.starlinkisp.net
+0 5 4 152117220 2 1702931686
+/ClientsAndRCC/
+c-24-126-10-0.hsd1.wv.comcast.net
+0 3 1 1394 2 1702757584
+-
+host37.raisear.us
+0 2 2 152115052 0 0
+-
+ip-147-135-77.eu
+0 2 1 1084 1 1702673880
+/ClientsAndRCC/
+45.130.83.12
+0 1 0 292 1 1702162176
+/
+2a01:4f8:10a:2d6::2
+0 2 0 582 1 1702162627
+/
+ec2-54-196-236-229.compute-1.amazonaws.com
+0 14 8 156985766 3 1703022422
+/ClientsAndRCC/
+edc89.daten-de.com
+0 2 0 301 1 1702484154
+/
+23-228-130-202.mci.googlefiber.net
+0 1 1 1084 1 1702913573
+/ClientsAndRCC/
+scan-32.a.internet-metrics.com
+0 1 0 292 1 1702754179
+/
+45.92.229.141
+0 1 0 292 1 1702162189
+/
+172.70.65.72
+0 2 0 584 1 1702939055
+/
+fwdproxy-frc-001.fbsv.net
+0 1 0 360 1 1702164497
+/
+scanner.ducks.party
+0 1 0 292 1 1702163222
+/
+45.130.83.18
+0 1 0 292 1 1702162189
+/
+scan-31.a.internet-metrics.com
+0 1 0 292 1 1702581439
+/
+scanner-201.hk2.censys-scanner.com
+0 1 0 292 1 1702594942
+/
+flaskalternative.scan.leakix.org
+0 2 0 584 1 1702161960
+/
+scanner-204.hk2.censys-scanner.com
+0 1 0 291 1 1702586949
+/
+akamai-216-68-10-134.fuse.net
+0 2 1 1394 1 1702757586
+/ClientsAndRCC/
+67-61-67-61-40-6.cpe.sparklight.net
+0 1 1 1084 1 1702757586
+/ClientsAndRCC/
+sv83.ifastnet.com
+0 10 10 653 0 0
+-
+85.132.196.35.bc.googleusercontent.com
+0 2 1 1394 1 1702757561
+/ClientsAndRCC/
+198.235.24.158
+0 1 0 291 1 1702667760
+/
+198.235.24.151
+0 1 0 292 1 1702713974
+/
+bras-base-toroon3520w-grc-39-142-113-186-73.dsl.bell.ca
+0 1 0 292 1 1702152186
+/
+d173-238-183-191.home4.cgocable.net
+0 8 5 152118614 2 1702804135
+/ClientsAndRCC/
+154.28.229.216
+0 1 0 292 1 1702162027
+/
+195.211.77.140
+0 1 0 0 1 1702162006
+/
+2a06:98c0:360c:b30:d753:9719:1461:6b40
+0 7 0 1458 1 1702939056
+/
+172.70.8.88
+0 2 0 291 1 1702171475
+/
+45.92.229.153
+0 1 0 292 1 1702162156
+/
+scanner-203.hk2.censys-scanner.com
+0 1 0 292 1 1702576385
+/
+secure.trust-provider.net
+0 1 1 77 0 0
+-
+scan-38.a.internet-metrics.com
+0 1 0 301 1 1702495012
+/
+71.sub-174-215-176.myvzw.com
+0 4 3 147252834 1 1702913273
+/ClientsAndRCC/
+ec2-34-254-53-125.eu-west-1.compute.amazonaws.com
+0 2 0 584 1 1702169517
+/
+45.130.83.11
+0 1 0 292 1 1702162157
+/
+cache.google.com
+0 1 1 73625875 0 0
+-
+99-35-43-241.lightspeed.tukrga.sbcglobal.net
+0 3 1 1394 1 1702757292
+/ClientsAndRCC/
+198.235.24.166
+0 1 0 291 1 1702695565
+/
+mcdrone1.mcr.dc.comodoca.net
+0 1 1 77 0 0
+-
+146.190.197.169
+0 2 0 583 1 1702162065
+/
+69.4.234.97
+0 2 0 292 1 1702161966
+/
+fwdproxy-ftw-010.fbsv.net
+0 1 0 291 1 1702164495
+/
+google-ggc-mem03.maxxsouthbb.net
+0 1 1 1084 1 1702928136
+/ClientsAndRCC/
+minimalviableproduct.scan.leakix.org
+0 16 0 898 3 1702161962
+/
+45.130.83.7
+0 1 0 292 1 1702162192
+/
+scan-33.a.internet-metrics.com
+0 1 0 292 1 1702167380
+/
+047-231-180-114.res.spectrum.com
+0 2 1 1376 2 1702673445
+/ClientsAndRCC/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+2600:387:f:a10::1
+0 1 0 292 1 1702994151
+/
+ec2-54-196-236-229.compute-1.amazonaws.com
+0 14 8 156985766 3 1703022422
+/ClientsAndRCC/
+# End Of Table - sites (daily)
+# -referrers- 
+http://cdn.node16.xyz/favicon.ico
+0 1
+https://www.node16.xyz:2083/
+0 1
+https://www.google.com/
+0 6
+- (Direct Request)
+0 202
+http://cdn.node16.xyz/
+0 6
+http://cdn.node16.xyz/ClientsAndRCC/
+0 2
+https://cdn.node16.xyz/
+0 5
+https://cdn.node16.xyz/ClientsAndRCC/
+0 26
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 8.1.0; Nexus 6P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+0 10
+Mozilla/5.0 (Windows NT 14.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.124 Chrome/119.0.6045.
+0 2
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA226809) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.1746.98 Mobil
+0 2
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA115755) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2890.98 Mobil
+0 2
+Cloudflare-SSLDetector
+0 27
+Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)
+0 8
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (l9scan/2.0.5313e25363e21323e2430313; +https://leakix.net)
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E14
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+0 37
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 (scanner.duck
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 4
+Android 11; pt_BR; SM-A015M Build/RP1A.200720.0121175667608181M-8540452573455618471
+0 5
+COMODO DCV
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+0 9
+Go-http-client/1.1
+0 57
+Python/3.9 aiohttp/3.9.1
+0 1
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+0 1
+python-requests/2.22.0
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3781.6 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 6
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 1
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+0 5
+Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+0 1
+Sectigo DCV
+0 2
+Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.36
+0 2
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.659 YaBrowser/23.9.5.659 Yowser
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 OPR/102
+0 3
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile S
+0 4
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.42 Safari/537.36
+0 1
+Mozilla/5.0 (l9scan/2.0.5363e2735313e27363e2237313; +https://leakix.net)
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

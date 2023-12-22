@@ -1,0 +1,125 @@
+Return-Path: <0100018c4b1d5e7f-d973a536-1026-4b5b-a351-17a97f02f91d-000000@uptime.betterstackhq.com>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id TFQxD0R8c2UQ2xMAAQ44CQ
+	(envelope-from <0100018c4b1d5e7f-d973a536-1026-4b5b-a351-17a97f02f91d-000000@uptime.betterstackhq.com>)
+	for <info@node16.xyz>; Fri, 08 Dec 2023 15:27:48 -0500
+Return-path: <0100018c4b1d5e7f-d973a536-1026-4b5b-a351-17a97f02f91d-000000@uptime.betterstackhq.com>
+Envelope-to: info@node16.xyz
+Delivery-date: Fri, 08 Dec 2023 20:27:48 +0000
+Received: from e230-74.smtp-out.amazonses.com ([23.251.230.74]:54655)
+	by sv83.ifastnet.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.96.2)
+	(envelope-from <0100018c4b1d5e7f-d973a536-1026-4b5b-a351-17a97f02f91d-000000@uptime.betterstackhq.com>)
+	id 1rBhRq-005SVD-0P
+	for info@node16.xyz;
+	Fri, 08 Dec 2023 20:27:48 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=su2wgauodgz2hedvadcnlhdczmcq5wl3; d=betterstackhq.com;
+	t=1702067265;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=o4l3zZV9eJaby/nJU3g2yyOId50uASlWWdvCb5VGFkA=;
+	b=FEoxujuxZN00Ju7IWD58GY/5XvkUnXnFmdLa1t1mYa+/6q7GxQBxDPbXHXGX5MP0
+	0UTv7FVmd49wqhPCiYeiVqHTJ/xrP5OV6rB8zs28dogxfqoGJT0xvhfg3Xs+J7I5DjI
+	jpHKh2cjFDUOG7Cz1kOVG+Tqai20i2xDSxXUVGuagUPbY2HPHgqULvqLPncJsuqyEkj
+	qXDTOfUohNpathM8IP10hHYG8gWTG4cedZYuxrAL6JitgxvSlt70KntabYnKo4soFZD
+	UEiteLDUhdv8pvzHffhvmJCTkkeIKKJ6jEPRKaqYcdtAMK07b4wNePh9N3FcEig9cFJ
+	Q22DFzF1vA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1702067265;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=o4l3zZV9eJaby/nJU3g2yyOId50uASlWWdvCb5VGFkA=;
+	b=ARRk9i5/Yt1hZYQ1QLGjKTwXFmFM3cQ3yV18pJbQ7KqDuSnXK7maA0XFmAx9EEnU
+	GgvxAY7wPqiChVZWed2/VLHP/OtENP5iatl3SUj7Zrj9OfkPk5dgmbPl0qiYrA1TOIC
+	Pd2aXMTJy4oV9KJ9HSmWIh5zYms+nqgfNIsqzY6E=
+Date: Fri, 8 Dec 2023 20:27:45 +0000
+From: Julie at Better Stack <julie@betterstackhq.com>
+To: info@node16.xyz
+Message-ID: <0100018c4b1d5e7f-d973a536-1026-4b5b-a351-17a97f02f91d-000000@email.amazonses.com>
+Subject: Nice work!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Feedback-ID: 1.us-east-1.wcFI9cKjbk4KC0Z5pTUE1sExtV4FopsWkVpjuuGd06k=:AmazonSES
+X-SES-Outgoing: 2023.12.08-23.251.230.74
+X-Spam-Status: No, score=0.6
+X-Spam-Score: 6
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sv83.ifastnet.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Juan, nice work on setting up Better Stack to work for
+   you! We can share more about some best practices companies, from startups
+   to Fortune 500, use daily to improve their application reliability. Would
+   that be interesting to you? 
+ Content analysis details:   (0.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: calendly.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of
+                             words
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www=
+.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div style=3D"font-family: arial,helvetica,sans-serif; font-size: 13px">
+<p>Hi Juan, nice work on setting up Better Stack to work for you!</p>
+
+<p>We can share more about some best practices companies, from startups t=
+o Fortune 500, use daily to improve their application reliability. Would =
+that be interesting to you?</p>
+
+<p>Please feel free to book a time with us <b><a href=3D"https://uptime.b=
+etterstack.com/ahoy/messages/cEMterhDdJAeksTMqDVdGJKnRTlHVirr/click?signa=
+ture=3Db2ea6d81040758574d12953d9f9dbc2e3f7a34d0&amp;url=3Dhttps%3A%2F%2Fc=
+alendly.com%2Fbetterstack%2Fmeeting%3Futm_source%3Dintro%252Fcustomer_suc=
+cess_genuine_journey%26utm_medium%3Demail%26utm_campaign%3Dcustomer_succe=
+ss_signup_5">here</a></b></p>
+
+<p>This link is open only for paying enterprise customers. For you, it=E2=
+=80=99s free because I believe Better Stack is really great fit for you, =
+and I want to explore it together.</p>
+
+<p>Cheers,          =
+
+<br>Julie
+</p>
+<p style=3D"font-size: 11px">
+<br>
+<br>
+<b>Julie Blanchard</b><br>
+Customer success | <a href=3D"https://uptime.betterstack.com/ahoy/message=
+s/cEMterhDdJAeksTMqDVdGJKnRTlHVirr/click?signature=3D941364c4299ab2336c4d=
+9341b63844c12397dab9&amp;url=3Dhttps%3A%2F%2Fbetterstack.com%3Futm_source=
+%3Dintro%252Fcustomer_success_genuine_journey%26utm_medium%3Demail%26utm_=
+campaign%3Dcustomer_success_signup_5">Better Stack</a><br>
+9450 SW Gemini Dr, PMB 98229, Beaverton, Oregon 97008, USA<br>
+<a href=3D"https://betterstack.com/unsubscribe/aW5mb0Bub2RlMTYueHl6/j/eyJ=
+qb3VybmV5X3NvdXJjZSI6InVwdGltZSIsImpvdXJuZXkiOiJJbnRybzo6Q3VzdG9tZXJTdWNj=
+ZXNzR2VudWluZUpvdXJuZXkifQ">stop emailing me</a>
+</p>
+</div>
+<img alt=3D"" src=3D"https://uptime.betterstack.com/ahoy/messages/cEMterh=
+DdJAeksTMqDVdGJKnRTlHVirr/open.gif" width=3D"1" height=3D"1">
+</body></html>

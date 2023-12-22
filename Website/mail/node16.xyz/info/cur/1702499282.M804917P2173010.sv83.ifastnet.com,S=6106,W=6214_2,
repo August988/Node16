@@ -1,0 +1,108 @@
+Return-Path: <0100018c64dd622b-ca819332-02fe-4843-8700-2b9f09263b3b-000000@uptime.betterstackhq.com>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id CHQKLtITemVSKCEAAQ44CQ
+	(envelope-from <0100018c64dd622b-ca819332-02fe-4843-8700-2b9f09263b3b-000000@uptime.betterstackhq.com>)
+	for <info@node16.xyz>; Wed, 13 Dec 2023 15:28:02 -0500
+Return-path: <0100018c64dd622b-ca819332-02fe-4843-8700-2b9f09263b3b-000000@uptime.betterstackhq.com>
+Envelope-to: info@node16.xyz
+Delivery-date: Wed, 13 Dec 2023 20:28:02 +0000
+Received: from e230-75.smtp-out.amazonses.com ([23.251.230.75]:57475)
+	by sv83.ifastnet.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.96.2)
+	(envelope-from <0100018c64dd622b-ca819332-02fe-4843-8700-2b9f09263b3b-000000@uptime.betterstackhq.com>)
+	id 1rDVpn-0097MC-2w
+	for info@node16.xyz;
+	Wed, 13 Dec 2023 20:28:02 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=su2wgauodgz2hedvadcnlhdczmcq5wl3; d=betterstackhq.com;
+	t=1702499279;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=5Eh4COIO+QGhKnHBTQSWbGugAAJIph8fq/Bixh/Wgfw=;
+	b=icpHpFPeHVicyeHnKKkkECQ0YvjdsFX5p49wVwqgDr7MMUnZoOnB5g15l9dtSqDr
+	xYR0hDqpF6rmAK/Zqx2GioCitEvCs0Ra0UVAo2chLRHOqeU6xKtIa3DDFpCnz/NNEJI
+	WN4Zy1+As+m7LUl7wCzR09WxYJ3u3XR+LyLRjqLAo87KXZHYZxFfCqFtps42957gVtK
+	Wo2Q7eNTyD45uogrAKHuOmGl2U+7WxGC2/pkE4axjx+w+zKlMk8yd3xvlBAkCcTlEvN
+	uXqWTur0Y0sGQrdA7WM3kHIFrdV8bavaF/CLaCItYTZiMXs3TYslb68vyAndMO3pCOM
+	bK7eKnF6vA==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1702499279;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=5Eh4COIO+QGhKnHBTQSWbGugAAJIph8fq/Bixh/Wgfw=;
+	b=Suxza5F7dT7LGuAt1pZUy8ISJohpphhfXf0n2bdzNdXCYtaygf0aRW5el1x0MuGp
+	F5VkLuYb0GtK1YyP6QhNRpL0C3kX9oB598n/gMetfzmiyN4zDOwqBbVHQ4OusGK32ZO
+	inNQ7VHP92sLuL2DBalskP5GTk8Bq5cFFEdb+V6s=
+Date: Wed, 13 Dec 2023 20:27:59 +0000
+From: Julie at Better Stack <julie@betterstackhq.com>
+To: info@node16.xyz
+Message-ID: <0100018c64dd622b-ca819332-02fe-4843-8700-2b9f09263b3b-000000@email.amazonses.com>
+Subject: Nice work!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Feedback-ID: 1.us-east-1.wcFI9cKjbk4KC0Z5pTUE1sExtV4FopsWkVpjuuGd06k=:AmazonSES
+X-SES-Outgoing: 2023.12.13-23.251.230.75
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sv83.ifastnet.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Juan, In reviewing some outstanding business today, I'll
+    be taking your account out of my current follow-ups at this time. Since you
+    signed up, I have been really looking forward to connecting and helping you
+    with getting the most out of Better Stack. I assume that we've either fallen
+    off your radar or that perhaps there [...] 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: betterstack.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<div style="font-family: arial,helvetica,sans-serif; font-size: 13px">
+<p>Hi Juan,</p>
+
+<p>In reviewing some outstanding business today, I'll be taking your account out of my current follow-ups at this time.</p>
+
+<p>Since you signed up, I have been really looking forward to connecting and helping you with getting the most out of Better Stack. I assume that we've either fallen off your radar or that perhaps there is no interest in 1:1 support.</p>
+
+<p>Please feel free to save my email, I'd be happy to speak with you when you are ready to move this forward or need any assistance.</p>
+
+<p>All the best,          
+<br>Julie
+</p>
+<p style="font-size: 11px">
+<br>
+<br>
+<b>Julie Blanchard</b><br>
+Customer success | <a href="https://uptime.betterstack.com/ahoy/messages/6XWGodzdJmnj5HanrRYv7GZ8P7I3Nmbz/click?signature=824dfdfffc0a6487303d4e04c6f95163f24cb619&amp;url=https%3A%2F%2Fbetterstack.com%3Futm_source%3Dintro%252Fcustomer_success_genuine_journey%26utm_medium%3Demail%26utm_campaign%3Dcustomer_success_signup_6">Better Stack</a><br>
+9450 SW Gemini Dr, PMB 98229, Beaverton, Oregon 97008, USA<br>
+<a href="https://betterstack.com/unsubscribe/aW5mb0Bub2RlMTYueHl6/j/eyJqb3VybmV5X3NvdXJjZSI6InVwdGltZSIsImpvdXJuZXkiOiJJbnRybzo6Q3VzdG9tZXJTdWNjZXNzR2VudWluZUpvdXJuZXkifQ">stop emailing me</a>
+</p>
+</div>
+<img alt="" src="https://uptime.betterstack.com/ahoy/messages/6XWGodzdJmnj5HanrRYv7GZ8P7I3Nmbz/open.gif" width="1" height="1">
+</body></html>

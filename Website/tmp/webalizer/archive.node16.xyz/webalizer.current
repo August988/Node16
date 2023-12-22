@@ -1,0 +1,271 @@
+# Webalizer V2.23-08 Incremental Data - 12/04/2023 11:42:21
+2023 12 4 11 42 21
+52 3 25 3 4 31 192 31 24 0
+2 1 16 1 4
+9 0 0 8 9 8
+26 0 0 8 9 6
+14 3 192 8 10 7
+3 0 0 2 3 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+10 2 128 6
+0 0 0 0
+1 1 64 0
+0 0 0 0
+0 0 0 0
+3 0 0 3
+1 0 0 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+2 0 0 2
+3 0 0 3
+0 0 0 0
+3 0 0 3
+16 0 0 1
+0 0 0 0
+6 0 0 5
+1 0 0 1
+1 0 0 1
+1 0 0 1
+0 0 0 0
+0 0 0 0
+2 0 0 2
+2 0 0 2
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+18
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+31
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/pki-validation/1D70CAE41C45570A781FCA80A59950B5.txt
+0 1 94313901057168 64 0 0
+/.well-known/pki-validation/4DDD9773C5A7B87A963B9B3F4B9D647A.txt
+0 1 94313901068064 64 0 0
+/.well-known/pki-validation/3B8062AF852930B9A1086CB949F1F740.txt
+0 1 0 64 0 0
+# End Of Table - urls
+# -sites- (monthly)
+2409:8c20:b281:14::102
+0 7 0 0 0 0
+-
+223.113.128.132
+0 2 0 0 0 0
+-
+engaging.monitoring.internet-measurement.com
+0 1 0 0 1 1701406802
+-
+89.104.100.43
+0 1 0 0 0 0
+-
+2001:550:1d05:1::4
+0 1 0 0 1 1701581395
+-
+scan-50.a.internet-metrics.com
+0 1 0 0 1 1701458865
+-
+hopeful.monitoring.internet-measurement.com
+0 1 0 0 1 1701690141
+-
+176.53.221.138
+0 2 0 0 2 1701476724
+-
+129.153.125.162
+0 1 0 0 1 1701428926
+-
+streamlined.monitoring.internet-measurement.com
+0 1 0 0 1 1701407274
+-
+163.5.64.42
+0 2 0 0 1 1701647827
+-
+ec2-18-144-100-159.us-west-1.compute.amazonaws.com
+0 2 0 0 2 1701628939
+-
+165.232.56.81
+0 2 0 0 1 1701621605
+-
+134.209.127.155
+0 2 0 0 1 1701621605
+-
+172.70.19.154
+0 2 0 0 2 1701648174
+-
+183.129.153.157
+0 1 0 0 1 1701428892
+-
+csxuanyu.cn
+0 7 0 0 1 1701528242
+-
+51.81.153.216
+0 2 0 0 1 1701469811
+-
+176.53.221.136
+0 3 0 0 1 1701476728
+-
+c-73-147-72-174.hsd1.va.comcast.net
+0 2 0 0 1 1701621585
+-
+sv83.ifastnet.com
+0 3 3 192 0 0
+-
+2409:8c20:b281:14::100
+0 2 0 0 1 1701525366
+-
+special.monitoring.internet-measurement.com
+0 1 0 0 1 1701413097
+-
+ns1016491.ip-15-204-183.us
+0 1 0 0 1 1701624180
+-
+223.113.128.205
+0 2 0 0 1 1701512750
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+hopeful.monitoring.internet-measurement.com
+0 1 0 0 1 1701690141
+-
+172.70.19.154
+0 2 0 0 2 1701648174
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://archive.node16.xyz
+0 1
+http://archive.node16.xyz:2082
+0 1
+https://archive.node16.xyz/
+0 1
+- (Direct Request)
+0 49
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 7_1_2; Win64; x64) AppleWebKit/565.51 (KHTML, like Gecko) Chrome/74.0.1637 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 4
+Mozilla/5.0 (Windows NT 9_1; Win64; x64) AppleWebKit/572.53 (KHTML, like Gecko) Chrome/50.0.34 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 8_2_1; Win64; x64) AppleWebKit/583.40 (KHTML, like Gecko) Chrome/79.0.2105 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36
+0 1
+Cloudflare-SSLDetector
+0 2
+Mozilla/5.0 (Windows NT 9_0; Win64; x64) AppleWebKit/598.41 (KHTML, like Gecko) Chrome/68.0.2728 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 9_1_1; Win64; x64) AppleWebKit/551.50 (KHTML, like Gecko) Chrome/98.0.423 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/595.55 (KHTML, like Gecko) Chrome/75.0.2895 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+0 1
+COMODO DCV
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/564.50 (KHTML, like Gecko) Chrome/87.0.2511 Safari/537.36
+0 1
+Go-http-client/1.1
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.199 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/580.49 (KHTML, like Gecko) Chrome/65.0.1589 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 9_1_2; Win64; x64) AppleWebKit/594.49 (KHTML, like Gecko) Chrome/53.0.405 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/554.51 (KHTML, like Gecko) Chrome/85.0.362 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 9_0_1; Win64; x64) AppleWebKit/562.54 (KHTML, like Gecko) Chrome/55.0.2181 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 9_0_1) AppleWebKit/595.40 (KHTML, like Gecko) Chrome/69.0.2649 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/564.55 (KHTML, like Gecko) Chrome/93.0.853 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 9_1_1) AppleWebKit/588.48 (KHTML, like Gecko) Chrome/106.0.2254 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/580.50 (KHTML, like Gecko) Chrome/86.0.2620 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/540.41 (KHTML, like Gecko) Chrome/63.0.106 Safari/537.36
+0 1
+curl/7.29.0
+0 4
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

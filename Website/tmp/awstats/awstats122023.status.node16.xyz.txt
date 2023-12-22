@@ -1,0 +1,307 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.status.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2691                
+POS_VISITOR 7885                
+POS_DAY 8741                
+POS_DOMAIN 3259                
+POS_LOGIN 3532                
+POS_ROBOT 3687                
+POS_WORMS 3932                
+POS_EMAILSENDER 4063                
+POS_EMAILRECEIVER 4206                
+POS_SESSION 8957                
+POS_SIDER 9125                
+POS_FILETYPES 4341                
+POS_DOWNLOADS 4456                
+POS_OS 5369                
+POS_BROWSER 5460                
+POS_SCREENSIZE 5594                
+POS_UNKNOWNREFERER 5668                
+POS_UNKNOWNREFERERBROWSER 5922                
+POS_ORIGIN 6030                
+POS_SEREFERRALS 6164                
+POS_PAGEREFS 6308                
+POS_SEARCHWORDS 6551                
+POS_KEYWORDS 6703                
+POS_MISC 2355                
+POS_ERRORS 6762                
+POS_CLUSTER 3388                
+POS_SIDER_404 6861                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231218155821 13 2517 12427592115254
+FirstTime 20231205202316
+LastTime 20231218155821
+LastUpdate 20231218200209 13 0 13 0 0
+TotalVisits 16                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+AddToFavourites 0 3 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 1 64 5 6 1482
+1 0 0 0 8 10 2404
+2 0 1 64 4 4 1231
+3 0 1 64 2 3 615
+4 0 0 0 1 1 307
+5 0 0 0 0 0 0
+6 0 0 0 4 4 1232
+7 0 0 0 0 0 0
+8 0 0 0 1 2 308
+9 3 4 325 57 61 8736
+10 0 0 0 6 6 1609
+11 0 0 0 12 16 3696
+12 0 0 0 8 9 2464
+13 0 0 0 0 0 0
+14 0 0 0 2 2 616
+15 10 10 508 5 7 1116
+16 0 0 0 3 4 924
+17 0 0 0 3 3 922
+18 0 0 0 5 6 1232
+19 9 10 1687 6 14 3946
+20 3 5 1064 5 11 1539
+21 7 8 1814 10 17 3022
+22 12 16 5995 8 10 2464
+23 0 0 0 7 7 2156
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 26 26 7934
+ip 14 14 2382
+vg 3 3 250
+ca 1 1 251
+gb 0 12 768
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+no_user_agent 4 1000 20231218001424 0
+Discordbot/ 2 501 20231218153351 0
+Go\-http\-client/ 2 62 20231208093949 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 41 10556 0 0
+Unknown 3 261 0 0
+txt 12 768 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 12
+/.well-known/pki-validation/EC89B15BEE04DD9F171146DDA666918D.txt 1 0 64
+/.well-known/pki-validation/1ADD3CEBC905C588C08E8FEF30985281.txt 1 0 64
+/.well-known/pki-validation/0A2470BE7136673C1ABD09E276ADB9F6.txt 1 0 64
+/.well-known/pki-validation/12B0ADD396BF827FC069B4727467B874.txt 1 0 64
+/.well-known/pki-validation/B868D08488F83C8BF688E5BD255B3B1D.txt 1 0 64
+/.well-known/pki-validation/E9638DE8FCE6C21A936D4C8CDF8B83CF.txt 1 0 64
+/.well-known/pki-validation/02184F885BF586E82DEC1C900475EA6D.txt 1 0 64
+/.well-known/pki-validation/6B06DE71D9BEB4E3297CF80B46ABE0DD.txt 1 0 64
+/.well-known/pki-validation/7114BC409E9A6424CE317E6A7850FD23.txt 1 0 64
+/.well-known/pki-validation/35E0BFE6CBD907D261D1E87A718F2800.txt 1 0 64
+/.well-known/pki-validation/F402F31E3EE7DC90854DD52B50225356.txt 1 0 64
+/.well-known/pki-validation/ABF104B10C622E6B7AA8B65D3E8475F6.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+Unknown 22 10
+win10 34 34
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 5
+Unknown 12 0
+chrome120.0.0.0 21 21
+chrome119.0.0.0 13 13
+cloudflare 7 7
+mozilla 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Cloudflare-SSLDetector 20231215215051
+COMODO_DCV 20231217223610
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20231208093951
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+COMODO_DCV 20231217223610
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 27 39
+From1 0 0
+From2 0 0
+From3 16 16
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://uptime.betterstack.com 8 8
+https://www.node16.xyz:2083 7 7
+https://node16.xyz:2083 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+301 127 37995
+404 39 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 21
+/static/admin/javascript/hetong.js 1 -
+/debug/default/view 2 -
+/server-status 2 -
+/.vscode/sftp.json 2 -
+/robots.txt 6 -
+/assets/status_pages/og_degraded-d2bf79cbdf3e4a6b7b8122af08c2a190f9aea5ed56bfb89e2f0482fbd24c0c4c.png 1 -
+/assets/status_pages/og_operational-b02e3c30367784b0fc6f0ad9a8278409c336107a0eab28aa64f0f55458d91567.png 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/s/5363e2735313e27363e2237313/_/ 1 -
+/v2/_catalog 2 -
+/s/5313e25363e21323e2430313/_/ 1 -
+/about 2 -
+/_all_dbs 2 -
+/.DS_Store 2 -
+/favicon 1 -
+/config.json 2 -
+/telescope/requests 2 -
+/Public/home/js/check.js 1 -
+/.git/config 2 -
+/login.action 2 -
+//static.cloudflareinsights.com/beacon.min.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+167.71.90.10 7 7 258 20231218155821 20231218153344 /
+174.138.84.205 7 7 4802 20231205224617
+2600:1700:1c60:6d40:2d3b:4ac7:e3ac:ac3b 6 6 870 20231215193925
+64.225.2.64 5 5 937 20231205221232
+2a06:98c0:360b:31d2:672:f69f:707:3ec2 4 4 1000 20231215215050
+172.70.15.20 3 3 750 20231215215051
+89.38.99.102 3 3 250 20231218154540 20231218153353 /
+157.245.81.161 1 1 0 20231217204053
+167.71.82.174 1 1 686 20231205202316
+2600:1f16:269:da02:c9e3:33cf:3da6:33fa 1 1 87 20231208093951
+2001:1970:5425:e400:345b:13d0:62ed:dfb4 1 1 251 20231215193450
+2600:1f14:804:fd01:2a8b:cef2:bd31:629a 1 1 87 20231208093951
+147.135.77.241 1 1 250 20231215205649
+2600:3000:1511:200::82 1 1 87 20231208093951
+47.231.180.114 1 1 251 20231215193150
+135.148.233.107 1 1 251 20231215193639
+185.27.133.18 0 12 768 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20231205 13 14 6489 3
+20231207 0 2 128 0
+20231208 3 3 261 3
+20231209 0 4 256 0
+20231210 0 3 192 0
+20231215 17 17 3623 7
+20231217 1 3 128 1
+20231218 10 10 508 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+0s-30s 11
+5mn-15mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 41 10556 13 11
+/.well-known/acme-challenge/blWK_j7bM6aAh9UxIUljTUgCKsqgbzV8SIYOQtt23_I 3 261 3 3
+END_SIDER

@@ -1,0 +1,8 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+RewriteCond %{HTTP_HOST} ^node16\.xyz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.node16\.xyz$
+RewriteRule ^maintenance\.html$ "https\:\/\/node16\.xyz\/" [R=302,L]
+

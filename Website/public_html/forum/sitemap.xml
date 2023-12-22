@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://node16.xyz/forum/index.php?action=sitemap_xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+	<url>
+		<loc>https://node16.xyz/forum/</loc>
+		<lastmod>2023-12-18T18:49:16-05:00</lastmod>
+		<changefreq>always</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>https://node16.xyz/forum/index.php?board=1.0</loc>
+		<lastmod>2023-12-18T16:29:26-05:00</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>0.8</priority>
+	</url>
+</urlset>

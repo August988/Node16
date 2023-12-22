@@ -1,0 +1,13 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
+
+Options -Indexes
+
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php

@@ -1,0 +1,27 @@
+Return-Path: <nodexyz@sv83.ifastnet.com>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id YDAkFPI/cmW0eyEAAQ44CQ
+	(envelope-from <nodexyz@sv83.ifastnet.com>)
+	for <info@node16.xyz>; Thu, 07 Dec 2023 16:58:10 -0500
+Return-path: <nodexyz@sv83.ifastnet.com>
+Envelope-to: info@node16.xyz
+Delivery-date: Thu, 07 Dec 2023 21:58:10 +0000
+Received: from nodexyz by sv83.ifastnet.com with local (Exim 4.96.2)
+	(envelope-from <nodexyz@sv83.ifastnet.com>)
+	id 1rBMNm-009D8T-0d
+	for info@node16.xyz;
+	Thu, 07 Dec 2023 21:58:10 +0000
+To: info@node16.xyz
+Subject: TEST
+X-PHP-Script: forum.node16.xyz/admin/massemail.php for 157.245.81.250, 172.70.230.99, 157.245.81.250
+X-PHP-Originating-Script: 1421:massemail.php
+From: Node16 Forum <no-reply@node16.xyz>
+Reply-To: no-reply@node16.xyz
+X-Sender: no-reply@node16.xyz
+X-Mailer: PHP/7.3.33
+Message-Id: <E1rBMNm-009D8T-0d@sv83.ifastnet.com>
+Date: Thu, 07 Dec 2023 21:58:10 +0000
+
+You are a subject for a test ROBLOX

@@ -1,0 +1,6 @@
+export PATH=/opt/php7.4/bin:$PATH
+source ~/.profile
+php-v
+x
+^X
+

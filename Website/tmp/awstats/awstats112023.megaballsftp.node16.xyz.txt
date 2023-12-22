@@ -1,0 +1,475 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202311 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.megaballsftp.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2700                
+POS_VISITOR 9242                
+POS_DAY 12995               
+POS_DOMAIN 3324                
+POS_LOGIN 3800                
+POS_ROBOT 3955                
+POS_WORMS 4365                
+POS_EMAILSENDER 4496                
+POS_EMAILRECEIVER 4639                
+POS_SESSION 13209               
+POS_SIDER 13403               
+POS_FILETYPES 4774                
+POS_DOWNLOADS 5007                
+POS_OS 5276                
+POS_BROWSER 5520                
+POS_SCREENSIZE 6415                
+POS_UNKNOWNREFERER 6489                
+POS_UNKNOWNREFERERBROWSER 7018                
+POS_ORIGIN 7214                
+POS_SEREFERRALS 7352                
+POS_PAGEREFS 7514                
+POS_SEARCHWORDS 7696                
+POS_KEYWORDS 7848                
+POS_MISC 2364                
+POS_ERRORS 7907                
+POS_CLUSTER 3656                
+POS_SIDER_404 8013                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231201001430 299 43669 8773896388521
+FirstTime 20231125225912
+LastTime 20231130235714
+LastUpdate 20231130225243 299 0 298 0 0
+TotalVisits 103                 
+TotalUnique 92                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 92                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 30 32 889201285 9 47 14008
+1 84 90 754031533 13 64 6621
+2 11 11 17829 5 14 1292
+3 9 11 3406635212 0 2 0
+4 1 1 3733 0 0 0
+5 18 18 67194 0 34 0
+6 9 9 27668 0 18 0
+7 1 1 3733 0 0 0
+8 2 2 7466 0 0 0
+9 1 1 3733 0 0 0
+10 1 1 1537 0 0 0
+11 28 28 56273 2 15 640
+12 0 0 0 0 0 0
+13 4 4 7368 1 5 320
+14 3 3 3886 1 6 320
+15 0 0 0 0 1 0
+16 0 0 0 0 0 0
+17 4 4 10540 0 9 0
+18 10 10 15430 1 8 320
+19 0 0 0 1 1 0
+20 7 7 15055 1 14 320
+21 2 2 5270 1 5 1537
+22 10 10 11062 0 0 0
+23 326 329 5110279553 60 155 18319
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 240 242 3406954783
+ip 148 150 3406788316
+ca 111 115 2912636132
+eu 24 29 102022
+ru 9 9 28359
+be 6 6 13614
+au 3 3 11199
+jp 3 3 7466
+za 2 2 4424
+sg 2 2 3733
+zz 2 2 174
+il 2 2 7466
+in 2 2 2232
+gb 2 2 4424
+cn 1 1 3733
+sc 1 1 3733
+cl 1 1 3733
+sa 1 1 3733
+ie 1 1 1456
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Go\-http\-client/ 8 15508 20231130001452 0
+Discordbot/ 4 8127 20231127011852 0
+no_user_agent 2 1386 20231125230028 0
+scanner 2 2176 20231125232356 0
+facebookexternalhit/ 2 2912 20231125233959 0
+link 1 1537 20231126211021 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 3733 20231127231036 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+Unknown 6 522 0 0
+zip 2 730577646 0 0
+ico 1 181 0 0
+html 550 885990 0 0
+rar 6 8995054941 0 0
+png 1 219 0 0
+php 5 12612 0 0
+css 1 5174 0 0
+svg 1 1426 0 0
+js 1 42021 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/files/FIB%20(Future%20Is%20Bright)/Future-Is-Bright.rar 5 0 8516557330
+/files/megaballsgaming/December%201%202021%20Client.zip 2 6 730577646
+/files/megaballsgaming/July%203%202023%20Client%20+%20Studio.rar 1 0 478497611
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+win10 167 156
+Unknown 313 310
+android10 7 7
+win7 2 2
+androidmarshmallow 2 2
+linux 23 23
+win8.1 36 31
+android 2 2
+winxp 12 12
+ios_iphone 9 9
+linuxubuntu 2 2
+unix 4 4
+macosx15 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 42
+mozilla 19 19
+chrome119.0.0.0 145 134
+chrome55.0.2883.87 3 3
+firefox98.0 2 2
+chrome98.0.4758.102 1 1
+chrome2.0.170.0 11 11
+chrome118.0.0.0 7 7
+chrome109.0.5414.46 1 1
+chrome103.0.5060.114 1 1
+opera12.0 1 1
+safari16.6 2 2
+chrome94.0.4606.61 7 7
+chrome86.0.4240.111 1 1
+chrome116.0.0.0 3 3
+chrome119.0.6045.159 1 1
+firefox119.0 1 1
+chrome120.0.6099.28 2 2
+chrome111.0.5563.65 1 1
+chrome79.0.3945.79 1 1
+chrome63.0.3239.108 1 1
+firefox121.0 1 1
+safari17.0.1 1 1
+chrome101.0.4951.41 1 1
+edge12 1 1
+chrome5.0.375.99 11 11
+cloudflare 291 288
+opera12.16 1 1
+chrome116.0.5845.140 1 1
+chrome83.0.4103.61 1 1
+firefox52.9 1 1
+chrome110.0.0.0 2 2
+chrome41.0.2225.0 1 1
+chrome117.0.5938.132 3 3
+safari17.1.1 2 2
+Unknown 3 3
+firefox115.0 35 30
+safari17.1 4 4
+chrome52.0.3105.98 2 2
+chrome106.0.0.0 1 1
+chrome114.0.0.0 1 1
+chrome117.0.0.0 4 4
+firefox21.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Cloudflare-SSLDetector 20231130233635
+python-httpx/0.25.1 20231127081811
+python-requests/2.31.0 20231128114711
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231127095520
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231128042716
+Python/3.10_aiohttp/3.9.0 20231126222348
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20231125225914
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+python-requests/2.31.0 20231128114711
+Python/3.10_aiohttp/3.9.0 20231126222348
+python-httpx/0.25.1 20231127081811
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 422 425
+From1 0 0
+From2 1 1
+From3 2 2
+From4 136 152
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_ie 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://sv83.ifastnet.com:2082 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+500 2 0
+404 262 0
+301 26 8318
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 28
+/telescope/requests 2 -
+/img/ArchiveLogo1.png 70 http://megaballsftp.node16.xyz/
+/img/Aug20063.png 73 http://megaballsftp.node16.xyz/
+/static/admin/javascript/hetong.js 2 -
+/.DS_Store 2 -
+/robots.txt 2 http://megaballsftp.node16.xyz/robots.txt
+/Public/home/js/check.js 1 -
+/debug/default/view 2 -
+/_all_dbs 2 -
+/img/ 1 -
+/ 1 -
+/server-status 2 -
+/.git/config 2 -
+/s/9313e2333313e27323e2538313/_/ 2 -
+/css/main.css 59 http://megaballsftp.node16.xyz/
+/files 9 http://megaballsftp.node16.xyz/
+/login.action 2 -
+/cgi-bin/ 9 http://megaballsftp.node16.xyz/cgi-bin/
+/files/app/ 1 https://megaballsftp.node16.xyz/files/
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/v2/_catalog 2 -
+/.vscode/sftp.json 2 -
+/dist/umd/popper.min.js 2 -
+//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js 2 -
+//code.jquery.com/jquery-3.5.1.slim.min.js 2 -
+/about 2 -
+/config.json 2 -
+//cdn.js 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 92
+172.70.7.213 149 150 1703461405 20231130233635
+2606:4700:1101:2:e918:8057:1100:3d6 139 141 3406764228 20231130233635
+173.238.183.191 88 98 2912582399 20231127011854
+138.199.22.107 24 29 102022 20231127014848
+142.93.246.195 20 20 44799 20231127020953
+154.28.229.157 11 11 18804 20231128114549
+54.225.54.125 11 11 18804 20231128110803
+157.245.81.161 9 9 11697 20231126184042
+73.147.72.174 6 6 8802 20231126200954
+129.153.125.162 4 4 14932 20231128115134
+172.110.130.133 4 4 7368 20231127130154
+65.154.226.166 3 3 8171 20231128114729
+2001:1970:5425:e400:51f2:cdd7:b06d:b37 3 3 3886 20231126144406
+24.126.8.242 3 3 4404 20231125232501
+212.143.94.254 2 2 7466 20231129054305
+47.242.224.70 2 2 7466 20231128085033
+18.218.115.211 2 2 174 20231125225914
+205.169.39.217 2 2 1382 20231125230111
+137.132.211.132 2 2 3733 20231128114712
+54.149.241.205 2 2 174 20231125225914
+72.238.200.42 2 2 2912 20231125232933
+165.22.143.112 2 2 2993 20231126201017
+202.43.6.14 2 2 7466 20231129054636
+106.154.143.164 1 1 3733 20231129063509
+199.45.155.33 1 1 3733 20231127225711
+106.154.143.148 1 1 0 20231129063508
+89.104.111.58 1 1 3733 20231129180254
+165.231.253.70 1 1 3733 20231129054550
+174.138.84.62 1 1 3733 20231127230359
+45.151.104.158 1 1 1537 20231126174305
+34.118.17.205 1 1 691 20231125230829
+128.199.61.251 1 1 691 20231125230028
+199.45.155.19 1 1 3733 20231127210119
+199.45.154.19 1 1 3733 20231128042716
+87.236.176.71 1 1 1537 20231126224547
+92.16.223.108 1 1 3733 20231129054400
+199.45.154.17 1 1 3733 20231127172842
+185.156.172.169 1 1 3733 20231129054355
+3.143.245.163 1 1 3733 20231128232655
+87.236.176.247 1 1 1537 20231126062409
+185.223.152.23 1 1 3733 20231130004038
+2a12:5940:52c2::2 1 1 3733 20231129054355
+87.236.176.244 1 1 1537 20231126103131
+52.47.95.130 1 1 3733 20231129054636
+45.129.56.224 1 1 695 20231125230053
+198.54.133.148 1 1 691 20231125230050
+104.244.209.75 1 1 691 20231125230348
+199.45.155.18 1 1 3733 20231127202439
+2a0d:5600:24:1500:1011:990e:3193:62fc 1 1 3733 20231129054207
+85.208.2.10 1 1 3733 20231129064024
+172.255.125.187 1 1 3733 20231129054549
+176.53.222.184 1 1 3733 20231130235714
+87.236.176.75 1 1 3733 20231127095520
+176.53.222.96 1 1 3733 20231130015138
+206.189.247.132 1 1 691 20231125230347
+146.190.74.9 1 1 1537 20231126201008
+154.50.136.32 1 1 3733 20231129054745
+104.129.18.182 1 1 3733 20231129054637
+45.90.61.2 1 1 3733 20231128010221
+185.206.225.170 1 1 691 20231125230347
+104.129.56.123 1 1 3733 20231129054354
+199.45.155.34 1 1 3733 20231128000830
+179.61.240.158 1 1 3733 20231129065134
+2605:6400:d814:bab::1a 1 1 3733 20231129054637
+54.66.55.193 1 1 3733 20231129055416
+87.236.176.113 1 1 3733 20231127030555
+137.184.222.107 1 1 695 20231125230028
+31.13.127.3 1 1 1456 20231125233927
+183.129.153.157 1 1 3733 20231127220934
+35.238.8.211 1 1 695 20231125230141
+47.88.94.28 1 1 3733 20231128111215
+68.183.34.62 1 2 1703312378 20231126031832
+23.178.112.200 1 1 87 20231125225912
+176.53.220.91 1 1 3733 20231127175948
+2620:18c:0:192::224 1 1 3733 20231129054549
+34.173.214.193 1 1 691 20231125230141
+197.242.157.255 1 1 691 20231125230349
+147.182.230.189 1 1 1537 20231126222348
+197.242.159.250 1 1 3733 20231129054552
+2402:1f00:8100:400::11b5 1 1 3733 20231129065135
+203.57.50.250 1 1 3733 20231129065134
+146.190.13.187 1 1 3733 20231129065133
+176.53.219.216 1 1 1537 20231126233326
+89.104.101.72 1 1 3733 20231128232809
+142.113.200.85 1 1 1468 20231125232548
+2600:1900:2000:a0::1:401 1 1 1537 20231126180534
+106.161.65.206 1 1 3733 20231129065135
+23.178.112.209 1 1 87 20231125225914
+68.33.203.38 1 1 1537 20231126203439
+199.45.154.49 1 1 3733 20231127201322
+34.207.114.204 1 1 3733 20231127081811
+87.236.176.184 1 1 1537 20231126210139
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20231125 39 39 37973 25
+20231126 107 112 5049742349 18
+20231127 60 65 201278 16
+20231128 37 37 89870 14
+20231129 27 27 97058 25
+20231130 291 294 5110236832 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 2
+30mn-1h 3
+0s-30s 92
+30s-2mn 4
+2mn-5mn 1
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 17
+/ 156 408295 98 89
+/files/ 83 107167 0 5
+/files/megaballsgaming/ 36 131177 0 0
+/files/FIB%20(Future%20Is%20Bright)/ 35 31824 1 3
+/files/gametest2%20(setup.gametest2.roblox.com)/ 32 24096 0 1
+/files/main%20(roblox.com)/ 30 42503 0 1
+/files/Shared/ 30 31440 0 0
+/files/main%20(roblox.com)/Studio/ 27 20115 0 0
+/files/main%20(roblox.com)/Player&Studio/ 26 19942 0 0
+/files/main%20(roblox.com)/App/ 26 19214 0 0
+/files/main%20(roblox.com)/Player/ 25 18625 0 0
+/files/Shared/megaballsgaming/ 22 16016 0 0
+/files/Shared/simple/ 20 14200 0 0
+/files/_h5ai/public/index.php 5 12612 0 0
+/.well-known/acme-challenge/BVZ1T3ivf_nNa9EX8pMgfL2bCns1FRzBil425PDw-CA 3 261 1 3
+/.well-known/acme-challenge/L4NC4k5-F8VQZXh5GceG5MtnnPJdN6Oe5K-cbIevyGg 3 261 3 1
+/files/simple/ 2 1376 0 0
+END_SIDER

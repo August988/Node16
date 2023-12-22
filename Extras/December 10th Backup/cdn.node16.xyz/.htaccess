@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^cdn\.node16\.xyz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cdn\.node16\.xyz$
+RewriteRule ^/?$ "https\:\/\/node16\.xyz\/" [R=301,L]
+

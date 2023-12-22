@@ -1,0 +1,230 @@
+:root {
+	--amt_bg_color: hsl(0, 0%, 83%);
+	--amt_text_color: hsl(0, 0%, 33%);
+	--bar_bg_color: hsl(0, 0%, 24%);
+	--black: hsl(0, 0%, 0%);
+	--body_bg_color: hsl(0, 0%, 40%);
+	--body_text_color: hsl(0, 0%, 75%);
+	--border_color: hsl(0, 0%, 33%);
+	--breadcrumb_bg_1: hsl(0, 0%, 19%);
+	--breadcrumb_bg_2: hsl(0, 0%, 32%);
+	--button_bg: hsl(0, 0%, 25%);
+	--button_bg_hover: hsl(0, 0%, 31%);
+	--desc_box_border_color: hsl(0, 0%, 77%);
+	--cat_bg_color: hsl(0, 0%, 0%);
+	--cat_bg_img: url(../images/custom/cat_bg_left.png) no-repeat, url(../images/custom/cat_bg_right.png) repeat-x;
+	--cat_text_color: hsl(0, 0%, 100%);
+	--children_border_color: hsl(0, 0%, 12%);
+	--code_bg_color: hsl(0, 0%, 13%);
+	--code_border_color: hsl(0, 0%, 33%);
+	--code_border_tb_color: hsl(0, 0%, 0%);
+	--code_text_color: hsl(0, 0%, 90%);
+	--editor_bg_color: hsl(0, 0%, 19%);
+	--error_box_bg_color: hsl(0,100%,9%);
+	--error_box_border_color: hsl(354, 60%, 4%);
+	--error_box_text_color: hsl(0, 0%, 89%);
+	--heading_text_color: hsl(0, 0%, 90%);
+	--ibst_bg_color: hsl(0, 0%, 25%);
+	--ibst_bg_color_hover: hsl(0, 0%, 31%);
+	--ibst_border_color: hsl(0, 0%, 40%);
+	--ibst_disabled_bg_color: hsl(0, 0%, 93%);
+	--ibst_disabled_border_color: hsl(0,0%,71%);
+	--ibst_disabled_text_color: hsl(0, 0%, 60%);
+	--ibst_text_color: hsl(0, 0%, 80%);
+	--info_center_block_bg_color: hsl(0, 0%, 16%);
+	--info_center_border_color: hsl(0, 1%, 26%) hsl(0, 0%, 7%) hsl(0, 0%, 7%) hsl(0, 1%, 26%);
+	--info_box_bg_color: hsl(120, 100%, 90%);
+	--info_box_border_color: hsl(120, 100%, 25%);
+	--info_box_text_color: hsl(0, 0%, 13%);
+	--link: hsl(0, 0%, 89%);
+	--link_hover: hsl(0, 0%, 95%);
+	--main_bg_color: hsl(0, 0%, 19%);
+	--menu_bg_color: hsl(0, 0%, 19%);
+	--moderator_link: hsl(0, 0%, 83%);
+	--new_post_indicator_bg: hsl(0, 0%, 8%);
+	--new_post_indicator_text_color: hsl(0, 0%, 100%);
+	--notice_box_bg_color: hsl(26, 100%, 11%);
+	--notice_box_border_color: hsl(26, 98%, 24%);
+	--notice_box_text_color: hsl(0, 0%, 100%);
+	--notice_box_link_color: hsl(0, 0%, 93%);
+	--notice_box_link_hover: hsl(0, 0%, 87%);
+	--page_number_text_color: hsl(0, 0%, 80%);
+	--popup_container_bg_color: hsla(0, 0%, 19%, 0.5);
+	--quote_alternate_bg_color: hsl(0, 0%, 36%);
+	--quote_border_color: hsl(0, 0%, 13%);
+	--quote_border_lr_color: hsl(0, 0%, 0%);
+	--quote_standard_bg_color: hsl(0, 0%, 32%);
+	--quote_text_color: hsl(0, 0%, 90%);
+	--roundframe_bg_color: hsl(0, 0%, 19%);
+	--set_width: 1200px; 
+	--social_icons_link: hsl(0, 0%, 76%);
+	--social_icons_link_hover: hsl(0, 0%, 80%);
+	--sub_bg_color_1: hsl(0, 0%, 13%);
+	--sub_bg_color_2: hsl(0, 0%, 7%);
+	--title_bg_color_1: hsl(0, 0%, 8%);
+	--title_bg_color_2: hsl(0, 0%, 0%);
+	--title_text_color: hsl(0, 0%, 100%);
+	--toggle_text_color: hsl(0, 0%, 76%);
+	--toggle_text_color_hover: hsl(0, 0%, 80%);
+	--white: hsl(0, 0%, 100%);
+	--window_bg_color: hsl(0, 0%, 19%);
+	--window_bg_moderate:	hsl(0,57.9%,7.5%);
+	--wrapper_bg_color: hsl(0, 0%, 12%);
+}
+
+/*! SCEditor | (C) 2011-2013, Sam Clarke | sceditor.com/license */
+html, p, code::before, table {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: var(--body_text_color);
+	line-height: 1.25;
+	overflow: visible;
+}
+html {
+	height: 100%;
+}
+.ios {
+	/* Needed for iOS scrolling bug fix */
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.ios body {
+	/* Needed for iOS scrolling bug fix */
+	position: relative;
+	overflow: auto;
+}
+body {
+	/* Needed to make sure body covers the whole editor and that
+		long lines don't cause horizontal scrolling */
+	min-height: 100%;
+	word-wrap: break-word;
+	margin: 0 5px;
+	padding: 0;
+}
+
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+table, td {
+	border: 1px dotted var(--border_color);
+	empty-cells: show;
+	min-width: 0.5ch;
+}
+
+code::before {
+	position: absolute;
+	content: 'Code:';
+	top: -1.35em;
+	left: 0;
+}
+code[data-title]::before {
+	content: 'Code: (' attr(data-title) ')';
+}
+code {
+	display: block;
+	font-size: 0.88rem;
+	background: var(--code_bg_color);
+	border: 1px solid var(--code_border_color);
+	border-top: 2px solid var(--code_border_tb_color);
+	border-bottom: 3px solid var(--code_border_tb_color);
+	border-radius: 2px;
+	margin: 1px 0 6px 0;
+	padding: 3px 12px;
+	overflow: auto;
+	white-space: nowrap;
+	max-height: 25em;
+	color: var(--code_text_color);
+}
+.ie6 code, .ie7 code {
+	margin-top: 0;
+}
+code::before, code {
+	display: block;
+	text-align: left;
+}
+
+blockquote {
+	margin: 0 0 8px 0;
+	padding: 6px 10px;
+	font-size: 0.85rem;
+	border: 1px solid var(--quote_border_color);
+	border-left: 2px solid var(--quote_border_lr_color);
+	border-right: 2px solid var(--quote_border_lr_color);
+	color: var(--quote_text_color);
+	background-color: var(--quote_standard_bg_color);
+}
+blockquote cite {
+	display: block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	font-size: 0.9em;
+	margin-bottom: 3px;
+}
+
+blockquote cite::before {
+	color: var(--black);
+	font-size: 22px;
+	font-style: normal;
+	content: "\275D";
+	margin-right: 3px;
+	vertical-align: middle;
+}
+
+blockquote cite + br,
+blockquote br:last-child {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+/* Make sure images stay within bounds */
+img {
+	max-width: 100%;
+}
+
+/* Responsive Youtube embed */
+.videocontainer {
+	max-width: 560px;
+}
+.videocontainer div {
+	position: relative;
+	padding-bottom: 56.25%;
+}
+.videocontainer iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.floatleft, .floatright {
+	max-width: 45%;
+	border: 1px dashed var(--border_color);
+	padding: 1px;
+	min-height: 1em;
+}
+.floatleft {
+	float: left;
+	clear: left;
+	margin: 0 1em 1em 0;
+}
+.floatright {
+	float: right;
+	clear: right;
+	margin: 0 0 1em 1em;
+}
+@media (max-width: 480px) {
+	.floatleft, .floatright {
+		max-width: 100% !important;
+		margin: 0 0.5em 1em !important;
+	}
+}

@@ -1,0 +1,351 @@
+# Webalizer V2.23-08 Incremental Data - 12/10/2023 03:59:37
+2023 12 10 3 59 37
+136 10 45 7 4 31 21628 99 51 0
+6 1 105 9 10
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+119 7 18226 41 87 46
+17 3 3402 6 12 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+6 1 1232 5
+9 0 2042 7
+1 1 64 0
+1 1 64 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+8 2 2826 7
+1 0 292 1
+1 1 64 0
+105 4 13809 75
+4 0 1235 4
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+69
+0
+0
+0
+0
+0
+0
+0
+0
+0
+57
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/.well-known/pki-validation/773798D4C2FEB5466D938CFC58A9AAC7.txt
+0 3 0 231 0 0
+/.well-known/pki-validation/2B0C192A63B89EB2A512E51E4A02B1F5.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/D608C8E0E41EB5B4B14CDA15C3C01E67.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/3C7DB3B81B1FBCAACD950898F91E546F.txt
+0 1 0 64 0 0
+/
+0 2 93927147407488 1366 45 4
+/.well-known/pki-validation/1AA6D1528F406C75CC79E31596FE76BC.txt
+0 1 0 64 0 0
+/.well-known/pki-validation/A8A05A926B9ECCD84163BDCCA8EA5C01.txt
+0 1 0 64 0 0
+# End Of Table - urls
+# -sites- (monthly)
+notworking.scan.leakix.org
+0 2 0 582 1 1702161960
+/
+45.88.97.210
+0 3 0 874 2 1702162086
+/
+157.245.176.68
+0 1 0 292 1 1702151503
+/
+pharmaceutical.scan.leakix.org
+0 18 0 1485 4 1702161965
+/
+154.28.229.223
+0 1 0 292 1 1702162030
+/
+45.130.83.20
+0 1 0 292 1 1702162177
+/
+45.130.83.10
+0 1 0 292 1 1702162191
+/
+aitechnology.scan.leakix.org
+0 16 0 898 2 1702161965
+-
+2620:18c:0:192::218
+0 1 0 291 1 1702162084
+/
+sortie-tor.a-n-o-n-y-m-e.net
+0 1 0 0 0 0
+-
+195.211.77.142
+0 3 0 584 2 1702169428
+/
+2600:1700:1c60:6d40:fdae:1bb0:a9f9:64e7
+0 2 0 584 1 1702151088
+/
+178.62.227.35.bc.googleusercontent.com
+0 1 1 683 1 1702150410
+/
+193.36.118.249
+0 2 0 583 1 1702162064
+/
+45.92.229.146
+0 1 0 292 1 1702162201
+/
+textgenerator.scan.leakix.org
+0 18 0 1483 3 1702161960
+-
+45.92.229.151
+0 1 0 292 1 1702162200
+/
+static.198.65.21.65.clients.your-server.de
+0 1 0 292 1 1702165340
+/
+2606:4700:1101:2:4129:9343:eab2:ec41
+0 7 0 1751 1 1702171481
+/
+134.122.116.14
+0 3 1 975 1 1702150460
+/
+2620:18c:0:192::217
+0 2 0 583 1 1702162065
+/
+45.130.83.12
+0 1 0 292 1 1702162176
+/
+2a01:4f8:10a:2d6::2
+0 2 0 582 1 1702162627
+/
+45.92.229.141
+0 1 0 292 1 1702162189
+/
+fwdproxy-frc-001.fbsv.net
+0 1 0 360 1 1702164497
+/
+scanner.ducks.party
+0 1 0 292 1 1702163222
+/
+45.130.83.18
+0 1 0 292 1 1702162189
+/
+flaskalternative.scan.leakix.org
+0 2 0 584 1 1702161960
+/
+sv83.ifastnet.com
+0 6 6 397 0 0
+-
+bras-base-toroon3520w-grc-39-142-113-186-73.dsl.bell.ca
+0 1 0 292 1 1702152186
+/
+154.28.229.216
+0 1 0 292 1 1702162027
+/
+195.211.77.140
+0 1 0 0 1 1702162006
+/
+172.70.8.88
+0 2 0 291 1 1702171475
+/
+45.92.229.153
+0 1 0 292 1 1702162156
+/
+secure.trust-provider.net
+0 1 1 77 0 0
+-
+ec2-34-254-53-125.eu-west-1.compute.amazonaws.com
+0 2 0 584 1 1702169517
+/
+45.130.83.11
+0 1 0 292 1 1702162157
+/
+mcdrone1.mcr.dc.comodoca.net
+0 1 1 77 0 0
+-
+146.190.197.169
+0 2 0 583 1 1702162065
+/
+69.4.234.97
+0 2 0 292 1 1702161966
+/
+fwdproxy-ftw-010.fbsv.net
+0 1 0 291 1 1702164495
+/
+minimalviableproduct.scan.leakix.org
+0 16 0 898 3 1702161962
+/
+45.130.83.7
+0 1 0 292 1 1702162192
+/
+scan-33.a.internet-metrics.com
+0 1 0 292 1 1702167380
+/
+047-231-180-114.res.spectrum.com
+0 1 0 292 1 1702151482
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+195.211.77.142
+0 2 0 292 1 1702169428
+/
+2606:4700:1101:2:4129:9343:eab2:ec41
+0 7 0 1751 1 1702171481
+/
+sv83.ifastnet.com
+0 3 3 192 0 0
+-
+172.70.8.88
+0 2 0 291 1 1702171475
+/
+ec2-34-254-53-125.eu-west-1.compute.amazonaws.com
+0 2 0 584 1 1702169517
+/
+scan-33.a.internet-metrics.com
+0 1 0 292 1 1702167380
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://cdn.node16.xyz/favicon.ico
+0 1
+- (Direct Request)
+0 124
+http://cdn.node16.xyz/
+0 6
+https://cdn.node16.xyz/
+0 5
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+0 5
+Mozilla/5.0 (Windows NT 14.0.0; Win64; x64; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.124 Chrome/119.0.6045.
+0 2
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA226809) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.1746.98 Mobil
+0 2
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA115755) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2890.98 Mobil
+0 2
+Cloudflare-SSLDetector
+0 9
+Mozilla/5.0 (compatible; Discordbot/2.0; +https://discordapp.com)
+0 1
+Mozilla/5.0 (l9scan/2.0.5313e25363e21323e2430313; +https://leakix.net)
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E14
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 (scanner.duck
+0 1
+Android 11; pt_BR; SM-A015M Build/RP1A.200720.0121175667608181M-8540452573455618471
+0 5
+COMODO DCV
+0 6
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+0 1
+Go-http-client/1.1
+0 53
+Python/3.9 aiohttp/3.9.1
+0 1
+python-requests/2.22.0
+0 10
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3781.6 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+0 1
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14
+0 1
+Mozilla/5.0 (X11; Linux x86_64; rv:83.0) Gecko/20100101 Firefox/83.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+0 1
+Sectigo DCV
+0 2
+Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.80 Mobile Safari/537.36
+0 2
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.659 YaBrowser/23.9.5.659 Yowser
+0 1
+Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile S
+0 4
+Mozilla/5.0 (l9scan/2.0.5363e2735313e27363e2237313; +https://leakix.net)
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

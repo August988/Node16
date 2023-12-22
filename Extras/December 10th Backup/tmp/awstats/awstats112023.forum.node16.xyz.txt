@@ -1,0 +1,823 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202311 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.forum.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2694                
+POS_VISITOR 21262               
+POS_DAY 28195               
+POS_DOMAIN 3363                
+POS_LOGIN 3876                
+POS_ROBOT 4031                
+POS_WORMS 4387                
+POS_EMAILSENDER 4518                
+POS_EMAILRECEIVER 4661                
+POS_SESSION 28390               
+POS_SIDER 28587               
+POS_FILETYPES 4796                
+POS_DOWNLOADS 5078                
+POS_OS 5848                
+POS_BROWSER 6104                
+POS_SCREENSIZE 7278                
+POS_UNKNOWNREFERER 7352                
+POS_UNKNOWNREFERERBROWSER 8210                
+POS_ORIGIN 8611                
+POS_SEREFERRALS 8752                
+POS_PAGEREFS 8915                
+POS_SEARCHWORDS 9161                
+POS_KEYWORDS 9313                
+POS_MISC 2358                
+POS_ERRORS 9372                
+POS_CLUSTER 3732                
+POS_SIDER_404 9578                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231201000002 118 26319 15474225815120
+FirstTime 20231126021705
+LastTime 20231130235809
+LastUpdate 20231130225242 118 0 117 0 0
+TotalVisits 188                 
+TotalUnique 177                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 181                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 1 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 215 249 2723688 97 109 41657
+1 72 91 9688771 56 180 481969
+2 208 333 10925507 1020 1076 379725
+3 30 41 1138962 6 13 857
+4 12 18 394238 5 7 2093
+5 1 1 3353 2 2 613
+6 13 13 3352 3 3 919
+7 1 7 294662 1 3 0
+8 1 1 0 0 0 0
+9 10 10 0 4 4 62
+10 2 2 0 0 0 0
+11 9 9 0 1 4 0
+12 4 5 64 3 8 0
+13 3 8 445116 16 25 30278
+14 2 3 64 36 50 5496
+15 6 6 2740 7 7 0
+16 1 1 0 0 2 0
+17 12 19 391577 3 7 919
+18 14 15 9654 7 11 62
+19 4 10 306509 2 3 685
+20 50 72 1685888 14 15 6868
+21 20 29 683304 7 7 7046
+22 27 29 80330 17 21 7322
+23 376 876 38689250 66 74 24363
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+us 878 1550 61011183
+ip 54 77 1786044
+ca 43 57 1438771
+gb 26 37 268255
+cl 22 34 1286542
+in 11 11 15410
+by 11 17 394238
+ru 10 16 386220
+be 6 6 0
+cn 5 10 445116
+ua 4 5 24201
+vg 4 4 7507
+jp 3 3 9224
+eu 3 3 685
+fr 3 8 376448
+zz 2 2 174
+nl 2 2 2330
+se 2 2 7490
+au 1 1 2499
+pl 1 1 0
+ro 1 1 2330
+it 1 1 2362
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Discordbot/ 10 524667 20231129224000 0
+Go\-http\-client/ 6 124 20231128035701 0
+curl 4 0 20231128180116 0
+scanner 4 685 20231127231833 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 0 20231127231110 0
+no_user_agent 1 0 20231129001644 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 123 6350246 0 0
+gif 14 124452 0 0
+ttf 10 238680 0 0
+png 144 3963138 0 0
+txt 11 730 0 0
+Unknown 363 1480207 0 0
+html 382 12889484 0 0
+svg 22 117487 0 0
+woff2 40 1954952 0 0
+js 441 26152496 0 0
+php 298 14195157 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 10
+/.well-known/pki-validation/2C6AC9B73CBEC53081DFEE13B994395B.txt 2 0 154
+/.well-known/pki-validation/C89EBAF5E8432542932561A243419230.txt 1 0 64
+/.well-known/pki-validation/AFB0294A47D4740B5958646EF3421290.txt 1 0 64
+/.well-known/pki-validation/186625B2B86CA64BFFC6C6A1809A6FDC.txt 1 0 64
+/.well-known/pki-validation/C07B003266305C2F52401967EE9D1A3A.txt 1 0 64
+/.well-known/pki-validation/E3D0B91919BFF67C9D0C7EE9898429C9.txt 1 0 64
+/.well-known/pki-validation/1394BCF1E8C3797F3394C7906C365ABB.txt 1 0 64
+/.well-known/pki-validation/B5DDA427547116C5FD9A6E43A00B59C0.txt 1 0 64
+/.well-known/pki-validation/9BB640D304C08CE6E8CA83C6720DB9A5.txt 1 0 64
+/.well-known/pki-validation/15E097ED4083F0EAF6B58EC31E8EE9E9.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+macosx9 1 0
+macosx 6 4
+win8 1 1
+unix 1 1
+ios_iphone 15 9
+Unknown 103 92
+win8.1 35 13
+win10 1517 843
+winlong 11 11
+win7 39 37
+macosx15 3 3
+winnt 1 0
+linux 57 33
+android 20 16
+android10 38 30
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 56
+firefox120.0 3 3
+chrome33.0.1750.152 1 0
+mozilla 17 17
+safari17.0.1 1 1
+chrome63.0.1667 1 1
+chrome81.0.1770 1 1
+chrome94.0.4606.61 8 7
+firefox20.0 1 1
+Unknown 80 69
+firefox119.0 11 11
+chrome98.0.4758.102 16 6
+chrome63.0.3239.108 1 1
+chrome119.0.6045.159 8 4
+firefox109.0 1 1
+chrome119.0.0.0 1459 815
+chrome19.0.1063.0 39 37
+chrome17.0.963.56 9 9
+firefox121.0 2 2
+safari17.1.1 9 3
+chrome109.0.5414.46 29 11
+safari17.1 2 2
+cloudflare 6 6
+chrome99.0.239 1 0
+chrome84.0.4147.89 1 1
+chrome55.0.2883.87 2 2
+chrome89.0.4389.82 1 1
+msie11.0 7 2
+safari10.1.0.2342 1 1
+firefox115.0 26 11
+chrome60.0.2956 1 0
+opera104.0.0.0 14 8
+chrome85.0.4183.102 23 7
+chrome52.0.1620 1 1
+chrome4.0.211.2 1 1
+chrome103.0.5060.114 2 2
+chrome101.0.4951.61 1 1
+chrome108.0.0.0 2 2
+chrome67.0.693 1 0
+chrome59.0.1909 1 0
+edge12 1 1
+chrome64.0.3282.119 1 1
+chrome115.0.0.0 1 1
+chrome117.0.5938.132 12 8
+chrome88.0.899 1 1
+chrome118.0.0.0 7 7
+chrome81.0.4044.129 2 2
+chrome110.0.0.0 4 4
+chrome117.0.0.0 4 4
+chrome99.0.4844.51 8 3
+safari16.6 3 3
+chrome85.0.188 1 0
+firefox38.0 2 0
+chrome116.0.0.0 5 5
+opera10.61 1 1
+chrome34.0.1847.137 1 1
+firefox88.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+python-requests/2.22.0 20231127231214
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20231126024816
+WordPress/6.4.1;_https://forum.node16.xyz 20231128230749
+python-requests/2.31.0 20231130063247
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231128044010
+Cloudflare-SSLDetector 20231130233552
+WordPress/5.8.2;_https://forum.node16.xyz 20231128230534
+Softaculous 20231128232807
+COMODO_DCV 20231127143409
+python-httpx/0.25.1 20231127175945
+Python/3.10_aiohttp/3.9.0 20231127092315
+Mozilla/5.0_(BB10;_Touch)_AppleWebKit/537.10__(KHTML,_like_Gecko)_Version/10.1.0.2342_Mobile_Safari/537.10_ 20231127003214
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231128035508
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+COMODO_DCV 20231127143409
+WordPress/6.4.1;_https://forum.node16.xyz 20231128230749
+python-requests/2.31.0 20231130063247
+python-requests/2.22.0 20231127231214
+Python/3.10_aiohttp/3.9.0 20231127092315
+Softaculous 20231128232807
+WordPress/5.8.2;_https://forum.node16.xyz 20231128230534
+python-httpx/0.25.1 20231127175945
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 286 319
+From1 0 0
+From2 3 3
+From3 13 13
+From4 791 1513
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://sv83.ifastnet.com:2082 11 11
+https://deref-mail.com 1 1
+https://sv83.ifastnet.com:2083 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 11
+301 1050 320791
+503 16 15981
+403 3 61584
+429 12 672
+302 71 12971
+201 16 23978
+404 280 29052
+422 1 149
+204 22 0
+401 5 280
+500 7 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 169
+/.well-known/openpgpkey/policy 1 -
+/web/20080715205819im_/http://www.roblox.com/images/noflash.gif 1 https://forum.node16.xyz/
+/web/20100910000107cs_/http://www.roblox.com/chat/css/party_leader.css 1 https://forum.node16.xyz/
+/_nuxt/DocsToc.63869a07.js 1 -
+/public/sitemap.xml 6 -
+/_nuxt/entry.5d9978dd.js 1 -
+/_nuxt/Alert.e711b60d.js 1 -
+/web/20080715205819/http://web.archive.org/screenshot/http://www.roblox.com/ 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Castle.png 1 https://forum.node16.xyz/
+/_nuxt/DocsPageBottom.5d6bf7c5.js 1 -
+/_nuxt/ProseH1.4070ea3e.css 1 https://forum.node16.xyz/
+/sitemap.xml 9 -
+/web/20100910000107im_/http://www.node16.xyz/images/RandomFactsIcons/Admin.png 1 https://forum.node16.xyz/
+/_nuxt/useStudio.7d045ae1.js 1 https://forum.node16.xyz/
+/wp-admin/ 1 -
+/public/robots.txt 6 -
+/_nuxt/node.676c5e99.js 1 -
+/_nuxt/EditOnLink.1f8fd2a7.js 1 -
+/_nuxt/error-500.17bead46.js 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/Holiday3Button.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/TrusteVertical.png 1 https://forum.node16.xyz/
+/Public/home/js/check.js 2 -
+/web/20100910000107im_/http://www.node16.xyz/images/BulletPointArrow.png 1 https://forum.node16.xyz/
+/_nuxt/Alert.408d0512.css 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.node16.xyz/Game/PlaceLauncher.js 1 https://forum.node16.xyz/
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 4 -
+/web/20100910000107im_/http://www.node16.xyz/images/Holiday3Button.png 1 https://forum.node16.xyz/
+/web/20080715205819im_/http://www.roblox.com/images/COPPASeal-125x125.jpg 1 https://forum.node16.xyz/
+/_nuxt/DocsPageLayout.2ba2acb9.css 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Pirate.png 1 https://forum.node16.xyz/
+/about 4 -
+/images/boardicons.png 1 http://forum.node16.xyz/smf/
+/_nuxt/ProseUl.c9c63ec7.css 1 https://forum.node16.xyz/
+/static/admin/javascript/hetong.js 2 -
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Tutorial.gif 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Cthulu.png 1 https://forum.node16.xyz/
+/web/20100910000107cs_/http://www.roblox.com/CSS/Base/CSS/AllCSS.ashx 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.node16.xyz/Game/PlaceLauncher.asmx/js 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/BulletPointArrow.png 1 https://forum.node16.xyz/
+/_nuxt/ProseImg.018721e2.css 1 https://forum.node16.xyz/
+/_nuxt/document-driven.1e6dada7.js 1 -
+/_nuxt/IconDocus.3ff8ccfd.js 1 -
+/_nuxt/DocsPageBottom.9f7ccbf0.css 1 https://forum.node16.xyz/
+/publicff/ 1 -
+/_nuxt/slot.b36f4ef3.js 1 -
+/_nuxt/ProseUl.d3e9060e.js 1 -
+/web/20100910000107im_/http://www.node16.xyz/images/PlayThis.png 1 https://forum.node16.xyz/
+/.env 2 -
+/web/20080715205819im_/http://www.roblox.com/images/NewFrontPageGuy.png 1 https://forum.node16.xyz/
+/_nuxt/ButtonLink.d893e79c.js 1 -
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/LOL.png 1 https://forum.node16.xyz/
+/_nuxt/ProseA.e2976377.css 1 https://forum.node16.xyz/
+/_nuxt/EditOnLink.vue.d691399a.js 1 -
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Pirate.png 1 https://forum.node16.xyz/
+/web/20100910000107if_/http://www.node16.xyz/Ads/IFrameAdContent.aspx 4 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Ninja.png 1 https://forum.node16.xyz/
+/_nuxt/ProseA.5085298c.js 1 -
+/web/20080715205819cs_/http://www.roblox.com/CSS/AllCSS.ashx 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Sports.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/City.png 1 https://forum.node16.xyz/
+/cgi-bin/ 4 http://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/WildWest.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/SciFi.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/bbbseal1US.gif 1 https://forum.node16.xyz/
+/_nuxt/error-500.92b46a75.css 1 https://forum.node16.xyz/
+/_nuxt/page.41b64923.css 1 https://forum.node16.xyz/
+/web/20100910000107if_/http://www.roblox.com/Ads/IFrameAdContent.aspx 4 https://forum.node16.xyz/
+/_nuxt/DocsTocLinks.f4e0a4c8.js 1 -
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/ModernMilitary.png 1 https://forum.node16.xyz/
+/_nuxt/ProseLi.ac05b421.css 1 https://forum.node16.xyz/
+/web/20080715205819js_/http://www.roblox.com/ScriptResource.axd 4 https://forum.node16.xyz/
+/phpmyadmin/index.php 2 -
+/v2/_catalog 4 -
+/_nuxt/DocsAside.7397caed.css 1 https://forum.node16.xyz/
+/config.json 4 -
+/web/20080715205819js_/http://www.roblox.com/Thumbs/Asset.asmx/js 1 https://forum.node16.xyz/
+/php/thinkphp/aaaffff123.php 2 -
+/_nuxt/ProseCodeInline.758f49de.js 1 -
+/_nuxt/DocsPrevNext.c38608ef.js 1 -
+/s/9313e2333313e27323e2538313/_/ 4 -
+/_nuxt/ProseP.945916cd.css 1 https://forum.node16.xyz/
+/_nuxt/DocumentDrivenNotFound.451370cb.js 1 -
+/_all_dbs 4 -
+/web/20100910000107js_/http://www.roblox.com/Game/PlaceLauncher.asmx/js 1 https://forum.node16.xyz/
+/smf/ 13 -
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Adventure.png 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.roblox.com/Thumbs/Asset.asmx/js 1 https://forum.node16.xyz/
+/robots.txt 7 -
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Skatepark.png 1 https://forum.node16.xyz/
+/server-status 4 -
+/images/icons/main_icons_sprite.png 1 http://forum.node16.xyz/smf/
+/.DS_Store 4 -
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Classic.png 1 https://forum.node16.xyz/
+/_nuxt/DocumentDrivenEmpty.796c92db.js 1 -
+/web/20100910000107cs_/http://www.roblox.com/chat/css/party.css 1 https://forum.node16.xyz/
+/web/20080715205819im_/http://www.roblox.com/images/BannerPlay.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/SciFi.png 1 https://forum.node16.xyz/
+/_nuxt/error-404.e7689c2d.css 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Tutorial.gif 1 https://forum.node16.xyz/
+/login.action 4 -
+/develop 1 https://forum.node16.xyz/
+/_nuxt/ProseOl.be3f4d0c.js 1 -
+/web/20100910000107js_/http://www.roblox.com/Game/PlaceLauncher.js 1 https://forum.node16.xyz/
+/_nuxt/ProseCodeInline.21ce328c.css 1 https://forum.node16.xyz/
+/telescope/requests 4 -
+/cgi-bin/index.php 1 -
+/_nuxt/ContentRendererMarkdown.eec43b92.js 1 -
+/web/20100910000107cs_/http://www.node16.xyz/chat/css/party.css 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/RandomFactsIcons/Admin.png 1 https://forum.node16.xyz/
+/_nuxt/ProseOl.5ddab164.css 1 https://forum.node16.xyz/
+/_nuxt/DocsToc.855ff635.css 1 https://forum.node16.xyz/
+/_nuxt/page.e6dba12b.js 1 https://forum.node16.xyz/
+/web/20100910000107cs_/http://www.node16.xyz/CSS/Base/CSS/AllCSS.ashx 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Cthulu.png 1 https://forum.node16.xyz/
+/__wb/sparkline 1 https://forum.node16.xyz/
+/_nuxt/debug.863fc7a9.js 1 https://forum.node16.xyz/
+/.vscode/sftp.json 4 -
+/undefined 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/arrow-down.gif 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.node16.xyz/Thumbs/Asset.asmx/js 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/SalesPitcher/PlayNow3.png 1 https://forum.node16.xyz/
+/_nuxt/entry.2685c6ae.css 1 https://forum.node16.xyz/
+/debug/default/view 4 -
+/_nuxt/ButtonLink.c4905621.css 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Adventure.png 1 https://forum.node16.xyz/
+/_nuxt/DocumentDrivenNotFound.7238633c.css 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/bbbseal1US.gif 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.roblox.com/ScriptResource.axd 2 https://forum.node16.xyz/
+/_nuxt/default.e0aedb97.js 1 -
+/web/20100910000107im_/http://www.roblox.com/images/PlayThis.png 1 https://forum.node16.xyz/
+/.git/config 6 -
+/web/20100910000107im_/http://www.node16.xyz/images/arrow-down.gif 1 https://forum.node16.xyz/
+/web/20080715205819im_/http://www.roblox.com/images/DownloadAndPlay.png 1 https://forum.node16.xyz/
+/_nuxt/ContentRenderer.9e931afe.js 1 -
+/smf/index.php 5 -
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/City.png 1 https://forum.node16.xyz/
+/_nuxt/DocsPrevNext.0d80e373.css 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/ModernMilitary.png 1 https://forum.node16.xyz/
+/index_sso.php 2 -
+/_nuxt/ContentRendererMarkdown.vue.141a2569.js 1 -
+/_nuxt/useStudio.37ff8fdd.css 1 https://forum.node16.xyz/
+/wp-admin/admin-ajax.php 11 https://forum.node16.xyz/wp-admin/customize.php
+/web/20080715205819im_/http://www.roblox.com/images/feed-icons/feed-icon-14x14.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Ninja.png 1 https://forum.node16.xyz/
+/_nuxt/ProseP.89c86fa2.js 1 -
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/LOL.png 1 https://forum.node16.xyz/
+/_nuxt/DocsTocLinks.310b9647.css 1 https://forum.node16.xyz/
+/_nuxt/DocsAside.acbfafea.js 1 -
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/WildWest.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/TrusteVertical.png 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.node16.xyz/ScriptResource.axd 2 https://forum.node16.xyz/
+/_nuxt/ProseH1.d458ce55.js 1 -
+/_nuxt/DocsPageLayout.1521255a.js 1 -
+/setting 1 -
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Sports.png 1 https://forum.node16.xyz/
+/_nuxt/error-404.522b395b.js 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/SalesPitcher/PlayNow3.png 1 https://forum.node16.xyz/
+/web/20100910000107cs_/http://www.node16.xyz/chat/css/party_invite.css 1 https://forum.node16.xyz/
+/_nuxt/client-db.d22385af.js 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Castle.png 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.roblox.com/images/GenreIconsInverted/Classic.png 1 https://forum.node16.xyz/
+/web/20100910000107cs_/http://www.node16.xyz/chat/css/party_leader.css 1 https://forum.node16.xyz/
+/_nuxt/ProseImg.f02c367e.js 1 -
+/_nuxt/ProseLi.c4126967.js 1 -
+/web/20100910000107js_/http://www.roblox.com/Install/ClientInstaller.js 1 https://forum.node16.xyz/
+/web/20100910000107im_/http://www.node16.xyz/images/GenreIconsInverted/Skatepark.png 1 https://forum.node16.xyz/
+/web/20100910000107cs_/http://www.roblox.com/chat/css/party_invite.css 1 https://forum.node16.xyz/
+/web/20100910000107js_/http://www.node16.xyz/Install/ClientInstaller.js 1 https://forum.node16.xyz/
+/web/20080715205819im_/http://www.roblox.com/images/roblox_logo.png 1 https://forum.node16.xyz/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 181
+162.243.167.155 428 928 38803371 20231129014153
+68.183.34.62 131 210 7401844 20231126030117
+162.243.168.16 52 56 431186 20231130235809
+154.28.229.86 37 39 600339 20231126024838
+2600:1700:6a30:7140:1cc7:2eaf:3215:56d 30 39 756605 20231129003312
+68.33.203.38 30 30 7500583 20231127032731
+104.248.232.134 28 28 163563 20231129204628
+47.231.180.114 24 31 434585 20231129221440
+185.27.133.18 16 27 24117 20231128232807
+45.14.71.9 13 33 1124178 20231126022533
+207.248.195.158 12 20 687300 20231130010937
+178.120.22.94 11 17 394238 20231129040707
+45.14.71.22 10 16 375952 20231129003112
+154.28.229.35 9 9 6165 20231126182056
+54.66.245.129 7 20 1001316 20231129011515
+142.113.200.85 6 13 522384 20231126024847
+149.34.244.172 6 8 271476 20231129215514
+142.93.246.195 6 6 477945 20231127012419
+37.19.205.206 4 5 24201 20231129015630
+51.15.73.89 4 4 239707 20231127021938
+164.90.241.135 4 4 4655 20231129001826
+173.238.183.191 4 4 3857 20231128234126
+89.39.107.195 4 4 7507 20231129201947
+34.97.112.152 4 6 299628 20231126030219
+34.97.49.162 4 6 299628 20231126030021
+191.101.31.19 1 1 0 20231127095037
+176.53.216.46 1 1 3351 20231130231153
+216.73.161.52 1 1 0 20231127231037
+173.239.211.184 1 1 0 20231127231012
+106.75.65.190 1 4 225633 20231129130457
+159.223.195.154 1 1 0 20231127092315
+13.58.118.165 1 1 87 20231126024818
+216.73.161.59 1 1 0 20231127231031
+51.20.4.190 1 1 0 20231128011106
+54.166.9.13 3 9 386150 20231130175820
+45.92.229.129 1 1 0 20231127065843
+104.129.56.73 1 1 2328 20231129001706
+207.241.232.189 1 1 0 20231127014033
+3.83.206.246 0 1 854 
+18.222.237.104 1 1 87 20231126024816
+173.239.211.177 1 1 0 20231127231012
+74.80.181.156 1 1 0 20231127110822
+100.24.46.5 3 7 356814 20231129002145
+89.104.101.243 0 1 854 
+68.235.36.216 1 1 0 20231128000753
+216.73.161.68 1 1 0 20231127231031
+89.104.100.103 1 1 2518 20231129171844
+185.253.96.39 1 1 2365 20231129001943
+106.75.14.202 1 1 0 20231128140824
+2001:1970:5425:e400:9df4:151:db62:ddc0 3 7 344110 20231128233637
+45.130.83.98 1 1 0 20231127065801
+174.138.84.62 1 1 0 20231127230308
+138.199.21.197 1 1 685 20231126150057
+2607:5300:201:3000::1413 1 1 0 20231127110639
+216.73.161.49 1 1 0 20231127231026
+146.70.185.28 1 1 0 20231127094655
+172.110.130.133 1 1 0 20231127122701
+173.239.211.193 1 1 0 20231127231057
+52.91.27.158 0 1 854 
+54.66.55.193 1 1 2495 20231129003218
+146.190.197.169 2 2 0 20231127095037
+87.236.176.169 1 1 0 20231128030848
+23.178.112.209 2 2 174 20231126024818
+172.70.7.213 3 3 10165 20231130233552
+173.239.211.179 2 2 0 20231127231103
+45.92.229.115 1 1 0 20231127065759
+216.73.161.67 1 1 0 20231127231112
+87.236.176.244 1 1 0 20231127153455
+45.130.83.93 1 1 0 20231127065759
+173.239.211.199 1 1 0 20231127231123
+68.183.175.180 1 1 3353 20231129215515
+54.186.152.232 1 1 87 20231126024816
+107.21.69.229 0 1 854 
+49.97.102.144 1 1 2519 20231129013359
+47.88.101.3 1 1 0 20231128111309
+173.239.211.200 1 1 0 20231127231039
+2607:5300:201:3100::8907 1 1 0 20231127110821
+87.236.176.144 1 1 0 20231128032856
+87.236.176.203 1 1 0 20231128035508
+47.242.224.70 2 2 0 20231128085037
+173.239.211.191 1 1 0 20231127231051
+192.42.116.201 1 1 0 20231128000757
+31.204.145.172 1 1 2330 20231129001553
+45.130.83.67 1 1 3681 20231126024948
+2604:2dc0:100:1d6a::1 1 1 0 20231127095044
+183.129.153.157 1 1 0 20231128125637
+3.64.149.229 1 1 0 20231128152345
+45.130.83.79 1 1 3682 20231126024948
+45.92.229.187 1 1 3678 20231126024951
+38.95.13.134 1 1 2360 20231129001945
+216.73.161.60 1 1 0 20231127231012
+185.220.102.245 1 1 0 20231127110822
+87.236.176.36 1 1 0 20231127235252
+24.126.8.242 2 8 333242 20231126021939
+199.45.154.18 1 1 0 20231127170016
+43.205.115.123 2 2 6705 20231130063247
+51.81.245.138 1 1 3746 20231126024837
+164.92.127.20 1 1 685 20231126221833
+2001:550:1d05:1::5 1 1 2496 20231129004225
+191.101.41.170 1 1 0 20231127231117
+66.115.165.234 2 2 4826 20231129003416
+45.92.229.137 3 3 0 20231127065816
+45.92.229.119 1 1 0 20231127065651
+2a00:1169:117:5510:: 1 1 0 20231128000753
+24.126.8.176 1 1 0 20231127163349
+24.124.17.164 3 5 330876 20231126024914
+2001:67c:2608::1 1 1 0 20231128000606
+216.73.161.54 1 1 0 20231127231208
+45.130.83.92 1 1 0 20231127065803
+172.94.84.2 1 1 0 20231128000752
+216.73.161.64 1 1 0 20231127231214
+136.144.19.28 3 8 376450 20231129203842
+72.238.200.42 3 8 222856 20231126023937
+45.130.83.70 1 1 3682 20231126024942
+184.72.64.250 1 7 294662 20231130073451
+212.102.57.164 1 1 2362 20231129001944
+165.22.143.112 1 1 685 20231126183331
+173.239.211.189 2 2 0 20231127231044
+173.239.211.186 1 1 0 20231127231006
+202.43.6.8 1 1 2499 20231129003417
+54.202.165.132 1 1 685 20231126235222
+149.40.50.83 1 1 2498 20231129003416
+45.130.83.101 1 1 0 20231127065759
+216.73.161.50 2 2 0 20231127231032
+106.75.21.148 1 1 0 20231128140845
+149.102.237.34 1 1 2328 20231129001827
+51.75.141.254 1 1 0 20231127110828
+216.73.161.56 1 1 0 20231127231154
+3.209.10.111 3 3 1370 20231127200008
+194.5.49.10 3 8 376448 20231129203515
+178.208.176.207 1 1 0 20231128000604
+37.120.207.30 1 1 2330 20231129001706
+173.239.211.194 1 1 0 20231127231026
+161.35.246.138 2 2 0 20231127095044
+54.225.54.125 1 1 0 20231128101635
+45.130.83.85 1 1 3680 20231126024933
+138.199.47.246 1 1 0 20231128000752
+45.92.229.131 2 2 1370 20231126153049
+157.245.81.161 3 3 2055 20231126172300
+190.208.14.8 4 6 299620 20231126023342
+2606:4700:1101:2:e918:8057:1100:3d6 3 3 10164 20231130233551
+35.91.19.180 1 1 87 20231126024818
+142.113.186.73 1 1 0 20231127122227
+216.73.161.57 1 1 0 20231127231057
+45.130.83.103 2 2 0 20231127065809
+2a06:1700:3:19::1 1 1 2363 20231129001945
+2620:18c:0:192::212 1 1 2498 20231129003432
+176.53.223.37 1 1 0 20231128001930
+190.208.14.9 4 6 299622 20231126023342
+106.75.2.171 1 3 219483 20231129130458
+104.168.34.150 1 1 0 20231127110634
+47.88.90.156 1 1 685 20231126184922
+3.143.245.163 1 1 0 20231128230111
+199.45.155.34 1 1 0 20231128044010
+2600:387:f:5910::9 3 9 306509 20231129192838
+45.90.63.168 1 1 0 20231128224400
+172.94.20.8 3 8 372864 20231129010717
+35.90.52.181 1 1 685 20231126182128
+2001:1b60:2:240:3247::9 3 7 356645 20231129001510
+193.138.218.204 2 2 7490 20231126024944
+193.239.84.57 1 1 0 20231127110821
+193.32.127.236 1 1 685 20231126182102
+216.73.161.58 1 1 0 20231127231027
+178.62.77.229 1 1 0 20231127122650
+199.45.155.33 1 1 0 20231127192339
+87.236.176.229 1 1 0 20231127110913
+18.170.74.11 1 1 2360 20231129001943
+2001:41d0:305:2100::587a 3 3 4654 20231129001829
+45.130.83.111 1 1 685 20231126153224
+45.90.63.82 1 1 3351 20231130010232
+89.208.29.157 3 8 376447 20231129204931
+34.207.114.204 4 4 0 20231127175945
+207.241.232.212 1 1 0 20231127013910
+216.73.161.61 1 1 0 20231127231009
+176.53.223.70 1 1 0 20231127171702
+104.243.241.7 1 1 2513 20231129010008
+2001:bc8:1640:518:dc00:ff:fe11:6bc1 1 1 0 20231127013851
+216.73.161.69 1 1 0 20231127231118
+89.104.100.232 1 1 685 20231126225124
+104.244.209.73 2 2 0 20231128000602
+199.45.155.35 1 1 0 20231127234748
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20231126 255 393 12082286 39
+20231127 118 122 8218491 71
+20231128 322 819 38286485 28
+20231129 331 431 7731081 41
+20231130 67 83 1148686 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 9
+1h+ 3
+30mn-1h 4
+0s-30s 160
+5mn-15mn 3
+15mn-30mn 9
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 89
+/ 241 12409284 114 111
+/smf/index.php 114 2773414 1 4
+/public/ 108 300207 45 33
+/smf/cron.php 68 2924 0 6
+/wp-admin/admin-ajax.php 65 1034089 0 0
+/public/api/statistics 44 2301 0 0
+/public/admin 41 622356 0 0
+/public/api/users/1 33 51494 0 0
+/public/api/users 32 112412 0 1
+/smf/ 29 106716 16 7
+/public/api/posts 29 39942 1 1
+/public/api/discussions 23 47848 1 3
+/public/api/tags 20 8193 0 3
+/public/assets/fonts/fa-regular-400.woff2 18 238032 1 4
+/public/assets/fonts/fa-solid-900.woff2 18 1408824 0 3
+/public/api/discussions/1-welcome-home 16 53684 1 1
+/public/api/discussions/2-lol 12 47247 0 0
+/wp-admin/load-scripts.php 12 2085557 0 0
+/public/api/discussions/1 11 6092 0 2
+/smf/Themes/Spirate/fonts/icomoon.ttf 10 238680 0 2
+/wp-admin/load-styles.php 10 4917331 0 0
+/public/api/mail/settings 9 3168 0 0
+/public/api/discussions/2 7 3076 0 0
+/public/api/users/6 6 5566 0 0
+/wp-cron.php 6 0 0 0
+/public/u/9 1 2345 0 0
+/public/api/favicon 1 3519 0 0
+/.well-known/acme-challenge/JQS09CD_4kt2fenVv023BFAiQeUi8cbIPzfnjCMF880 3 261 3 2
+/public/u/3 2 4408 0 0
+/public/api/users/3 3 3741 1 1
+/public/u/1 1 2434 0 0
+/public/api/users/7 1 1301 0 0
+/public/api/extension-readmes/flarum-bbcode 2 176 0 0
+/public/u/6 1 2372 0 0
+/public/api/users/2 3 2383 0 0
+/wp-json/wp/v2/block-patterns/patterns 2 301676 0 0
+/public/u/5 3 6797 1 0
+/public/api/tags/general 1 413 0 0
+/wp-json/wp/v2/block-renderer/core/latest-comments 2 928 0 0
+/wp-json/wp/v2/wp_pattern_category 2 4 0 0
+/public/api/notifications 2 190 0 0
+/public/u/2 1 2081 0 0
+/wp-json/wp/v2/themes 2 8062 0 0
+/wp-json/wp/v2/media 1 13123 0 0
+/wp-admin/themes.php 5 318925 0 0
+/public/api/discussions/3-my-response 3 16903 0 0
+/wp-json/wp/v2/posts/13 1 13452 0 0
+/public/confirm/EJMi0GkZAqHj7B4iCUBSQzqKEFohsAawNb16BlCd 1 1008 0 0
+/public/api/users/3/avatar 1 500 0 0
+/public/assets/fonts/fa-brands-400.woff2 1 76736 0 0
+/wp-admin/edit.php 3 168750 0 0
+/wp-json/wp/v2/blocks 2 4 0 0
+/wp-json/wp/v2/taxonomies 3 17491 0 0
+/public/api/discussions/3 3 1414 0 0
+/public/api/logo 1 3777 0 0
+/public/api/flags 1 11 0 0
+/wp-json/wp/v2/categories 1 618 0 0
+/.well-known/acme-challenge/YBDgA-31R-JntxU-tuw3wobMyIbVdqkSNq51pKn_ef0 3 261 2 3
+/wp-json/wp/v2/users/me 4 12370 0 0
+/public/confirm/pX3crAj8kdZfqImj4fiKSuzACqb2gsB5mwOHDjz3 1 1009 0 0
+/softtest_h9q1yzn0/soft 1 20 0 0
+/wp-json/wp/v2/widget-types 2 18934 0 0
+/public/login 1 83 0 0
+/public/confirm/fBl54WIpXxv9BkxJs91O2wkieryBjAtVlwsb4TPs 1 1011 0 0
+/Setting/ 1 843 0 0
+/wp-json/wp/v2/block-patterns/categories 2 3536 0 0
+/public/api/users/5 2 1656 0 0
+/wp-admin/post-new.php 2 666869 0 0
+/public/d/1-welcome-home 1 2952 1 1
+/wp-admin/ 1 72112 0 0
+/wp-admin/customize.php 3 1871039 0 0
+/wp-json/ 2 322 0 0
+/wp-admin/upload.php 1 99757 0 0
+/wp-json/wp/v2/types 1 3712 0 0
+/public/u/1/discussions 1 2371 0 0
+/public/api/access-tokens 1 364 0 0
+/wp-admin/theme-install.php 1 49071 0 0
+/wp-admin/async-upload.php 1 1118 0 0
+/wp-json/wp/v2/posts 1 3083 0 0
+/wp-admin/update-core.php 3 105637 0 0
+/wp-admin/plugins.php 2 100598 0 0
+/wp-json/wp/v2/pages/14 1 11296 0 0
+/wp-admin/upgrade.php 1 1 0 0
+/check_charset.php 1 77 0 0
+/public/api/users/1/avatar 1 505 0 0
+/wp-content/themes/articlewave/assets/library/box-icons/fonts/boxicons.woff2 3 231360 0 0
+/wp-json/wp/v2/users 3 729 0 0
+/public/confirm/FBhz4krKpxY0mvNv39UWncBKpH0LxOwz4WvYuRIg 1 1010 0 0
+/public/api/users/5/avatar 1 534 0 0
+END_SIDER

@@ -1,0 +1,467 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202312 will be lost/reset.
+# Last config file used to build this data file was /home/nodexyz/tmp/awstats/awstats.megaballsftp.node16.xyz.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2019                
+POS_TIME 2697                
+POS_VISITOR 9222                
+POS_DAY 11071               
+POS_DOMAIN 3252                
+POS_LOGIN 3562                
+POS_ROBOT 3717                
+POS_WORMS 3998                
+POS_EMAILSENDER 4129                
+POS_EMAILRECEIVER 4272                
+POS_SESSION 11248               
+POS_SIDER 11411               
+POS_FILETYPES 4407                
+POS_DOWNLOADS 4806                
+POS_OS 5101                
+POS_BROWSER 5297                
+POS_SCREENSIZE 5804                
+POS_UNKNOWNREFERER 5878                
+POS_UNKNOWNREFERERBROWSER 6374                
+POS_ORIGIN 6741                
+POS_SEREFERRALS 6879                
+POS_PAGEREFS 7042                
+POS_SEARCHWORDS 7190                
+POS_KEYWORDS 7342                
+POS_MISC 2361                
+POS_ERRORS 7401                
+POS_CLUSTER 3418                
+POS_SIDER_404 7499                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231205043936 15 2867 17738917437629
+FirstTime 20231201001429
+LastTime 20231205043906
+LastUpdate 20231204234610 15 0 15 0 0
+TotalVisits 42                  
+TotalUnique 42                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 224 235 5645855260 6 20 12159
+1 0 0 0 0 0 0
+2 2 2 7306 0 4 0
+3 0 0 0 0 0 0
+4 1 1 3653 1 7 3653
+5 1 1 3653 0 2 0
+6 0 0 0 1 1 3733
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 1 2 12157 0 1 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 451 634 853396 131 228 7289
+16 124 173 118935745 6 18 4613
+17 1 1 3653 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 7 7 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 1 1 3733 1 4 3653
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 643 834 2158837671
+ip 114 120 3606655679
+ca 26 50 83864
+gb 20 42 81719
+pt 2 2 7466
+ro 1 2 12157
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+no_user_agent 3 11039 20231204162428 0
+Go\-http\-client/ 3 11199 20231203001844 0
+Discordbot/ 3 3449 20231203153837 0
+survey 1 3653 20231204234415 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 19
+txt 5 135 0 0
+exe 2 21833440 0 0
+css 9 52046 0 0
+html 647 695584 0 0
+php 17 40374 0 0
+ico 12 2172 0 0
+dll 46 100800512 0 0
+xml 4 283776 0 0
+svg 167 47169 0 0
+png 31 54552 0 0
+glsl 22 26498 0 0
+Unknown 20 195668 0 0
+h 2 6568 0 0
+md 8 2625 0 0
+hlsl 38 70538 0 0
+jpg 2 132397 0 0
+rar 3 5109934398 0 0
+js 9 362586 0 0
+zip 6 531137518 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/files/test/testfile.txt 5 0 135
+/files/2GX/Patched%20Studios/new%202016%20studio.zip 4 0 474245764
+/files/FIB%20%28Future%20Is%20Bright%29/Future-Is-Bright.rar 3 0 5109934398
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6.zip 2 0 56891754
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+win10 243 144
+linux 9 7
+win7 2 2
+ios_iphone 2 2
+android10 3 3
+Unknown 234 223
+symbian 1 1
+android 7 7
+macosx15 3 3
+win8.1 546 414
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 24
+chrome98.0.4758.102 2 1
+chrome117.0.0.0 2 2
+edge12 1 1
+firefox120.0 1 1
+nokia 1 1
+firefox98.0 2 2
+chrome118.0.0.0 1 1
+chrome85.0.4183.102 1 1
+chrome117.0.5938.132 1 1
+chrome86.0.4240.111 1 1
+chrome110.0.0.0 3 3
+safari17.1.1 2 2
+safari16.0 1 1
+chrome120.0.6099.28 2 2
+msie9.0 2 2
+firefox115.0 546 414
+firefox119.0 9 9
+Unknown 1 1
+chrome119.0.6045.199 1 1
+cloudflare 230 219
+chrome119.0.0.0 231 133
+chrome55.0.2883.87 2 2
+mozilla 3 3
+chrome109.0.5414.46 4 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Cloudflare-SSLDetector 20231204000304
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20231201004951
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231204053357
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20231201004951
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 322 333
+From1 0 0
+From2 1 1
+From3 0 0
+From4 483 716
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 217 0
+301 18 5760
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 27
+//stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js 2 -
+/files/_h5ai/private/index.php 2 -
+/wordpress/wp-admin/setup-config.php 2 www.google.com
+//static.cloudflareinsights.com/beacon.min.js 1 -
+/files/_h5ai/ 1 -
+/files/main%20%28roblox.com%29/ 32 https://megaballsftp.node16.xyz/files/main%20%28roblox.com%29/
+/wp-admin/setup-config.php 1 www.google.com
+/old/wp-admin/setup-config.php 1 www.google.com
+//code.jquery.com/jquery-3.5.1.slim.min.js 1 -
+/robots.txt 2 http://megaballsftp.node16.xyz/robots.txt
+/files/_h5ai/private/ 2 -
+/img/Aug20063.png 29 https://megaballsftp.node16.xyz/
+/files/ 2 https://megaballsftp.node16.xyz/files/
+/css/main.css 27 https://megaballsftp.node16.xyz/
+/files/gametest2%20%28setup.gametest2.roblox.com%29/ 12 https://megaballsftp.node16.xyz/files/gametest2%20%28setup.gametest2.roblox.com%29/
+/files/Shared/ 31 https://megaballsftp.node16.xyz/files/Shared/
+/dist/umd/popper.min.js 1 -
+/files/_h5ai/private/conf 1 -
+/wp/wp-admin/setup-config.php 1 www.google.com
+/backup/wp-admin/setup-config.php 1 www.google.com
+/files/test/ 11 https://megaballsftp.node16.xyz/files/test/
+/fikes 2 -
+/files/FIB%20%28Future%20Is%20Bright%29/ 21 https://megaballsftp.node16.xyz/files/FIB%20%28Future%20Is%20Bright%29/
+//cdn.js 1 -
+/blog/wp-admin/setup-config.php 1 www.google.com
+/img/ArchiveLogo1.png 28 https://megaballsftp.node16.xyz/
+/OLD/wp-admin/setup-config.php 1 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+73.147.72.174 414 546 119175727 20231203163953
+172.70.19.154 113 118 2039208488 20231204000323
+2606:4700:1101:2:7df1:bbac:31ce:2bd2 106 112 3606628107 20231204000323
+24.144.104.12 84 137 325816 20231203163721
+173.238.183.191 23 46 64321 20231203154252
+51.81.153.189 18 40 74253 20231203171305
+129.153.125.162 4 4 14932 20231201001458
+164.90.241.135 2 2 7466 20231203153639
+68.235.33.166 2 2 7466 20231203154900
+82.102.31.37 2 2 7466 20231203154900
+18.159.52.45 2 2 7466 20231203154859
+193.36.118.217 2 2 7466 20231203153636
+104.168.34.152 2 2 7466 20231203153636
+206.189.247.132 2 2 7466 20231203154859
+2600:1700:1c60:6d40:4193:dd25:339b:ab55 2 2 5174 20231203151754
+161.35.246.138 2 2 7466 20231203153635
+104.234.204.32 1 1 3653 20231205043906 20231205043906 /
+165.232.56.81 1 1 3733 20231203151853
+2a01:6340:2:501::20 1 1 3733 20231203153636
+154.30.116.221 1 1 3733 20231203153612
+93.115.29.79 1 2 12157 20231203162234
+54.66.55.193 1 1 3733 20231203154043
+134.209.127.155 1 1 3733 20231203151852
+35.202.83.31 1 1 3733 20231203153909
+2a12:5940:f0a8::2 1 1 3733 20231203153546
+2607:5300:201:3100::8907 1 1 3733 20231203154810
+34.122.147.229 1 1 3733 20231202230936
+34.69.70.76 1 1 3733 20231203153932
+199.45.155.35 1 1 3653 20231204053357
+54.82.90.196 1 1 3733 20231203154219
+138.207.145.218 1 1 3733 20231203153719
+2a01:4a0:1338:92::7 1 1 3733 20231203153400
+205.210.31.75 1 1 3733 20231201004951
+173.239.236.76 1 2 12157 20231204112458
+108.181.52.152 1 2 12157 20231203163938
+2001:268:c206:1ae9:b230:5907:543f:d62c 1 1 3733 20231203160821
+206.180.159.37 1 1 3733 20231203151752
+2603:3:6106:2460:: 1 1 3733 20231203154901
+199.45.154.16 1 1 3653 20231204020425
+38.242.37.146 1 1 3733 20231203153728
+199.45.155.34 1 1 3653 20231204022113
+38.100.114.154 1 1 3733 20231203153615
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20231201 5 5 18665 2
+20231202 1 1 3733 1
+20231203 576 808 119792794 32
+20231204 223 235 5645859711 6
+20231205 1 1 3653 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 9
+0s-30s 29
+1h+ 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 99
+/files/ 359 242280 2 4
+/ 88 326824 39 36
+/files/2GX/Patched%20Studios/ 34 23514 0 0
+/files/test/ 27 13228 0 0
+/files/Shared/ 20 10161 0 0
+/files/_h5ai/public/index.php 17 40374 1 0
+/files/2GX/Patched%20Studios%20%28rav%29/ 16 8683 0 0
+/files/2GX/ 14 7236 0 0
+/files/main%20%28roblox.com%29/ 9 3666 0 0
+/files/FIB%20%28Future%20Is%20Bright%29/ 9 3547 0 0
+/files/2GX/Patched%20Studios/README.md 8 2625 0 0
+/files/main%20%28roblox.com%29/Player%26Studio/ 6 2948 0 0
+/files/Shared/megaballsgaming/ 6 2933 0 0
+/files/Shared/simple/ 6 2933 0 0
+/files/gametest2%20%28setup.gametest2.roblox.com%29/ 6 2902 0 0
+/files/2GX/Patched%20Studios/README.html 4 2088 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ 3 3942 0 0
+/files/2GX/Patched%20Studios%20%28rav%29/version-3363ce97cfb94ae6/ 3 1047 0 0
+/files/2GX%27s%20Archive/ 3 379 0 0
+/files/main%20%28roblox.com%29/App/ 3 2541 0 1
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/libssl32.dll 3 711168 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/ 3 5715 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/RenderSystem_Direct3D9.dll 3 4280832 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/ 3 4683 0 0
+/files/main%20%28roblox.com%29/Player/ 3 2541 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/BuiltInPlugins/utilities/ 2 1926 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/megacluster.hlsl 2 9640 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/adorn_AdornVS.glsl 2 1018 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/particle.hlsl 2 3814 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/OgreMain.dll 2 14850048 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/sky.material 2 7648 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/tbb.dll 2 435200 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/QtXml4.dll 2 768000 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/QtWebKit4.dll 2 35240960 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/adorn_AdornPS_GLSLES.glsl 2 988 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/texcomp.hlsl 2 1520 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/QtGui4.dll 2 18576384 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/cg.dll 2 9871360 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/default_DefaultPS.glsl 2 2110 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/default.hlsl 2 15308 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/shadowextrude.hlsl 2 2028 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/content/ 2 2044 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ui.material 2 11480 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/crisprmf.dll 2 210944 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/plastic.hlsl 2 88 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/ReflectionMetadata.xml 2 283496 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/QtCore4.dll 2 5624832 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/diamondplate.hlsl 2 868 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/fmodex.dll 2 1917952 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/Microsoft.VC90.MFC/ 2 1970 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/slate.hlsl 2 1404 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/adorn_AdornPS.glsl 2 822 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/AppSettings.xml 2 280 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/adorn.material 2 7666 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/boost.dll 2 308224 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/grass.hlsl 2 2176 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/default_DefaultPS_PIN_HQ.glsl 2 2548 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/Microsoft.VC90.CRT/ 2 2000 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/common.h 2 6568 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/sky.hlsl 2 1460 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ssao.compositor 2 7260 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/adorn_AdornVS_PIN_LIGHTING.glsl 2 2008 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/adorn_AdornVS_GLSLES.glsl 2 1114 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ssao.material 2 6944 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/megacluster.material 2 20460 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/RenderSystem_GL.dll 2 1521664 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/PatchedStudioBeta.exe 2 21833440 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/Plugin_CgProgramManager.dll 2 266240 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/BuiltInPlugins/terrain/ 2 2608 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/shadowquad.hlsl 2 818 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ui.hlsl 2 3842 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/particles.material 2 15218 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/texcomp.material 2 8156 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ice.hlsl 2 1650 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/aluminum_DefaultPS_PIN_HQ.glsl 2 5604 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/PlatformContent/ 2 1882 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/Log.dll 2 138240 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/concrete.hlsl 2 674 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/aluminum.hlsl 2 1464 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/Plugin_ParticleFX.dll 2 207872 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/ssao.hlsl 2 15156 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/wood.hlsl 2 2932 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/rust.hlsl 2 2594 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/VMProtectSDK32.dll 2 126976 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/imageformats/ 2 1976 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/default_DefaultPS_GLSLES.glsl 2 4148 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/phonon4.dll 2 640000 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/Microsoft.VC90.OPENMP/ 2 1954 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/BuiltInPlugins/ 3 2892 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/adorn.hlsl 2 3102 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/concrete_DefaultPS_PIN_HQ.glsl 2 3950 0 0
+/files/main%20%28roblox.com%29/Studio/ 3 2541 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/libeay32.dll 2 2199552 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/default.material 2 104008 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/QtNetwork4.dll 2 2321408 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/ssleay32.dll 2 474112 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/tbbmalloc.dll 2 108544 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/autogen/adorn_AdornVS_PIN_LIGHTING_GLSLES.glsl 2 2188 0 0
+/files/2GX/Patched%20Studios/version-3363ce97cfb94ae6/shaders/shadow.material 2 6828 0 0
+END_SIDER

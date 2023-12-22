@@ -1,0 +1,681 @@
+Return-Path: <0100018c460ace21-4660bbc0-0b89-4267-9a7c-972c74505752-000000@mail.betterstack.com>
+Delivered-To: info@node16.xyz
+Received: from sv83.ifastnet.com
+	by sv83.ifastnet.com with LMTP
+	id zrEEDNUvcmWNcx8AAQ44CQ
+	(envelope-from <0100018c460ace21-4660bbc0-0b89-4267-9a7c-972c74505752-000000@mail.betterstack.com>)
+	for <info@node16.xyz>; Thu, 07 Dec 2023 15:49:25 -0500
+Return-path: <0100018c460ace21-4660bbc0-0b89-4267-9a7c-972c74505752-000000@mail.betterstack.com>
+Envelope-to: info@node16.xyz
+Delivery-date: Thu, 07 Dec 2023 20:49:25 +0000
+Received: from e230-74.smtp-out.amazonses.com ([23.251.230.74]:55171)
+	by sv83.ifastnet.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.96.2)
+	(envelope-from <0100018c460ace21-4660bbc0-0b89-4267-9a7c-972c74505752-000000@mail.betterstack.com>)
+	id 1rBLJD-008eCU-1u
+	for info@node16.xyz;
+	Thu, 07 Dec 2023 20:49:25 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7y2cx54yddpbclhm2ev6dipgrn6u53vb; d=betterstack.com;
+	t=1701982162; i=@alerts.betterstack.com;
+	h=Date:From:Reply-To:To:Message-ID:In-Reply-To:References:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=ZcDMGE6rLfpOK/QocUoIcBiW7f/cnGWAFivYeFtg+hM=;
+	b=eOWLdh5IvpeSzjvjZh1Y3/RuoWypyEqp5mXpSCvlQ1pRZycM42sb8OnKGXdoXaya
+	Rk++OSyFwXdLoAPpnk2KrnFtPEuIevIR3NNUFDHDvrKLRV3a9E3FwwTsMwymhy8nHlb
+	e+w0zs2iH4ET5BfXkLolIIlrcC1pAUYHqXR1xzPo1tGITxE/aTP21mcPntgnXj8gb1f
+	Zq55Q1uNCpEM2cBev7tAFIRcIerwiKwFCarVhGk1LG2LSft6TI6RQKUYrMPq7Dp9QkX
+	kWjz2ZLYxY/47TZ9+2hLzDqdKgnHP4hPwzxfK2xbchPSj+f6SbtWEOvVy8AgnbdjYZK
+	SYo87vCL3g==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1701982162;
+	h=Date:From:Reply-To:To:Message-ID:In-Reply-To:References:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=ZcDMGE6rLfpOK/QocUoIcBiW7f/cnGWAFivYeFtg+hM=;
+	b=Gr1kkz5amfS/cXD215BAnBN3Kii/ELzr+zAYpdlZEdA9tDrDgD3afqmq+lVji58M
+	m3/yPG7dN9T685bXFBoQfyB53HN8c0uBVqA13Wd93SJkxJhFQK648TxN67gw0nztp6K
+	s3FQCzdhVbzbAWtJly5DdDJ9jfUPCGbtBzM8oqRs=
+Date: Thu, 7 Dec 2023 20:49:22 +0000
+From: Better Stack RESOLVED <alerts@alerts.betterstack.com>
+Reply-To: Better Stack Comment <867xdl@comments.betterstack.com>
+To: info@node16.xyz
+Message-ID: <0100018c460ace21-4660bbc0-0b89-4267-9a7c-972c74505752-000000@email.amazonses.com>
+In-Reply-To: <0100018c3ce47044-58308ca2-2d23-4bfb-8a6d-1ced48f3365f-000000@email.amazonses.com>
+References: <0100018c3c9d128b-b61dbf92-44dc-4697-be8c-4d369540ebc5-000000@email.amazonses.com>
+ <0100018c3ce47044-58308ca2-2d23-4bfb-8a6d-1ced48f3365f-000000@email.amazonses.com>
+Subject: assetgame.node16.xyz -  5 Dec 2023 at 07:52pm EST
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_65722fd0dfd2b_12b728383280";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Feedback-ID: 1.us-east-1.wcFI9cKjbk4KC0Z5pTUE1sExtV4FopsWkVpjuuGd06k=:AmazonSES
+X-SES-Outgoing: 2023.12.07-23.251.230.74
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sv83.ifastnet.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ## Incident resolved ## Hello Juan, The incident was automatically
+    resolved. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: fonts.googleapis.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 HTTPS_HTTP_MISMATCH    BODY: No description available.
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+
+----==_mimepart_65722fd0dfd2b_12b728383280
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+## Incident resolved ##
+
+
+Hello Juan,
+
+The incident was automatically resolved.
+
+
+Monitor:
+assetgame.node16.xyz
+
+Checked URL:
+GET
+https://assetgame.node16.xyz/
+
+Cause:
+Status 404
+
+
+Started at:
+5 Dec 2023 at 07:52pm EST
+
+Acknowledged at:
+5 Dec 2023 at 09:10pm EST
+
+Resolved at:
+7 Dec 2023 at 03:49pm EST
+
+Length:
+1 day and 19 hours
+
+
+
+
+Response:
+404 Not Found
+
+Not Found
+The requested URL was not found on this server.
+Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.
+
+Apache Server at assetgame.node16.xyz Port 443
+
+View the incident:
+https://uptime.betterstack.com/users/link/aW5mb0Bub2RlMTYueHl6MTcwMTk4MjE2MA==cdb96d0c27?redirect_to=https%3A%2F%2Fuptime.betterstack.com%2Fteam%2F182058%2Fincidents%2F494176953
+
+Best,
+Better Stack
+
+
+----==_mimepart_65722fd0dfd2b_12b728383280
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html style=3D"width:100%;font-family:'inter', 'helvetica neue', helvetic=
+a, arial, sans-serif;font-weight: 500;-webkit-text-size-adjust:100%;-ms-t=
+ext-size-adjust:100%;padding:0;Margin:0;-webkit-font-smoothing: antialias=
+ed">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=
+
+  <meta charset=3D"UTF-8">
+  <meta content=3D"width=3Ddevice-width, initial-scale=3D1" name=3D"viewp=
+ort">
+  <meta name=3D"x-apple-disable-message-reformatting">
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <meta content=3D"telephone=3Dno" name=3D"format-detection">
+  <title>Better Stack - Magic Link</title>
+  <!--[if (mso 16)]>
+  <style type=3D"text/css">
+    a {text-decoration: none;}
+  </style>
+  <![endif]-->
+  <!--[if gte mso 9]><style>sup { font-size: 100% !important; }</style><!=
+[endif]-->
+  <!--[if !mso]> -->
+  <link href=3D"https://uptime.betterstack.com/fonts/Inter.css" rel=3D"st=
+ylesheet">
+  <link href=3D"https://fonts.googleapis.com/css?family=3DPoppins:600" re=
+l=3D"stylesheet">
+  <!--<![endif]-->
+  <style type=3D"text/css">
+    @media only screen and (max-width:600px) {
+      p, ul li, ol li, a { font-size:16px!important; line-height:150%!imp=
+ortant }
+      h1 { font-size:30px!important; line-height:120%!important }
+      h2 { font-size:26px!important; text-align:center; line-height:120%!=
+important }
+      h3 { font-size:20px!important; text-align:center; line-height:120%!=
+important }
+      h1 a { font-size:30px!important }
+      h2 a { font-size:26px!important }
+      h3 a { font-size:20px!important }
+      .es-menu td a { font-size:16px!important }
+      .es-header-body p, .es-header-body ul li, .es-header-body ol li, .e=
+s-header-body a { font-size:16px!important }
+      .es-footer-body p, .es-footer-body ul li, .es-footer-body ol li, .e=
+s-footer-body a { font-size:16px!important }
+      .es-infoblock p, .es-infoblock ul li, .es-infoblock ol li, .es-info=
+block a { font-size:12px!important }
+      *[class=3D"gmail-fix"] { display:none!important }
+      .es-m-txt-c, .es-m-txt-c h1, .es-m-txt-c h2, .es-m-txt-c h3 { text-=
+align:center!important }
+      .es-m-txt-r, .es-m-txt-r h1, .es-m-txt-r h2, .es-m-txt-r h3 { text-=
+align:right!important }
+      .es-m-txt-l, .es-m-txt-l h1, .es-m-txt-l h2, .es-m-txt-l h3 { text-=
+align:left!important }
+      .es-m-txt-r img, .es-m-txt-c img, .es-m-txt-l img { display:inline!=
+important }
+      .es-button-border { display:block!important }
+      a.es-button { font-size:16px!important; display:block!important; bo=
+rder-left-width:0px!important; border-right-width:0px!important }
+      a.es-button.es-button-sm { font-size:14px!important; }
+      .es-btn-fw { border-width:10px 0px!important; text-align:center!imp=
+ortant }
+      .es-adaptive table, .es-btn-fw, .es-btn-fw-brdr, .es-left, .es-righ=
+t { width:100%!important }
+      .es-content table, .es-header table, .es-footer table, .es-content,=
+ .es-footer, .es-header { width:100%!important; max-width:600px!important=
+ }
+      .es-adapt-td { display:block!important; width:100%!important }
+      .img-responsive { max-width: 100%; }
+      .adapt-img { width:100%!important; height:auto!important }
+      .es-m-p0 { padding:0px!important }
+      .es-m-p0r { padding-right:0px!important }
+      .es-m-p0l { padding-left:0px!important }
+      .es-m-p0t { padding-top:0px!important }
+      .es-m-p0b { padding-bottom:0!important }
+      .es-m-p20b { padding-bottom:20px!important }
+      .es-mobile-hidden, .es-hidden { display:none!important }
+      .es-desk-hidden { display:table-row!important; width:auto!important=
+; overflow:visible!important; float:none!important; max-height:inherit!im=
+portant; line-height:inherit!important }
+      .es-desk-menu-hidden { display:table-cell!important }
+      table.es-table-not-adapt, .esd-block-html table { width:auto!import=
+ant }
+      table.es-social { display:inline-block!important }
+      table.es-social td { display:inline-block!important }
+      .incident-info-key {
+        width: 100% !important;
+        margin-top: 15px;
+        display: block;
+      }
+      .incident-info-value {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block;
+      }
+      .mobile-align-center {
+        text-align: center !important;
+      }
+      /* smaller mobile padding for specific sections */
+      .mail-section--intro {
+        padding-top: 15px !important;
+      }
+      .mail-section--action-buttons {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+      }
+    }
+    .separator-line {
+      display: block;
+      width: 100%;
+      height: 1px;
+      margin: 30px 0;
+      background: #F1F2F7;
+    }
+    .incident-info-key {
+      vertical-align: top;
+      display: inline-block;
+      width: 25%;
+      min-width: 180px;
+      white-space: nowrap;
+    }
+    .incident-info-value {
+      display: inline-block;
+      max-width: 80%;
+    }
+    #outlook a {
+      padding:0;
+    }
+    .ExternalClass {
+      width:100%;
+    }
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height:100%;
+    }
+    .es-button {
+      mso-style-priority:100!important;
+      text-decoration:none!important;
+    }
+    a[x-apple-data-detectors] {
+      color:inherit!important;
+      text-decoration:none!important;
+      font-size:inherit!important;
+      font-family:inherit!important;
+      font-weight:inherit!important;
+      line-height:inherit!important;
+    }
+    a {
+      text-decoration: none;
+      color: #424761;
+    }
+    .es-desk-hidden {
+      display:none;
+      float:left;
+      overflow:hidden;
+      width:0;
+      max-height:0;
+      line-height:0;
+      mso-hide:all;
+    }
+  </style>
+</head>
+<body style=3D"width:100%;font-family:'inter', 'helvetica neue', helvetic=
+a, arial, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:1=
+00%;padding:20px 0 0 0;Margin:0;">
+<div class=3D"es-wrapper-color" style=3D"background-color:#ffffff;">
+  <!--[if gte mso 9]>
+  <v:background xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"t">
+    <v:fill type=3D"tile" color=3D"#ffffff" origin=3D"0.5, 0" position=3D=
+"0.5,0"></v:fill>
+  </v:background>
+  <![endif]-->
+  <table class=3D"es-wrapper" width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collaps=
+e:collapse;border-spacing:0px;padding:0;Margin:0;width:100%;height:100%;b=
+ackground-repeat:repeat;background-position:center top;">
+    <tr style=3D"border-collapse:collapse;">
+      <td valign=3D"top" style=3D"padding:0;Margin:0;">
+        <table class=3D"es-content" cellspacing=3D"0" cellpadding=3D"0" a=
+lign=3D"center" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border=
+-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width=
+:100%;">
+          <tr style=3D"border-collapse:collapse;">
+            <td align=3D"center" style=3D"padding:0;Margin:0;">
+              <table class=3D"es-content-body" cellspacing=3D"0" cellpadd=
+ing=3D"0" bgcolor=3D"#ffffff" align=3D"center" style=3D"mso-table-lspace:=
+0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;back=
+ground-color:#FFFFFF;">
+                <tr style=3D"border-collapse:collapse;">
+                  <td align=3D"left" style=3D"padding:0;Margin:0;">
+                    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:c=
+ollapse;border-spacing:0px;">
+                      <tr style=3D"border-collapse:collapse;">
+                        <td align=3D"center" valign=3D"top" style=3D"padd=
+ing:0;Margin:0;">
+                          <table cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation" style=3D"mso-table-lspace:0pt;mso-table-=
+rspace:0pt;border-collapse:collapse;border-spacing:0px;">
+                            <tr style=3D"border-collapse:collapse;">
+                              <td style=3D"padding:0;Margin:0;">
+                                <div style=3D"height:5px;background:#21AF=
+63;">
+                                  =C2=A0
+                                </div>
+</td>
+                            </tr>
+                          </table>
+</td>
+                      </tr>
+                    </table>
+</td>
+                </tr>
+
+                =
+
+<tr style=3D"border-collapse:collapse;">
+  <td align=3D"left" class=3D"mail-section--intro" style=3D"padding:0;Mar=
+gin:0;padding-top:40px;padding-left:40px;padding-right:40px;">
+    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"ms=
+o-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-s=
+pacing:0px;">
+      <tr style=3D"border-collapse:collapse;">
+        <td width=3D"720" align=3D"center" valign=3D"top" style=3D"paddin=
+g:0;Margin:0;">
+          <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D=
+"presentation" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-=
+collapse:collapse;border-spacing:0px;">
+            <tr style=3D"border-collapse:collapse;">
+              <td align=3D"left" style=3D"padding:0;Margin:0;padding-top:=
+20px;"><h3 style=3D"Margin:0;line-height:30px;mso-line-height-rule:exactl=
+y;font-family:'inter', 'helvetica neue', helvetica, arial, sans-serif;fon=
+t-size:20px;font-style:normal;font-weight:normal;color:#222B35;">
+                <span style=3D"display: inline-block; position: relative;=
+ top: 1px; margin-right: 6px; width: 16px; height: 16px; background: #21A=
+F63; border-radius: 16px;"></span>
+                <strong>Incident resolved</strong>
+              </h3></td>
+            </tr>
+            <tr style=3D"border-collapse:collapse;">
+              <td align=3D"left" style=3D"padding:0;Margin:0;padding-top:=
+30px;">
+                <p style=3D"Margin:0;-webkit-text-size-adjust:none;-ms-te=
+xt-size-adjust:none;mso-line-height-rule:exactly;font-size:16px;font-fami=
+ly:'inter', 'helvetica neue', helvetica, arial, sans-serif;line-height:24=
+px;color:#424761;">
+                  Hello Juan,
+
+                  <br>
+                  <br>
+                  The incident was automatically resolved.
+                  <br>
+                  <br>
+
+                  You can reply to this email to add a comment.
+                </p>
+              </td>
+            </tr>
+          </table>
+</td>
+      </tr>
+    </table>
+</td>
+</tr>
+
+  <tr style=3D"border-collapse:collapse;">
+    <td align=3D"left" class=3D"mail-section--action-buttons" style=3D"Ma=
+rgin:0;padding-top:30px;padding-left:40px;padding-right:40px;">
+      <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"=
+mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border=
+-spacing:0px;">
+        <tr style=3D"border-collapse:collapse;">
+          <td width=3D"720" align=3D"center" valign=3D"top" style=3D"padd=
+ing:0;Margin:0;">
+            <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" rol=
+e=3D"presentation" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;bor=
+der-collapse:collapse;border-spacing:0px;">
+              <tr style=3D"border-collapse:collapse;">
+                <td align=3D"left" style=3D"padding:0;Margin:0;padding-to=
+p:10px;padding-bottom:10px;padding-right:10px;">
+                    <span class=3D"es-button-border" style=3D"border-styl=
+e:solid;border-color:#BFC2D4;background:#fff;border-width:1px;display:inl=
+ine-block;border-radius:4px;width:auto;margin-bottom:15px">
+                      <a href=3D"https://uptime.betterstack.com/ahoy/mess=
+ages/UCVMZ9z90gGl5v2tFF8nPODCKpEKjitr/click?signature=3D98b2d768e8ae6eec9=
+d2e957c1aecfa611f691e47&amp;url=3Dhttps%3A%2F%2Fuptime.betterstack.com%2F=
+users%2Flink%2FaW5mb0Bub2RlMTYueHl6MTcwMTk4MjE2MA%3D%3Dcdb96d0c27%3Fredir=
+ect_to%3Dhttps%253A%252F%252Fuptime.betterstack.com%252Fteam%252F182058%2=
+52Fincidents%252F494176953%26utm_source%3Descalation_mailer%26utm_medium%=
+3Demail%26utm_campaign%3Dresolved" class=3D"es-button" target=3D"_blank" =
+style=3D"mso-style-priority:100 !important;text-decoration:none;-webkit-t=
+ext-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exact=
+ly;font-family:'inter', 'helvetica neue', helvetica, arial, sans-serif;fo=
+nt-size:16px;color:#222B35;border-style:solid;border-color:#fff;border-wi=
+dth:15px 35px 15px 35px;display:inline-block;background:#fff;border-radiu=
+s:4px;font-weight:600;font-style:normal;line-height:19px;width:auto;text-=
+align:center;">
+                        View incident
+                      </a>
+                    </span>
+                </td>
+              </tr>
+            </table>
+</td>
+        </tr>
+      </table>
+</td>
+  </tr>
+
+<tr style=3D"border-collapse:collapse;">
+  <td style=3D"padding-top: 30px;">
+    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"ms=
+o-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-s=
+pacing:0px;">
+      <tr style=3D"border-collapse:collapse;">
+        <td width=3D"720" align=3D"center" valign=3D"top" style=3D"paddin=
+g:0;Margin:0;">
+
+          </td>
+</tr>
+<tr style=3D"border-collapse:collapse;">
+            <td align=3D"left" style=3D"padding:0;Margin:0;padding-top:0p=
+x;padding-left:40px;padding-right:40px;padding-bottom:30px; background-co=
+lor:#F7F8FA; border-top: 5px solid #F1F2F7;">
+              <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" s=
+tyle=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collaps=
+e;border-spacing:0px;">
+                <tr style=3D"border-collapse:collapse;">
+                  <td width=3D"720" align=3D"center" valign=3D"top" style=
+=3D"padding:0;Margin:0;">
+                    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" role=3D"presentation" style=3D"mso-table-lspace:0pt;mso-table-rspace=
+:0pt;border-collapse:collapse;border-spacing:0px;">
+                      <tr style=3D"border-collapse:collapse;">
+                        <td class=3D"mail-section--summary-inner" align=3D=
+"left" style=3D"padding:0;Margin:0;padding-top:30px;">
+                          <p style=3D"Margin:0;-webkit-text-size-adjust:n=
+one;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:16px=
+;font-family:'inter', 'helvetica neue', helvetica, arial, sans-serif;line=
+-height:30px;color:#424761;">
+                              <strong class=3D"incident-info-key">Monitor=
+:</strong>
+                              <span class=3D"incident-info-value">assetga=
+me.node16.xyz</span>
+
+                                <br>
+                                  <strong class=3D"incident-info-key">Che=
+cked URL:</strong>
+                                  <span class=3D"incident-info-value"><co=
+de>GET <a href=3D"https://uptime.betterstack.com/ahoy/messages/UCVMZ9z90g=
+Gl5v2tFF8nPODCKpEKjitr/click?signature=3D56fd2f6abc2de433edef6168e520d7fc=
+903af9c1&amp;url=3Dhttps%3A%2F%2Fassetgame.node16.xyz%2F%3Futm_source%3De=
+scalation_mailer%26utm_medium%3Demail%26utm_campaign%3Dresolved" target=3D=
+"_blank"><u>https://assetgame.node16.xyz/</u></a></code></span>
+
+                              <br>
+                              <strong class=3D"incident-info-key">Cause:<=
+/strong>
+                              <span class=3D"incident-info-value">Status =
+404</span>
+
+                              <br>
+                              <br>
+
+
+                            <strong class=3D"incident-info-key">Started a=
+t:</strong>
+                            <span class=3D"incident-info-value"><span sty=
+le=3D"white-space: nowrap"> 5 Dec 2023 at 07:52pm EST</span></span>
+                              <br>
+                              <strong class=3D"incident-info-key">Acknowl=
+edged at:</strong>
+                              <span class=3D"incident-info-value">
+                                <span style=3D"white-space: nowrap"> 5 De=
+c 2023 at 09:10pm EST</span>
+                                    <small style=3D"white-space: nowrap; =
+color: #777;">(by you)</small>
+                              </span>
+
+                            <br>
+                            <strong class=3D"incident-info-key">Resolved =
+at:</strong>
+                            <span class=3D"incident-info-value">
+                              <span style=3D"white-space: nowrap"> 7 Dec =
+2023 at 03:49pm EST</span>
+                                <small style=3D"white-space: nowrap; colo=
+r: #777;">(automatically)</small>
+                            </span>
+
+                            <br>
+                            <strong class=3D"incident-info-key">Length:</=
+strong>
+                            <span class=3D"incident-info-value"><span sty=
+le=3D"white-space: nowrap">1 day and 19 hours</span></span>
+
+
+                                <br>
+                                <br>
+
+                                <strong>Response:</strong><br>
+                                <code style=3D"border: 1px solid #ccc; pa=
+dding: 10px; background: #fff; border-radius: 4px; display: block; word-b=
+reak: break-all">404 Not Found
+
+Not Found
+The requested URL was not found on this server.
+Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the =
+request.
+
+Apache Server at assetgame.node16.xyz Port 443</code>
+
+
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+</td>
+                </tr>
+              </table>
+</td>
+          </tr>
+
+        =
+
+      =
+
+    </table>
+  </td>
+</tr>
+
+
+                <tr style=3D"border-collapse:collapse;">
+                  <td align=3D"left" bgcolor=3D"#F7F8FA" style=3D"Margin:=
+0;padding-top:20px;padding-bottom:20px;padding-left:40px;padding-right:40=
+px;background-color:#F7F8FA;">
+                    <!--[if mso]><table width=3D"720" cellpadding=3D"0" c=
+ellspacing=3D"0"><tr><td valign=3D"top"><![endif]-->
+                    <table cellpadding=3D"0" cellspacing=3D"0" class=3D"e=
+s-left" align=3D"left" style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt=
+;border-collapse:collapse;border-spacing:0px;float:left;">
+                      <tbody>
+<tr style=3D"border-collapse:collapse;">
+                        <td class=3D"es-m-p20b" align=3D"left" style=3D"p=
+adding:0;Margin:0;">
+                          <table cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation" style=3D"mso-table-lspace:0pt;mso-table-=
+rspace:0pt;border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+<tr style=3D"border-collapse:collapse;">
+                              <td align=3D"left" class=3D"mobile-align-ce=
+nter" style=3D"padding:0;Margin:0;">
+                                <a href=3D"https://uptime.betterstack.com=
+/ahoy/messages/UCVMZ9z90gGl5v2tFF8nPODCKpEKjitr/click?signature=3D250c700=
+f05dbdb0e21004d325c662d90ba0a4ad2&amp;url=3Dhttps%3A%2F%2Fuptime.betterst=
+ack.com%2F%3Futm_source%3Descalation_mailer%26utm_medium%3Demail%26utm_ca=
+mpaign%3Dresolved" target=3D"_blank">
+                                  <img src=3D"https://uptime.betterstack.=
+com/assets/static_assets/email_v2/betterstack-email-logo.png" alt=3D"Bett=
+er Stack" style=3D"display:inline-block;border:0;outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic;" width=3D"145">
+                                </a>
+                              </td>
+                            </tr>
+                            </tbody>
+</table>
+</td>
+                      </tr>
+                      </tbody>
+</table>
+                    <!--[if mso]></td><td width=3D"20"></td><td valign=3D=
+"top"><![endif]-->
+                    <table cellpadding=3D"0" cellspacing=3D"0" class=3D"e=
+s-right" align=3D"right" style=3D"mso-table-lspace:0pt;mso-table-rspace:0=
+pt;border-collapse:collapse;border-spacing:0px;float:right;">
+                      <tbody>
+<tr style=3D"border-collapse:collapse;">
+                        <td align=3D"left" style=3D"padding:0;Margin:0;">=
+
+                          <table cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation" style=3D"mso-table-lspace:0pt;mso-table-=
+rspace:0pt;border-collapse:collapse;border-spacing:0px;">
+                            <tbody>
+<tr style=3D"border-collapse:collapse;">
+                              <td align=3D"right" class=3D"mobile-align-c=
+enter" style=3D"padding:0;Margin:0;padding-top:5px;">
+                                <p style=3D"Margin:0;-webkit-text-size-ad=
+just:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-siz=
+e:14px;font-family:roboto, 'helvetica neue', helvetica, arial, sans-serif=
+;line-height:21px;color:#020A14;">
+                                  <a href=3D"https://uptime.betterstack.c=
+om/ahoy/messages/UCVMZ9z90gGl5v2tFF8nPODCKpEKjitr/click?signature=3Df4e46=
+a578610ceb0c3254320089943ed9e4a2c6f&amp;url=3Dhttps%3A%2F%2Fuptime.better=
+stack.com%2Fhelp%3Futm_source%3Descalation_mailer%26utm_medium%3Demail%26=
+utm_campaign%3Dresolved">Help &amp; Support</a>
+                                  <span style=3D"position: relative; marg=
+in: 0 6px; width: 4px; height: 4px; border-radius: 4px; top: -3px; displa=
+y: inline-block; background: #959AA0;"></span>
+                                  <a href=3D"https://uptime.betterstack.c=
+om/ahoy/messages/UCVMZ9z90gGl5v2tFF8nPODCKpEKjitr/click?signature=3D36edd=
+29aa1a758dab60a5bc6ae39b4bd6e423a6c&amp;url=3Dhttps%3A%2F%2Fuptime.better=
+stack.com%2Fusers%2Fsign-in%3Futm_source%3Descalation_mailer%26utm_medium=
+%3Demail%26utm_campaign%3Dresolved">Sign in</a>
+                                </p>
+                              </td>
+                            </tr>
+                            </tbody>
+</table>
+</td>
+                      </tr>
+                      </tbody>
+</table>
+                    <!--[if mso]></td></tr></table><![endif]-->
+</td>
+                </tr>
+
+
+
+
+              </table>
+</td>
+          </tr>
+        </table>
+</td>
+    </tr>
+  </table>
+</div>
+<img alt=3D"" src=3D"https://uptime.betterstack.com/ahoy/messages/UCVMZ9z=
+90gGl5v2tFF8nPODCKpEKjitr/open.gif" width=3D"1" height=3D"1">
+</body>
+</html>
+
+----==_mimepart_65722fd0dfd2b_12b728383280--

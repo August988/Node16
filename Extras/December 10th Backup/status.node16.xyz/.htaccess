@@ -1,0 +1,11 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^status\.node16\.xyz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.status\.node16\.xyz$
+RewriteRule ^/?$ "https\:\/\/node16\.betteruptime\.com\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit
