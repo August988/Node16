@@ -1,0 +1,175 @@
+-- MySQL dump 10.13  Distrib 5.7.44, for Linux (x86_64)
+--
+-- Host: localhost    Database: nodexyz_db
+-- ------------------------------------------------------
+-- Server version	5.7.44-cll-lve
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `badges`
+--
+
+DROP TABLE IF EXISTS `badges`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `badges` (
+  `badgeID` int(6) unsigned NOT NULL AUTO_INCREMENT,
+  `ownedBy` varchar(255) NOT NULL,
+  `badgeName` varchar(255) NOT NULL,
+  `badgeImage` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`badgeID`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `badges`
+--
+
+LOCK TABLES `badges` WRITE;
+/*!40000 ALTER TABLE `badges` DISABLE KEYS */;
+INSERT INTO `badges` (`badgeID`, `ownedBy`, `badgeName`, `badgeImage`) VALUES (1,'ROBLOX','Administrator','https://web.archive.org/web/20150927144603im_/http://images.rbxcdn.com/f8f5d7b22a7efb09f0aabff9d003b862.png'),(2,'ROBLOX','Official Model Maker Badge','/Images/badges/RBXM.png'),(4,'megaballsgaming','Node16 Developer','https://www.node16.xyz/favicon.ico'),(5,'megaballsgaming','Co-Owner','https://www.node16.xyz/favicon.ico'),(6,'Juan','Node16 Developer','https://www.node16.xyz/favicon.ico'),(7,'Juan','Owner','https://images-ext-2.discordapp.net/external/L3nZ6HeoWIFfk_Md83Pix0o9pMqDqnO51SCnT0yHdhA/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1178012165169491969/a0f46a1779f9641fd5b588a5ac94db8c.png?format=webp&quality=lossless'),(8,'Juan','Administrator','https://web.archive.org/web/20150927144603im_/http://images.rbxcdn.com/f8f5d7b22a7efb09f0aabff9d003b862.png'),(9,'simple','Client Developer','https://images.rbxcdn.com/6c2a598114231066a386fa716ac099c4.png'),(10,'simple','Node16 Dev','https://www.node16.xyz/favicon.ico'),(11,'megaballsgaming','Inviter','https://images.rbxcdn.com/01044aca1d917eb20bfbdc5e25af1294.png'),(13,'Test','Administrator','https://web.archive.org/web/20150927144603im_/http://images.rbxcdn.com/f8f5d7b22a7efb09f0aabff9d003b862.png'),(14,'2GX','Debugger','http://node16.xyz/debug/static/badges/debugger.png'),(15,'2GXTest','Debugger','http://node16.xyz/debug/static/badges/debugger.png');
+/*!40000 ALTER TABLE `badges` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `blogPosts`
+--
+
+DROP TABLE IF EXISTS `blogPosts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `blogPosts` (
+  `postID` int(11) NOT NULL AUTO_INCREMENT,
+  `image` varchar(255) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `description` text,
+  `author` varchar(100) NOT NULL,
+  `createdOn` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`postID`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `blogPosts`
+--
+
+LOCK TABLES `blogPosts` WRITE;
+/*!40000 ALTER TABLE `blogPosts` DISABLE KEYS */;
+INSERT INTO `blogPosts` (`postID`, `image`, `title`, `description`, `author`, `createdOn`) VALUES (1,'https://web.archive.org/web/20160331223548im_/http://blog.roblox.com/wp-content/uploads/2014/12/giant_survival_feat-800x208.jpg','Welcome to Node16!','Welcome to Node16. A roblox revival attempting to simulate our most favorite year of roblox: 2016!','Node16','2023-12-20 01:29:03'),(2,'https://i.ibb.co/sV9rsXF/endorsedassetsfeat-800x187.png','See you soon!','Soon, we will see you on Node16! In the meantime, have a holly jolly christmas for now! :D','ROBLOX','2023-12-20 01:51:50'),(4,'https://i.ibb.co/sV9rsXF/endorsedassetsfeat-800x187.png','happy xmas','happy christmas from juan!11','Juan','2023-12-20 02:01:10');
+/*!40000 ALTER TABLE `blogPosts` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `games`
+--
+
+DROP TABLE IF EXISTS `games`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `games` (
+  `placeID` bigint(20) NOT NULL AUTO_INCREMENT,
+  `ownedBy` varchar(255) DEFAULT NULL,
+  `placeName` varchar(255) DEFAULT NULL,
+  `placeImage` varchar(255) DEFAULT NULL,
+  `placeLikes` int(11) DEFAULT NULL,
+  `placeDislikes` int(11) DEFAULT NULL,
+  `placeVisits` int(11) DEFAULT NULL,
+  `placeDesc` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`placeID`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `games`
+--
+
+LOCK TABLES `games` WRITE;
+/*!40000 ALTER TABLE `games` DISABLE KEYS */;
+INSERT INTO `games` (`placeID`, `ownedBy`, `placeName`, `placeImage`, `placeLikes`, `placeDislikes`, `placeVisits`, `placeDesc`) VALUES (1,'2GXTest','Test','http://node16.xyz/debug/static/places/neutral.png',5,3,10,'test'),(2,'Juan','Epic Minigames','http://node16.xyz/debug/static/places/neutral.png',0,0,0,'EpicMinigames');
+/*!40000 ALTER TABLE `games` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `userApperance`
+--
+
+DROP TABLE IF EXISTS `userApperance`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `userApperance` (
+  `Apperance` text NOT NULL,
+  `Id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `userApperance`
+--
+
+LOCK TABLES `userApperance` WRITE;
+/*!40000 ALTER TABLE `userApperance` DISABLE KEYS */;
+INSERT INTO `userApperance` (`Apperance`, `Id`) VALUES ('{\"BodyColors\":\"http://www.node16.xyz/Asset/BodyColors.ashx?userId=1;\",\"Items\":[\"http://www.node16.xyz/asset/?id=21351761;\", \"http://www.node16.xyz/asset/?id=1\"]}',1);
+/*!40000 ALTER TABLE `userApperance` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `id` int(6) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `birthYear` int(4) NOT NULL,
+  `birthMonth` int(2) NOT NULL,
+  `birthDay` int(2) NOT NULL,
+  `gender` varchar(10) NOT NULL,
+  `joinDate` varchar(255) DEFAULT NULL,
+  `isAdmin` varchar(255) DEFAULT NULL,
+  `about` varchar(255) DEFAULT NULL,
+  `blurb` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=34 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `users`
+--
+
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
+INSERT INTO `users` (`id`, `username`, `password`, `birthYear`, `birthMonth`, `birthDay`, `gender`, `joinDate`, `isAdmin`, `about`, `blurb`) VALUES (1,'ROBLOX','$2y$10$wviNRKLWCNwkWqzObbzqhexfCICkyPzomcS.DKTf.QAnrI8uBEkvq',2000,12,15,'male','12/10/2023','2','This is the official administration account on Node16. Managed by the head developer of Node16.','Message Juan if you have any suggestions or bugs to report on Node16. Welcome to Node16!'),(8,'megaballsgaming','$2y$10$FlFbJAuwHvgywJYV2vBJuOuMqA/bojqn8nYcEVf8ukCYEbPNhU.he',2000,5,8,'male','12/10/2023','1',NULL,NULL),(9,'thug','$2y$10$XgbVQVk5PO1At6XIadjAqe7.lSubv25GAlh6B/JzKA66.q0.AqSBK',2001,2,30,'male','12/10/2023','1',NULL,NULL),(10,'Juan','$2y$10$pWHm673kx76RYx6HG.I.A.NC.LysJyUujTGLwA5Lo1JR46hTisJHG',2007,4,3,'male','12/10/2023','2','Message me, not ROBLOX or node. DISCORD: @juan43603','Owner of node16.'),(11,'aug','$2y$10$oEzRuczt6QF0zy4hbGzNaevu6bOATncBBX/Zu0D6XGYobUOXDYuxa',2000,9,30,'female','12/10/2023','1',NULL,NULL),(12,'liinback','$2y$10$d5SECau1I4N7mCcJRnOGBubb228K7BMz97iYOeEvCSXJC25PTWF7i',1997,9,15,'male','12/10/2023','1',NULL,NULL),(14,'eggisaloser','$2y$10$yRigf6/MZ6Bcy94q3iLjvuszPQF0Y4zT1yebiOj2Dxw7dnoJG82Mq',1999,9,19,'male','12/10/23','1',NULL,NULL),(15,'Test','$2y$10$RVIjwTcXEqdkM0tvZnjAkupl2ucCBawq/u..WxA6viEJseAd4eU0y',2000,1,2,'male','12/10/2023','1','Hello World!','A official test account by the administration of Node16'),(16,'K0T','$2y$10$aKck6aUaV2vV2MmeqfVP6uNXSZaAHHxvf/ADeSE/TmyzKgmVQ12Xa',2000,1,13,'male','12/11/2023','1',NULL,NULL),(17,'YourHelper','$2y$10$8KgwgVzY9u19/2teL8ahmuJpYtDV74LsiYdCefQCb7mJX86X/7P/m',2000,6,16,'male','12/11/2023','1',NULL,NULL),(18,'egg','$2y$10$8kNRPMAC2ewDTu1gP998ZeLsYRhYpso0Dn7Ie1zZ3ib97v0Qcqwji',2000,11,2,'male','12/11/2023','1',NULL,NULL),(20,'Cap','$2y$10$UjGeUtBn7owDjh5z.ja1TueOJZXgQV0DvdLLjBSiuJt/fxe.LjglK',1987,5,30,'male','12/11/2023','1',NULL,NULL),(21,'simple','$2y$10$qr6QkxbNCnLFwjd6bTYTUemQvYftdG0/py8.9hCV9JO9wKHYOqyCm',1919,1,1,'male','12/11/2023','1','My name is simple, I am the core developer for the older clients on the site. Ask me questions if you want. Discord: @dev.meblox','I am simple, feel free to ask me questions about clients.'),(22,'tes','$2y$10$Cb.m7SKHyLJfzYuWS3lvmOT6Slh7e2G5McyOF8YrpzIH2JTi6nib.',0,0,0,'','12/11/2023','1',NULL,NULL),(23,'2gx','$2y$10$whrhx6Di5YWILvMCShhAMuJQEqPkVWMMZ6lOutpSlsmXvQwCNTM.2',2005,3,23,'male','12/11/2023','1',NULL,NULL),(24,'R0BL0X','$2y$10$Ph9lq4S7V7fMXtgOxGLP6eN2FhA.c3rBsEmoeuyMXktuFYiBwLN3y',2006,1,18,'male','12/12/2023','1',NULL,NULL),(25,'2GXTest','$2y$10$V1SbpvNA3KwOQxmLfPsI2uw1PQCp5vYAzAp9wMafETKYnASucFfJW',2005,3,23,'male','12/16/2023','1',NULL,NULL),(26,'root123','$2y$10$xRCfXhaxwtkwSMdGWoxzGOjNnXlZBIjaTvgirwuCqmU2bbbunEOzm',1986,6,16,'male','12/16/2023','1',NULL,NULL),(29,'teddyphp','$2y$10$O9kErvm06RbLs90X1.EU9OUkx1r6RdNgsbvOP6D13xKSP5GYVuf66',0,0,0,'','12/17/2023','1',NULL,NULL),(31,'simple iz best','$2y$10$rDhPowto0T6Oger0hKCcYO5Cp13Rt8bvcH6pqINjED0mV0AeayA4G',0,0,0,'','12/17/2023','1',NULL,NULL),(32,'syn','$2y$10$B9UoHB/HEMj2RbjKIRBv2e8zQ0YkQjMYqjOgQ4kg1yUqqHWrDO0Ny',2007,11,28,'male','12/18/2023','1',NULL,NULL),(33,'maddox','$2y$10$EL6K9zszH40c5Wym627GLOmsvPy/Y7sAXovdUlOPOZf.JPEth1idm',0,0,0,'','12/19/2023','1',NULL,NULL);
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping events for database 'nodexyz_db'
+--
+
+--
+-- Dumping routines for database 'nodexyz_db'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-12-20 21:25:33
